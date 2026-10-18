@@ -1,0 +1,669 @@
+{
+  "version_estructura": 3,
+  "id": "trivia_bebidas_alcoholicas_01",
+  "tipo": "trivia_abcd",
+  "nombre": "Saberes de barra",
+  "descripcion_tematica": "25 preguntas exclusivamente sobre bebidas alcohólicas: materias primas, origen, coctelería, crianza, fermentación y destilación. Incluye cinco preguntas de cada nivel de dificultad, del 1 al 5. Jana es experta en esta temática según el lore y tiene entre 75 y 100 de probabilidad de acierto en todas las preguntas.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "beneficio_nominacion",
+      "descripcion": "Obtiene un beneficio de nominación."
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué tipo de gaseosa acompaña habitualmente al fernet en su combinación más emblemática en Argentina?",
+      "opciones": {
+        "A": "Cola",
+        "B": "Pomelo",
+        "C": "Tónica",
+        "D": "Naranja"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 100,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿De qué país es originario el tequila?",
+      "opciones": {
+        "A": "México",
+        "B": "Perú",
+        "C": "España",
+        "D": "Cuba"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 100,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Qué fruta es la materia prima del vino?",
+      "opciones": {
+        "A": "Pera",
+        "B": "Manzana",
+        "C": "Ciruela",
+        "D": "Uva"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Qué cereal malteado se utiliza con mayor frecuencia como base para elaborar cerveza?",
+      "opciones": {
+        "A": "Cebada",
+        "B": "Arroz",
+        "C": "Avena",
+        "D": "Maíz"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿En qué país se elabora el Scotch Whisky?",
+      "opciones": {
+        "A": "Canadá",
+        "B": "Escocia",
+        "C": "Estados Unidos",
+        "D": "Irlanda"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 2,
+      "texto": "¿Qué botánico aporta el carácter aromático que define a la ginebra?",
+      "opciones": {
+        "A": "Anís estrellado",
+        "B": "Canela",
+        "C": "Enebro",
+        "D": "Clavo de olor"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 2,
+      "texto": "¿De qué planta proceden los azúcares fermentables utilizados para producir ron?",
+      "opciones": {
+        "A": "Arroz",
+        "B": "Agave",
+        "C": "Caña de azúcar",
+        "D": "Vid"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 2,
+      "texto": "¿Qué cereal es la materia prima principal del sake japonés?",
+      "opciones": {
+        "A": "Arroz",
+        "B": "Maíz",
+        "C": "Centeno",
+        "D": "Cebada"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 2,
+      "texto": "¿Qué bebida alcohólica sirve habitualmente de base a una sangría clásica?",
+      "opciones": {
+        "A": "Whisky",
+        "B": "Ron oscuro",
+        "C": "Cerveza negra",
+        "D": "Vino tinto"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 100,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 2,
+      "texto": "¿Qué bebida destilada está especialmente asociada con Corea y su cultura gastronómica?",
+      "opciones": {
+        "A": "Sake",
+        "B": "Soju",
+        "C": "Pisco",
+        "D": "Cachaça"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 100,
+        "hyun": 100,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 3,
+      "texto": "¿En qué país nació Fernet-Branca?",
+      "opciones": {
+        "A": "Francia",
+        "B": "Italia",
+        "C": "Alemania",
+        "D": "Argentina"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 3,
+      "texto": "¿Qué variedad de agave se utiliza para producir tequila?",
+      "opciones": {
+        "A": "Agave angustifolia variedad espadín",
+        "B": "Agave salmiana",
+        "C": "Agave tequilana Weber variedad azul",
+        "D": "Agave potatorum o tobalá"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 100,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 3,
+      "texto": "¿Cuántos años debe madurar como mínimo en barricas de roble el Scotch Whisky?",
+      "opciones": {
+        "A": "Tres",
+        "B": "Cinco",
+        "C": "Dos",
+        "D": "Cuatro"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 3,
+      "texto": "¿Qué conjunto reúne las tres variedades de uva principales utilizadas en Champagne, aunque no sean las únicas autorizadas?",
+      "opciones": {
+        "A": "Chenin Blanc, Sémillon y Viognier",
+        "B": "Sauvignon Blanc, Riesling y Gewürztraminer",
+        "C": "Chardonnay, Cabernet Sauvignon y Merlot",
+        "D": "Chardonnay, Pinot Noir y Meunier"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 3,
+      "texto": "¿Qué tres ingredientes alcohólicos se combinan a partes iguales en un Negroni clásico?",
+      "opciones": {
+        "A": "Ginebra, Campari y vermú rojo dulce",
+        "B": "Whisky, vermú seco y licor de naranja",
+        "C": "Vodka, Aperol y vermú seco",
+        "D": "Ron, Campari y vino blanco"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 4,
+      "texto": "¿Qué es la flor que protege al vino fino de Jerez durante su crianza biológica?",
+      "opciones": {
+        "A": "Una capa de cristales de tartrato",
+        "B": "Una cubierta de pigmentos precipitados",
+        "C": "Una película de bacterias acéticas",
+        "D": "Un velo de levaduras en la superficie"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 4,
+      "texto": "¿Qué porcentaje mínimo de maíz debe contener la mezcla de cereales fermentada para elaborar bourbon whisky?",
+      "opciones": {
+        "A": "50 %",
+        "B": "65 %",
+        "C": "51 %",
+        "D": "60 %"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 25,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 4,
+      "texto": "¿Cómo funciona el alambique armagnacais tradicional que se utiliza para destilar la mayor parte del armagnac?",
+      "opciones": {
+        "A": "Mediante dos destilaciones discontinuas obligatorias",
+        "B": "Mediante destilación continua",
+        "C": "Mediante destilación por congelación",
+        "D": "Mediante evaporación al vacío sin calentamiento"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 4,
+      "texto": "¿Qué función cumplen principalmente las enzimas del koji durante la elaboración del sake?",
+      "opciones": {
+        "A": "Convertir el ácido láctico en ácido acético",
+        "B": "Descomponer el almidón del arroz en azúcares fermentables",
+        "C": "Precipitar las proteínas para producir burbujas",
+        "D": "Transformar directamente el etanol en dióxido de carbono"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 4,
+      "texto": "¿Qué explica el aspecto lechoso que puede aparecer al añadir agua a bebidas anisadas como el ouzo o el rakı?",
+      "opciones": {
+        "A": "Una fermentación instantánea iniciada por el agua",
+        "B": "La precipitación de grandes cristales de azúcar",
+        "C": "La coagulación de proteínas de leche añadidas al destilado",
+        "D": "La formación de diminutas gotas de aceites aromáticos que dejan de permanecer disueltos"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 50,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 5,
+      "texto": "¿Qué especie híbrida de levadura se utiliza tradicionalmente para fermentar cervezas lager?",
+      "opciones": {
+        "A": "Saccharomyces cerevisiae",
+        "B": "Saccharomyces eubayanus",
+        "C": "Saccharomyces uvarum",
+        "D": "Saccharomyces pastorianus"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 5,
+      "texto": "¿Qué nombre recibe la botella tradicional de 62 centilitros utilizada para el vin jaune del Jura?",
+      "opciones": {
+        "A": "Clavelin",
+        "B": "Pot lyonnais",
+        "C": "Bocksbeutel",
+        "D": "Flûte alsacienne"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 0,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 5,
+      "texto": "¿Qué especie de hongo se cultiva tradicionalmente para producir el koji amarillo empleado en la elaboración del sake?",
+      "opciones": {
+        "A": "Aspergillus niger",
+        "B": "Aspergillus luchuensis",
+        "C": "Aspergillus oryzae",
+        "D": "Aspergillus sojae"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 5,
+      "texto": "¿Qué éster producido durante la fermentación contribuye de forma característica al aroma a banana de algunas cervezas de trigo?",
+      "opciones": {
+        "A": "Hexanoato de etilo",
+        "B": "Acetato de isoamilo",
+        "C": "Lactato de etilo",
+        "D": "Acetato de etilo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 0,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 5,
+      "texto": "La definición de Scotch Whisky exige destilarlo a una graduación alcohólica inferior a ¿qué valor?",
+      "opciones": {
+        "A": "96,0 % vol.",
+        "B": "93,5 % vol.",
+        "C": "94,8 % vol.",
+        "D": "95,6 % vol."
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 75
+      }
+    }
+  ]
+}

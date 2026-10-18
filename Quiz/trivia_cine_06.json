@@ -1,0 +1,669 @@
+{
+  "version_estructura": 3,
+  "id": "trivia_cine_01",
+  "tipo": "trivia_abcd",
+  "nombre": "Luces, cámara y memoria",
+  "descripcion_tematica": "25 preguntas exclusivamente sobre cine: directores, actores y actrices, cinematografías nacionales, recaudación en salas, premios Óscar, Cannes y Premios Razzie. Incluye cinco preguntas por nivel de dificultad, del 1 al 5, y una pregunta dedicada al cine de cada país de los doce participantes, con 75 de probabilidad de acierto para su representante. Megan y Gloria tienen una ventaja temática: 75 en niveles 1 y 2, 50 en niveles 3 y 4, y 25 en nivel 5. Las comparaciones de taquilla se refieren a recaudación mundial en salas sin ajustar por inflación; la comparación de animación tiene como fecha de corte el 31 de diciembre de 2025.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "beneficio_nominacion",
+      "descripcion": "Obtiene un beneficio de nominación."
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué cineasta estadounidense dirigió Jurassic Park (1993)?",
+      "opciones": {
+        "A": "James Cameron",
+        "B": "Tim Burton",
+        "C": "George Lucas",
+        "D": "Steven Spielberg"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 75,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Qué actor británico interpretó a Harry Potter en las ocho películas de la saga principal?",
+      "opciones": {
+        "A": "Tom Felton",
+        "B": "Daniel Radcliffe",
+        "C": "Robert Pattinson",
+        "D": "Rupert Grint"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Qué director español realizó Todo sobre mi madre (1999)?",
+      "opciones": {
+        "A": "Alejandro Amenábar",
+        "B": "Pedro Almodóvar",
+        "C": "J. A. Bayona",
+        "D": "Álex de la Iglesia"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Qué director australiano realizó la primera película de Mad Max (1979)?",
+      "opciones": {
+        "A": "George Miller",
+        "B": "Baz Luhrmann",
+        "C": "Peter Jackson",
+        "D": "Peter Weir"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 75,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Qué actor argentino interpreta a Benjamín Espósito en El secreto de sus ojos (2009)?",
+      "opciones": {
+        "A": "Ricardo Darín",
+        "B": "Guillermo Francella",
+        "C": "Leonardo Sbaraglia",
+        "D": "Diego Peretti"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 75,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 2,
+      "texto": "¿Qué director mexicano realizó El laberinto del fauno (2006)?",
+      "opciones": {
+        "A": "Robert Rodríguez",
+        "B": "Alfonso Cuarón",
+        "C": "Guillermo del Toro",
+        "D": "Alejandro González Iñárritu"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 75,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 2,
+      "texto": "¿Qué película representó a Sudáfrica y ganó el Óscar a mejor película de habla no inglesa en la ceremonia de 2006?",
+      "opciones": {
+        "A": "District 9",
+        "B": "Tsotsi",
+        "C": "Invictus",
+        "D": "Yesterday"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 75,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 2,
+      "texto": "¿Qué director surcoreano realizó Parasite (2019)?",
+      "opciones": {
+        "A": "Park Chan-wook",
+        "B": "Lee Chang-dong",
+        "C": "Bong Joon-ho",
+        "D": "Kim Ki-duk"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 75,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 2,
+      "texto": "¿Quién dirigió la película alemana La vida de los otros (Das Leben der Anderen, 2006)?",
+      "opciones": {
+        "A": "Tom Tykwer",
+        "B": "Fatih Akin",
+        "C": "Wolfgang Becker",
+        "D": "Florian Henckel von Donnersmarck"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 2,
+      "texto": "¿Qué distinguen de forma satírica los Premios Razzie o Golden Raspberry?",
+      "opciones": {
+        "A": "Las mejores bandas sonoras",
+        "B": "Las mejores películas de animación",
+        "C": "Lo considerado peor del cine",
+        "D": "Los mejores documentales"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 3,
+      "texto": "¿Qué cineasta polaco dirigió Ida (2013), ganadora del Óscar a mejor película de habla no inglesa en 2015?",
+      "opciones": {
+        "A": "Agnieszka Holland",
+        "B": "Krzysztof Kieślowski",
+        "C": "Andrzej Wajda",
+        "D": "Paweł Pawlikowski"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 75,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 3,
+      "texto": "¿Qué director turco ganó la Palma de Oro de Cannes en 2014 con Winter Sleep (Sueño de invierno)?",
+      "opciones": {
+        "A": "Semih Kaplanoğlu",
+        "B": "Yılmaz Güney",
+        "C": "Nuri Bilge Ceylan",
+        "D": "Zeki Demirkubuz"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 75,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 3,
+      "texto": "¿Qué cineasta dirigió Pulgasari, una producción del cine norcoreano rodada en la década de 1980?",
+      "opciones": {
+        "A": "Kim Ki-young",
+        "B": "Shin Sang-ok",
+        "C": "Im Kwon-taek",
+        "D": "Yu Hyun-mok"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 75,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 3,
+      "texto": "¿Cuántos premios Óscar ganó Titanic (1997) en la ceremonia de 1998?",
+      "opciones": {
+        "A": "9",
+        "B": "11",
+        "C": "10",
+        "D": "12"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 3,
+      "texto": "Entre estas películas animadas, ¿cuál tenía la mayor recaudación mundial acumulada en cines al 31 de diciembre de 2025, sin ajustar por inflación?",
+      "opciones": {
+        "A": "Coco (2017)",
+        "B": "Frozen (2013)",
+        "C": "Inside Out (2015)",
+        "D": "Frozen II (2019)"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 4,
+      "texto": "¿Qué actriz recibió en 2010 el Óscar por The Blind Side y el Razzie a peor actriz por All About Steve?",
+      "opciones": {
+        "A": "Reese Witherspoon",
+        "B": "Halle Berry",
+        "C": "Julia Roberts",
+        "D": "Sandra Bullock"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 25,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 25,
+        "megan": 50,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 4,
+      "texto": "¿Qué dos actrices empataron y recibieron ambas el Óscar a mejor actriz protagonista en la ceremonia de 1969?",
+      "opciones": {
+        "A": "Katharine Hepburn y Barbra Streisand",
+        "B": "Vanessa Redgrave y Patricia Neal",
+        "C": "Barbra Streisand y Joanne Woodward",
+        "D": "Katharine Hepburn y Vanessa Redgrave"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 25,
+        "megan": 50,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 4,
+      "texto": "¿Quién ganó el Óscar a mejor dirección en la ceremonia de 1969 por Oliver!?",
+      "opciones": {
+        "A": "David Lean",
+        "B": "Robert Wise",
+        "C": "Carol Reed",
+        "D": "Stanley Kubrick"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 25,
+        "megan": 50,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 4,
+      "texto": "¿Qué película ganó las diez categorías competitivas de los Premios Razzie en la ceremonia celebrada en 2012?",
+      "opciones": {
+        "A": "Jack and Jill",
+        "B": "Movie 43",
+        "C": "Battlefield Earth",
+        "D": "The Last Airbender"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 25,
+        "megan": 50,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 4,
+      "texto": "Según la clasificación mundial de Box Office Mojo para películas estrenadas en 2001, ¿cuál quedó segunda por recaudación, detrás de Harry Potter y la piedra filosofal?",
+      "opciones": {
+        "A": "El señor de los anillos: La comunidad del anillo",
+        "B": "Shrek",
+        "C": "El viaje de Chihiro",
+        "D": "Monsters, Inc."
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 25,
+        "megan": 50,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 5,
+      "texto": "¿Qué pareja recibió el Óscar a dirección artística por The Merry Widow (La viuda alegre, 1934) en la ceremonia de 1935?",
+      "opciones": {
+        "A": "Anton Grot y Leo K. Kuter",
+        "B": "Van Nest Polglase y Carroll Clark",
+        "C": "Hans Dreier y Roland Anderson",
+        "D": "Cedric Gibbons y Fredric Hope"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 5,
+      "texto": "¿Quién recibió el Óscar a fotografía en blanco y negro por Great Expectations (Grandes esperanzas, 1946) en la ceremonia de 1948?",
+      "opciones": {
+        "A": "Jack Hildyard",
+        "B": "Guy Green",
+        "C": "Freddie Young",
+        "D": "Robert Krasker"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 0,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 5,
+      "texto": "¿Quién recibió el Razzie a peor actriz de reparto por Honeysuckle Rose (1980) en la primera ceremonia, celebrada en 1981?",
+      "opciones": {
+        "A": "Amy Irving",
+        "B": "Betsy Palmer",
+        "C": "Elizabeth Ashley",
+        "D": "Marilyn Sokol"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 0,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 5,
+      "texto": "¿Quién ganó el Óscar a fotografía en blanco y negro por Who’s Afraid of Virginia Woolf? (¿Quién teme a Virginia Woolf?, 1966) en la ceremonia de 1967?",
+      "opciones": {
+        "A": "Haskell Wexler",
+        "B": "Conrad L. Hall",
+        "C": "Joseph LaShelle",
+        "D": "James Wong Howe"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 0,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 5,
+      "texto": "¿Qué pareja recibió el Óscar a montaje por Ben-Hur (1959) en la ceremonia de 1960?",
+      "opciones": {
+        "A": "Daniel Mandell y George Tomasini",
+        "B": "William H. Reynolds y William A. Lyon",
+        "C": "Ralph E. Winters y John D. Dunning",
+        "D": "Anne V. Coates y Peter Taylor"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 0,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    }
+  ]
+}

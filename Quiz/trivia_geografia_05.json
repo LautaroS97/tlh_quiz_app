@@ -1,0 +1,669 @@
+{
+  "version_estructura": 3,
+  "id": "trivia_geografia_01",
+  "tipo": "trivia_abcd",
+  "nombre": "Coordenadas del mundo",
+  "descripcion_tematica": "25 preguntas de geografía física, política, histórica y económica, con cinco preguntas por nivel de dificultad, del 1 al 5. Incluye al menos una sobre cada país de los doce participantes y tres sobre la URSS: cantidad de repúblicas en 1985, el nombre de Volgogrado entre 1925 y 1961, y crecimiento porcentual del PBI total real ajustado por PPA entre 1922 y 1985 según Maddison Project Database 2020. Cada representante tiene 100 de probabilidad de acierto en la pregunta de su país; Kim tiene además 100 en las tres preguntas sobre la URSS.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "beneficio_nominacion",
+      "descripcion": "Obtiene un beneficio de nominación."
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Argentina?",
+      "opciones": {
+        "A": "Rosario",
+        "B": "Mendoza",
+        "C": "Buenos Aires",
+        "D": "Córdoba"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 100,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de España?",
+      "opciones": {
+        "A": "Barcelona",
+        "B": "Madrid",
+        "C": "Sevilla",
+        "D": "Valencia"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 100,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Polonia?",
+      "opciones": {
+        "A": "Breslavia",
+        "B": "Varsovia",
+        "C": "Cracovia",
+        "D": "Gdansk"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 100,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Estados Unidos?",
+      "opciones": {
+        "A": "Los Ángeles",
+        "B": "Nueva York",
+        "C": "Chicago",
+        "D": "Washington D. C."
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 100,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Turquía?",
+      "opciones": {
+        "A": "Antalya",
+        "B": "Esmirna",
+        "C": "Ankara",
+        "D": "Estambul"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 100,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 2,
+      "texto": "¿Cómo se llamó la actual ciudad de Volgogrado entre 1925 y 1961, durante la época soviética?",
+      "opciones": {
+        "A": "Stalingrado",
+        "B": "Leningrado",
+        "C": "Sverdlovsk",
+        "D": "Gorki"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 100,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 2,
+      "texto": "¿En qué isla de Corea del Sur se encuentra el volcán Hallasan?",
+      "opciones": {
+        "A": "Geoje",
+        "B": "Ganghwa",
+        "C": "Ulleungdo",
+        "D": "Jeju"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 100,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 2,
+      "texto": "¿Qué conjunto enumera los cuatro países que integran el Reino Unido?",
+      "opciones": {
+        "A": "Inglaterra, Escocia, Gales y República de Irlanda",
+        "B": "Inglaterra, Escocia, Irlanda del Norte y Jersey",
+        "C": "Inglaterra, Gales, Irlanda del Norte e Isla de Man",
+        "D": "Inglaterra, Escocia, Gales e Irlanda del Norte"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 100,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 2,
+      "texto": "¿Cuál es la capital de Australia?",
+      "opciones": {
+        "A": "Perth",
+        "B": "Canberra",
+        "C": "Melbourne",
+        "D": "Sídney"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 100,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 2,
+      "texto": "¿Cuál es la capital administrativa de Sudáfrica?",
+      "opciones": {
+        "A": "Pretoria",
+        "B": "Bloemfontein",
+        "C": "Ciudad del Cabo",
+        "D": "Johannesburgo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 100,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 3,
+      "texto": "¿Cuál es la montaña más alta de México?",
+      "opciones": {
+        "A": "Citlaltépetl o Pico de Orizaba",
+        "B": "Nevado de Toluca",
+        "C": "Popocatépetl",
+        "D": "Iztaccíhuatl"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 100,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 3,
+      "texto": "¿En qué montaña de Corea del Norte se encuentra el lago de cráter Chon?",
+      "opciones": {
+        "A": "Paektu",
+        "B": "Myohyang",
+        "C": "Chilbo",
+        "D": "Kumgang"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 100,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 3,
+      "texto": "¿Cuántas repúblicas de la Unión integraban la URSS en 1985?",
+      "opciones": {
+        "A": "12",
+        "B": "16",
+        "C": "14",
+        "D": "15"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 100,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 3,
+      "texto": "¿Qué río atraviesa el centro de Berlín, en Alemania?",
+      "opciones": {
+        "A": "Elba",
+        "B": "Rin",
+        "C": "Spree",
+        "D": "Danubio"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 100
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 3,
+      "texto": "¿Qué mar se distingue por tener sus límites definidos por corrientes oceánicas, en lugar de costas terrestres?",
+      "opciones": {
+        "A": "Mar de los Sargazos",
+        "B": "Mar de Coral",
+        "C": "Mar de Bering",
+        "D": "Mar de Ojotsk"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 4,
+      "texto": "¿A qué país pertenece la República Autónoma de Najicheván?",
+      "opciones": {
+        "A": "Georgia",
+        "B": "Armenia",
+        "C": "Azerbaiyán",
+        "D": "Turquía"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 50,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 4,
+      "texto": "¿Qué lago de Kazajistán tiene una parte occidental de agua casi dulce y otra oriental más salina?",
+      "opciones": {
+        "A": "Baljash",
+        "B": "Zaisán",
+        "C": "Tengiz",
+        "D": "Alakol"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 4,
+      "texto": "¿En qué país se encuentra el delta interior del Okavango?",
+      "opciones": {
+        "A": "Namibia",
+        "B": "Zambia",
+        "C": "Zimbabue",
+        "D": "Botsuana"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 50,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 4,
+      "texto": "¿En qué país se encuentra el lago Tana, del que sale el Nilo Azul?",
+      "opciones": {
+        "A": "Eritrea",
+        "B": "Uganda",
+        "C": "Etiopía",
+        "D": "Sudán del Sur"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 4,
+      "texto": "¿Qué dos cuerpos de agua comunican el estrecho de Bab el-Mandeb?",
+      "opciones": {
+        "A": "El golfo de Adén y el golfo Pérsico",
+        "B": "El mar Rojo y el golfo de Adén",
+        "C": "El golfo Pérsico y el golfo de Omán",
+        "D": "El golfo de Omán y el mar Rojo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 5,
+      "texto": "¿En cuál de estas islas de las Islas Salomón se encuentra el lago Tegano?",
+      "opciones": {
+        "A": "Guadalcanal",
+        "B": "Rennell",
+        "C": "Malaita",
+        "D": "Choiseul"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 5,
+      "texto": "¿Cuál de estos picos es el punto más alto del desierto del Sahara?",
+      "opciones": {
+        "A": "Tahat",
+        "B": "Tarso Voon",
+        "C": "Emi Koussi",
+        "D": "Toussidé"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 5,
+      "texto": "¿Qué río forma las gargantas asociadas al paisaje kárstico de Tsingy de Bemaraha, en Madagascar?",
+      "opciones": {
+        "A": "Manambolo",
+        "B": "Betsiboka",
+        "C": "Tsiribihina",
+        "D": "Mangoky"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 0,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 5,
+      "texto": "¿Cómo se llama el estrecho que conecta las partes occidental y oriental del lago Baljash, en Kazajistán?",
+      "opciones": {
+        "A": "Tonki",
+        "B": "Buganaz",
+        "C": "Sredni",
+        "D": "Uzynaral"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 5,
+      "texto": "Según la Maddison Project Database 2020, ¿cuál de estos países tuvo el mayor crecimiento porcentual acumulado de su PBI total real, ajustado por paridad de poder adquisitivo (PPA), entre 1922 y 1985?",
+      "opciones": {
+        "A": "Japón",
+        "B": "Unión Soviética",
+        "C": "Alemania",
+        "D": "Estados Unidos"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 100,
+        "hyun": 0,
+        "jana": 0
+      }
+    }
+  ]
+}

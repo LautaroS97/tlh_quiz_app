@@ -1,0 +1,669 @@
+{
+  "version_estructura": 3,
+  "id": "trivia_literatura_01",
+  "tipo": "trivia_abcd",
+  "nombre": "Entre páginas y personajes",
+  "descripcion_tematica": "25 preguntas exclusivamente sobre literatura: libros, autores, personajes, premios literarios, seudónimos, heterónimos y primeras ediciones. Incluye cinco preguntas por nivel de dificultad, del 1 al 5; una pregunta dedicada a la literatura de cada país de los doce participantes, con 75 de probabilidad de acierto para su representante; y una pregunta sobre El Principito. El resto de las probabilidades sigue el orden general de conocimiento, sin trasladar las ventajas temáticas de otros desafíos.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "beneficio_nominacion",
+      "descripcion": "Obtiene un beneficio de nominación."
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué escritor español escribió Don Quijote de la Mancha?",
+      "opciones": {
+        "A": "Miguel de Cervantes",
+        "B": "Gustavo Adolfo Bécquer",
+        "C": "Lope de Vega",
+        "D": "Federico García Lorca"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Qué escritora británica creó la saga de libros de Harry Potter?",
+      "opciones": {
+        "A": "Mary Shelley",
+        "B": "J. K. Rowling",
+        "C": "Agatha Christie",
+        "D": "Jane Austen"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Qué escritor estadounidense escribió Las aventuras de Tom Sawyer?",
+      "opciones": {
+        "A": "Ernest Hemingway",
+        "B": "Mark Twain",
+        "C": "Jack London",
+        "D": "Edgar Allan Poe"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 75,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Qué hermanos alemanes recopilaron y publicaron una célebre versión del cuento Hansel y Gretel?",
+      "opciones": {
+        "A": "Alexander y Wilhelm von Humboldt",
+        "B": "Friedrich y August Wilhelm Schlegel",
+        "C": "Jacob y Wilhelm Grimm",
+        "D": "Thomas y Heinrich Mann"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 75
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Quién escribió El Principito?",
+      "opciones": {
+        "A": "Victor Hugo",
+        "B": "Antoine de Saint-Exupéry",
+        "C": "Jules Verne",
+        "D": "Alexandre Dumas"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 2,
+      "texto": "¿Qué escritor argentino es el autor del poema narrativo Martín Fierro?",
+      "opciones": {
+        "A": "Esteban Echeverría",
+        "B": "José Mármol",
+        "C": "José Hernández",
+        "D": "Domingo Faustino Sarmiento"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 75,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 2,
+      "texto": "¿Qué escritor mexicano escribió Pedro Páramo?",
+      "opciones": {
+        "A": "Carlos Fuentes",
+        "B": "Octavio Paz",
+        "C": "Mariano Azuela",
+        "D": "Juan Rulfo"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 75,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 2,
+      "texto": "¿Qué escritora surcoreana escribió La vegetariana?",
+      "opciones": {
+        "A": "Han Kang",
+        "B": "Shin Kyung-sook",
+        "C": "Bae Suah",
+        "D": "Cho Nam-joo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 75,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 2,
+      "texto": "¿Qué escritor australiano escribió Oscar y Lucinda, novela ganadora del Premio Booker en 1988?",
+      "opciones": {
+        "A": "Richard Flanagan",
+        "B": "Patrick White",
+        "C": "Tim Winton",
+        "D": "Peter Carey"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 75,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 2,
+      "texto": "¿Qué escritor nacido en Sudáfrica escribió Desgracia (Disgrace), ganadora del Premio Booker en 1999?",
+      "opciones": {
+        "A": "Alan Paton",
+        "B": "Breyten Breytenbach",
+        "C": "André Brink",
+        "D": "J. M. Coetzee"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 75,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 3,
+      "texto": "¿Qué escritor turco es el autor de Me llamo Rojo (My Name Is Red)?",
+      "opciones": {
+        "A": "Orhan Pamuk",
+        "B": "Yaşar Kemal",
+        "C": "Orhan Kemal",
+        "D": "Ahmet Hamdi Tanpınar"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 75,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 3,
+      "texto": "¿Qué escritor polaco escribió la novela de ciencia ficción Solaris?",
+      "opciones": {
+        "A": "Stanisław Lem",
+        "B": "Bruno Schulz",
+        "C": "Sławomir Mrożek",
+        "D": "Witold Gombrowicz"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 75,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 3,
+      "texto": "¿Qué escritor norcoreano escribió la novela Friend (벗, Amigo), publicada originalmente en 1988?",
+      "opciones": {
+        "A": "Hong Myong-hui",
+        "B": "Han Sorya",
+        "C": "Ri Ki-yong",
+        "D": "Paek Nam-nyong"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 75,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 3,
+      "texto": "¿Cuál es el apellido del protagonista de Crimen y castigo, de Fiódor Dostoievski?",
+      "opciones": {
+        "A": "Oblómov",
+        "B": "Bazárov",
+        "C": "Raskólnikov",
+        "D": "Karamázov"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 3,
+      "texto": "¿Qué escritor recibió el Premio Nobel de Literatura de 1913?",
+      "opciones": {
+        "A": "W. B. Yeats",
+        "B": "Henrik Pontoppidan",
+        "C": "Romain Rolland",
+        "D": "Rabindranath Tagore"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 4,
+      "texto": "¿Qué dos escritores compartieron el Premio Nobel de Literatura de 1974?",
+      "opciones": {
+        "A": "Eyvind Johnson y Harry Martinson",
+        "B": "Pär Lagerkvist y Artur Lundkvist",
+        "C": "Gunnar Ekelöf y Tomas Tranströmer",
+        "D": "Verner von Heidenstam y Erik Axel Karlfeldt"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 4,
+      "texto": "¿Qué novela de André Malraux ganó el Premio Goncourt de 1933?",
+      "opciones": {
+        "A": "La esperanza",
+        "B": "La condición humana",
+        "C": "La vía real",
+        "D": "Los conquistadores"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 4,
+      "texto": "¿Qué volumen abre En busca del tiempo perdido, de Marcel Proust?",
+      "opciones": {
+        "A": "Sodoma y Gomorra",
+        "B": "El mundo de Guermantes",
+        "C": "A la sombra de las muchachas en flor",
+        "D": "Por el camino de Swann"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 4,
+      "texto": "¿En cuántos episodios está organizada la novela Ulises, de James Joyce?",
+      "opciones": {
+        "A": "18",
+        "B": "20",
+        "C": "24",
+        "D": "16"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 4,
+      "texto": "¿A qué escritora japonesa se atribuye La historia de Genji, compuesta a comienzos del siglo XI?",
+      "opciones": {
+        "A": "Akazome Emon",
+        "B": "Izumi Shikibu",
+        "C": "Murasaki Shikibu",
+        "D": "Sei Shōnagon"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 5,
+      "texto": "¿Con qué seudónimo firmó François Rabelais Pantagruel en 1532?",
+      "opciones": {
+        "A": "Noël du Fail",
+        "B": "Guillaume Bouchet",
+        "C": "Alcofribas Nasier",
+        "D": "Bonaventure Des Périers"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 5,
+      "texto": "¿A qué heterónimo de Fernando Pessoa corresponden las Odas de inspiración clásica, con influencias horacianas?",
+      "opciones": {
+        "A": "Ricardo Reis",
+        "B": "Alberto Caeiro",
+        "C": "António Mora",
+        "D": "Álvaro de Campos"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 5,
+      "texto": "¿Cómo se titulaba la primera colección de relatos de Antón Chéjov, publicada en 1884?",
+      "opciones": {
+        "A": "Gente sombría (Khmurye lyudi)",
+        "B": "Cuentos de Melpómene (Skazki Melpomeny)",
+        "C": "Relatos multicolores (Pyostrye rasskazy)",
+        "D": "Al anochecer (V sumerkakh)"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 0,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 5,
+      "texto": "¿Cuál es el título japonés del primer capítulo de Genji monogatari (La historia de Genji)?",
+      "opciones": {
+        "A": "Hahakigi",
+        "B": "Kiritsubo",
+        "C": "Yūgao",
+        "D": "Utsusemi"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 5,
+      "texto": "¿Qué impresor de Dijon realizó la impresión de la primera edición de Ulises, de James Joyce, publicada por Shakespeare and Company en 1922?",
+      "opciones": {
+        "A": "Frederic Warde",
+        "B": "Giovanni Mardersteig",
+        "C": "Maurice Darantiere",
+        "D": "Charles Enschedé"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    }
+  ]
+}

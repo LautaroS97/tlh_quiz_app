@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="description" content="Ocho trivias de TLH. Cinco preguntas, cinco niveles y una nueva selección en cada partida.">
+  <title>TLH · Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="#" aria-label="TLH Quiz, inicio"><span class="brand-mark">TLH</span><span>QUIZ ROOM</span></a><span class="header-note">UN POCO DE TODO. ¿CUÁNTO SABÉS?</span></header>
+  <main id="app" aria-live="polite"><div class="loading">Preparando las trivias…</div></main>
+  <footer>THE LAST HOUSEMATE <span>·</span> Tu progreso se guarda en este navegador.</footer>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><form method="dialog"><span class="eyebrow">EMPEZAR DE NUEVO</span><h2 id="reset-title">¿Borrar todo el historial?</h2><p>Se eliminarán los resultados y las partidas en curso de las ocho trivias. Las preguntas volverán a estar disponibles.</p><div class="dialog-actions"><button class="button secondary" value="cancel">Cancelar</button><button class="button" value="reset">Sí, borrar historial</button></div></form></dialog>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
