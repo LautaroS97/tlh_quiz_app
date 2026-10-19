@@ -3,7 +3,7 @@
   "id": "trivia_literatura_01",
   "tipo": "trivia_abcd",
   "nombre": "Entre páginas y personajes",
-  "descripcion_tematica": "25 preguntas exclusivamente sobre literatura: libros, autores, personajes, premios literarios, seudónimos, heterónimos y primeras ediciones. Incluye cinco preguntas por nivel de dificultad, del 1 al 5; una pregunta dedicada a la literatura de cada país de los doce participantes, con 75 de probabilidad de acierto para su representante; y una pregunta sobre El Principito. El resto de las probabilidades sigue el orden general de conocimiento, sin trasladar las ventajas temáticas de otros desafíos.",
+  "descripcion_tematica": "Literatura de distintos países y épocas: libros, autores, personajes y premios. Incluye clásicos, cuentos, fantasía, ciencia ficción y curiosidades sobre la escritura y la publicación de obras célebres.",
   "premios": {
     "primer_lugar": {
       "tipo": "inmunidad",
@@ -11,14 +11,15 @@
     },
     "segundo_lugar": {
       "tipo": "beneficio_nominacion",
-      "descripcion": "Obtiene un beneficio de nominación."
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
     }
   },
   "preguntas": [
     {
       "id": "pregunta_001",
       "dificultad": 1,
-      "texto": "¿Qué escritor español escribió Don Quijote de la Mancha?",
+      "texto": "¿Qué autor español escribió Don Quijote de la Mancha?",
       "opciones": {
         "A": "Miguel de Cervantes",
         "B": "Gustavo Adolfo Bécquer",
@@ -70,7 +71,7 @@
     {
       "id": "pregunta_003",
       "dificultad": 1,
-      "texto": "¿Qué escritor estadounidense escribió Las aventuras de Tom Sawyer?",
+      "texto": "¿Qué autor estadounidense escribió Las aventuras de Tom Sawyer?",
       "opciones": {
         "A": "Ernest Hemingway",
         "B": "Mark Twain",
@@ -96,7 +97,7 @@
     {
       "id": "pregunta_004",
       "dificultad": 1,
-      "texto": "¿Qué hermanos alemanes recopilaron y publicaron una célebre versión del cuento Hansel y Gretel?",
+      "texto": "¿Qué hermanos alemanes recopilaron la conocida versión de Hansel y Gretel?",
       "opciones": {
         "A": "Alexander y Wilhelm von Humboldt",
         "B": "Friedrich y August Wilhelm Schlegel",
@@ -146,9 +147,269 @@
       }
     },
     {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Qué le crece a Pinocho cuando miente?",
+      "opciones": {
+        "A": "Las orejas",
+        "B": "El pelo",
+        "C": "La nariz",
+        "D": "Los pies"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿Cómo se llama el escudero que acompaña a Don Quijote?",
+      "opciones": {
+        "A": "Don Juan",
+        "B": "Lazarillo de Tormes",
+        "C": "Rocinante",
+        "D": "Sancho Panza"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿Qué animal sigue Alicia al comienzo de Alicia en el país de las maravillas?",
+      "opciones": {
+        "A": "Un conejo blanco",
+        "B": "Un gato negro",
+        "C": "Un perro marrón",
+        "D": "Un zorro rojo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "¿A qué se dedica Sherlock Holmes?",
+      "opciones": {
+        "A": "A navegar como pirata",
+        "B": "A ejercer de rey",
+        "C": "A entrenar caballos",
+        "D": "A investigar crímenes"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Qué criatura es el conde Drácula en la novela de Bram Stoker?",
+      "opciones": {
+        "A": "Un vampiro",
+        "B": "Un zombi",
+        "C": "Un fantasma",
+        "D": "Un hombre lobo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Cómo se llama la escuela de magia a la que asiste Harry Potter?",
+      "opciones": {
+        "A": "Narnia",
+        "B": "Camelot",
+        "C": "Rivendel",
+        "D": "Hogwarts"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "¿Quién escribió Romeo y Julieta?",
+      "opciones": {
+        "A": "William Shakespeare",
+        "B": "Charles Dickens",
+        "C": "Edgar Allan Poe",
+        "D": "Oscar Wilde"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Qué animal persigue el capitán Ahab en Moby Dick?",
+      "opciones": {
+        "A": "Un cocodrilo",
+        "B": "Una ballena blanca",
+        "C": "Un tiburón gigante",
+        "D": "Un pulpo rojo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿Qué objeto debe destruir Frodo en El señor de los anillos?",
+      "opciones": {
+        "A": "Una espada maldita",
+        "B": "El Anillo Único",
+        "C": "Una corona",
+        "D": "Un libro de hechizos"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Cómo se llama la enseñanza que suele dejar una fábula?",
+      "opciones": {
+        "A": "Dedicatoria",
+        "B": "Prólogo",
+        "C": "Índice",
+        "D": "Moraleja"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_006",
       "dificultad": 2,
-      "texto": "¿Qué escritor argentino es el autor del poema narrativo Martín Fierro?",
+      "texto": "¿Qué autor argentino escribió Martín Fierro?",
       "opciones": {
         "A": "Esteban Echeverría",
         "B": "José Mármol",
@@ -174,7 +435,7 @@
     {
       "id": "pregunta_007",
       "dificultad": 2,
-      "texto": "¿Qué escritor mexicano escribió Pedro Páramo?",
+      "texto": "¿Qué autor mexicano escribió Pedro Páramo?",
       "opciones": {
         "A": "Carlos Fuentes",
         "B": "Octavio Paz",
@@ -226,7 +487,7 @@
     {
       "id": "pregunta_009",
       "dificultad": 2,
-      "texto": "¿Qué escritor australiano escribió Oscar y Lucinda, novela ganadora del Premio Booker en 1988?",
+      "texto": "¿Qué autor australiano escribió Oscar y Lucinda, ganadora del Booker en 1988?",
       "opciones": {
         "A": "Richard Flanagan",
         "B": "Patrick White",
@@ -252,7 +513,7 @@
     {
       "id": "pregunta_010",
       "dificultad": 2,
-      "texto": "¿Qué escritor nacido en Sudáfrica escribió Desgracia (Disgrace), ganadora del Premio Booker en 1999?",
+      "texto": "¿Qué autor nacido en Sudáfrica escribió Desgracia, ganadora del Booker en 1999?",
       "opciones": {
         "A": "Alan Paton",
         "B": "Breyten Breytenbach",
@@ -276,9 +537,139 @@
       }
     },
     {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Quién escribió Cien años de soledad?",
+      "opciones": {
+        "A": "Mario Vargas Llosa",
+        "B": "Gabriel García Márquez",
+        "C": "Jorge Luis Borges",
+        "D": "Julio Cortázar"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 75,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 75,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿Quién escribió Frankenstein?",
+      "opciones": {
+        "A": "Agatha Christie",
+        "B": "Emily Brontë",
+        "C": "Mary Shelley",
+        "D": "Jane Austen"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "¿Quién escribió Veinte mil leguas de viaje submarino?",
+      "opciones": {
+        "A": "Robert Louis Stevenson",
+        "B": "Daniel Defoe",
+        "C": "Julio Verne",
+        "D": "H. G. Wells"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿A qué poeta de la antigua Grecia se atribuye la Odisea?",
+      "opciones": {
+        "A": "Virgilio",
+        "B": "Ovidio",
+        "C": "Homero",
+        "D": "Sófocles"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿Cuál es el apellido de Katniss, la protagonista de Los juegos del hambre?",
+      "opciones": {
+        "A": "Eyre",
+        "B": "Everdeen",
+        "C": "Granger",
+        "D": "Bennet"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 75,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_011",
       "dificultad": 3,
-      "texto": "¿Qué escritor turco es el autor de Me llamo Rojo (My Name Is Red)?",
+      "texto": "¿Qué autor turco escribió Me llamo Rojo?",
       "opciones": {
         "A": "Orhan Pamuk",
         "B": "Yaşar Kemal",
@@ -304,7 +695,7 @@
     {
       "id": "pregunta_012",
       "dificultad": 3,
-      "texto": "¿Qué escritor polaco escribió la novela de ciencia ficción Solaris?",
+      "texto": "¿Qué autor polaco escribió la novela de ciencia ficción Solaris?",
       "opciones": {
         "A": "Stanisław Lem",
         "B": "Bruno Schulz",
@@ -330,7 +721,7 @@
     {
       "id": "pregunta_013",
       "dificultad": 3,
-      "texto": "¿Qué escritor norcoreano escribió la novela Friend (벗, Amigo), publicada originalmente en 1988?",
+      "texto": "¿Qué autor norcoreano escribió Amigo, también conocida como Friend, publicada en 1988?",
       "opciones": {
         "A": "Hong Myong-hui",
         "B": "Han Sorya",
@@ -356,7 +747,7 @@
     {
       "id": "pregunta_014",
       "dificultad": 3,
-      "texto": "¿Cuál es el apellido del protagonista de Crimen y castigo, de Fiódor Dostoievski?",
+      "texto": "¿Cuál es el apellido del protagonista de Crimen y castigo, de Dostoievski?",
       "opciones": {
         "A": "Oblómov",
         "B": "Bazárov",
@@ -382,7 +773,7 @@
     {
       "id": "pregunta_015",
       "dificultad": 3,
-      "texto": "¿Qué escritor recibió el Premio Nobel de Literatura de 1913?",
+      "texto": "¿Quién ganó el Nobel de Literatura en 1913?",
       "opciones": {
         "A": "W. B. Yeats",
         "B": "Henrik Pontoppidan",
@@ -408,7 +799,7 @@
     {
       "id": "pregunta_016",
       "dificultad": 4,
-      "texto": "¿Qué dos escritores compartieron el Premio Nobel de Literatura de 1974?",
+      "texto": "¿Qué dos autores compartieron el Nobel de Literatura en 1974?",
       "opciones": {
         "A": "Eyvind Johnson y Harry Martinson",
         "B": "Pär Lagerkvist y Artur Lundkvist",
@@ -434,7 +825,7 @@
     {
       "id": "pregunta_017",
       "dificultad": 4,
-      "texto": "¿Qué novela de André Malraux ganó el Premio Goncourt de 1933?",
+      "texto": "¿Qué novela de André Malraux ganó el Premio Goncourt en 1933?",
       "opciones": {
         "A": "La esperanza",
         "B": "La condición humana",
@@ -460,7 +851,7 @@
     {
       "id": "pregunta_018",
       "dificultad": 4,
-      "texto": "¿Qué volumen abre En busca del tiempo perdido, de Marcel Proust?",
+      "texto": "¿Cuál es el primer volumen de En busca del tiempo perdido, de Marcel Proust?",
       "opciones": {
         "A": "Sodoma y Gomorra",
         "B": "El mundo de Guermantes",
@@ -486,7 +877,7 @@
     {
       "id": "pregunta_019",
       "dificultad": 4,
-      "texto": "¿En cuántos episodios está organizada la novela Ulises, de James Joyce?",
+      "texto": "¿Cuántos episodios tiene Ulises, de James Joyce?",
       "opciones": {
         "A": "18",
         "B": "20",
@@ -512,7 +903,7 @@
     {
       "id": "pregunta_020",
       "dificultad": 4,
-      "texto": "¿A qué escritora japonesa se atribuye La historia de Genji, compuesta a comienzos del siglo XI?",
+      "texto": "¿A qué escritora se atribuye La historia de Genji, escrita en Japón a comienzos del siglo XI?",
       "opciones": {
         "A": "Akazome Emon",
         "B": "Izumi Shikibu",
@@ -564,7 +955,7 @@
     {
       "id": "pregunta_022",
       "dificultad": 5,
-      "texto": "¿A qué heterónimo de Fernando Pessoa corresponden las Odas de inspiración clásica, con influencias horacianas?",
+      "texto": "¿Con qué autor ficticio, o heterónimo, firmó Fernando Pessoa sus Odas de inspiración clásica?",
       "opciones": {
         "A": "Ricardo Reis",
         "B": "Alberto Caeiro",
@@ -590,12 +981,12 @@
     {
       "id": "pregunta_023",
       "dificultad": 5,
-      "texto": "¿Cómo se titulaba la primera colección de relatos de Antón Chéjov, publicada en 1884?",
+      "texto": "¿Cómo se titulaba la primera colección de cuentos publicada por Antón Chéjov, en 1884?",
       "opciones": {
-        "A": "Gente sombría (Khmurye lyudi)",
-        "B": "Cuentos de Melpómene (Skazki Melpomeny)",
-        "C": "Relatos multicolores (Pyostrye rasskazy)",
-        "D": "Al anochecer (V sumerkakh)"
+        "A": "Gente sombría",
+        "B": "Cuentos de Melpómene",
+        "C": "Relatos multicolores",
+        "D": "Al anochecer"
       },
       "respuesta_correcta": "B",
       "probabilidad_acierto": {
@@ -616,12 +1007,12 @@
     {
       "id": "pregunta_024",
       "dificultad": 5,
-      "texto": "¿Cuál es el título japonés del primer capítulo de Genji monogatari (La historia de Genji)?",
+      "texto": "¿En qué ciudad se publicó por primera vez El Principito, en 1943?",
       "opciones": {
-        "A": "Hahakigi",
-        "B": "Kiritsubo",
-        "C": "Yūgao",
-        "D": "Utsusemi"
+        "A": "París",
+        "B": "Nueva York",
+        "C": "Lyon",
+        "D": "Marsella"
       },
       "respuesta_correcta": "B",
       "probabilidad_acierto": {
@@ -642,12 +1033,12 @@
     {
       "id": "pregunta_025",
       "dificultad": 5,
-      "texto": "¿Qué impresor de Dijon realizó la impresión de la primera edición de Ulises, de James Joyce, publicada por Shakespeare and Company en 1922?",
+      "texto": "¿Qué otro título consideró George Orwell para la novela que publicó como 1984?",
       "opciones": {
-        "A": "Frederic Warde",
-        "B": "Giovanni Mardersteig",
-        "C": "Maurice Darantiere",
-        "D": "Charles Enschedé"
+        "A": "El Gran Hermano",
+        "B": "Los ojos del Partido",
+        "C": "El último hombre de Europa",
+        "D": "La república del silencio"
       },
       "respuesta_correcta": "C",
       "probabilidad_acierto": {

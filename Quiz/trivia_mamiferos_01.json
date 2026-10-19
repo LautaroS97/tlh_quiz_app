@@ -3,7 +3,7 @@
   "id": "trivia_mamiferos_01",
   "tipo": "trivia_abcd",
   "nombre": "Mundo mamífero",
-  "descripcion_tematica": "25 preguntas exclusivamente sobre mamíferos, distribuidas en cinco niveles de dificultad: cinco fáciles, cinco regulares, cinco difíciles, cinco muy difíciles y cinco imposibles. Incluye características generales, anatomía, fisiología, clasificación, hábitats y nombres científicos.",
+  "descripcion_tematica": "Características, anatomía, alimentación, reproducción, comportamiento, hábitats y clasificación de los mamíferos.",
   "premios": {
     "primer_lugar": {
       "tipo": "inmunidad",
@@ -11,14 +11,15 @@
     },
     "segundo_lugar": {
       "tipo": "beneficio_nominacion",
-      "descripcion": "Obtiene un beneficio de nominación."
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
     }
   },
   "preguntas": [
     {
       "id": "pregunta_001",
       "dificultad": 1,
-      "texto": "¿Qué producen las glándulas mamarias de las hembras para alimentar a sus crías?",
+      "texto": "¿Qué producen las madres mamíferas para alimentar a sus crías?",
       "opciones": {
         "A": "Leche",
         "B": "Bilis",
@@ -44,7 +45,7 @@
     {
       "id": "pregunta_002",
       "dificultad": 1,
-      "texto": "¿Cuál es el mamífero de mayor tamaño que vive actualmente?",
+      "texto": "¿Cuál es el mamífero más grande que vive actualmente?",
       "opciones": {
         "A": "Cachalote",
         "B": "Elefante africano de sabana",
@@ -70,7 +71,7 @@
     {
       "id": "pregunta_003",
       "dificultad": 1,
-      "texto": "¿Cuál es el mamífero terrestre de mayor tamaño que vive actualmente?",
+      "texto": "¿Cuál es el mamífero terrestre más grande que vive actualmente?",
       "opciones": {
         "A": "Búfalo africano",
         "B": "Elefante africano de sabana",
@@ -96,10 +97,10 @@
     {
       "id": "pregunta_004",
       "dificultad": 1,
-      "texto": "¿Qué grupo de mamíferos puede volar activamente batiendo sus alas?",
+      "texto": "¿Qué grupo de mamíferos puede volar batiendo sus alas, en lugar de solo planear?",
       "opciones": {
         "A": "Lémures",
-        "B": "Colugos",
+        "B": "Zarigüeyas",
         "C": "Ardillas voladoras",
         "D": "Murciélagos"
       },
@@ -146,13 +147,273 @@
       }
     },
     {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Qué mamífero es conocido por su cuello largo, que le permite alcanzar hojas altas?",
+      "opciones": {
+        "A": "Rinoceronte",
+        "B": "Cebra",
+        "C": "Hipopótamo",
+        "D": "Jirafa"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿Qué mamífero africano tiene el cuerpo cubierto de rayas blancas y negras?",
+      "opciones": {
+        "A": "Gacela",
+        "B": "Búfalo",
+        "C": "Cebra",
+        "D": "Jirafa"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿En qué gran felino los machos adultos suelen tener melena?",
+      "opciones": {
+        "A": "Puma",
+        "B": "Leopardo",
+        "C": "Tigre",
+        "D": "León"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "¿Cuál es el alimento principal del panda gigante?",
+      "opciones": {
+        "A": "Pescado",
+        "B": "Bambú",
+        "C": "Insectos",
+        "D": "Carne de ciervo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Con qué órganos respiran los delfines?",
+      "opciones": {
+        "A": "Pulmones",
+        "B": "Aletas",
+        "C": "Piel",
+        "D": "Branquias"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Cuál de estos mamíferos relincha?",
+      "opciones": {
+        "A": "Vaca",
+        "B": "Oveja",
+        "C": "Cerdo",
+        "D": "Caballo"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "¿Qué mamífero doméstico se cría tradicionalmente para obtener lana?",
+      "opciones": {
+        "A": "Oveja",
+        "B": "Vaca",
+        "C": "Cerdo",
+        "D": "Caballo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Cuál de estos mamíferos maúlla?",
+      "opciones": {
+        "A": "Burro",
+        "B": "Gato",
+        "C": "Cerdo",
+        "D": "Perro"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿Qué roedor es conocido por construir diques en ríos y arroyos?",
+      "opciones": {
+        "A": "Ardilla",
+        "B": "Hámster",
+        "C": "Castor",
+        "D": "Carpincho"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Qué gran felino es conocido por su pelaje anaranjado con rayas negras?",
+      "opciones": {
+        "A": "Leopardo",
+        "B": "León",
+        "C": "Tigre",
+        "D": "Puma"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_006",
       "dificultad": 2,
-      "texto": "¿Cómo se llama la bolsa abdominal de la madre canguro en la que continúa desarrollándose su cría?",
+      "texto": "¿Cómo se llama la bolsa del abdomen donde la madre canguro lleva a su cría?",
       "opciones": {
-        "A": "Perineo",
+        "A": "Madriguera",
         "B": "Placenta",
-        "C": "Cloaca",
+        "C": "Nido",
         "D": "Marsupio"
       },
       "respuesta_correcta": "D",
@@ -174,7 +435,7 @@
     {
       "id": "pregunta_007",
       "dificultad": 2,
-      "texto": "¿De qué árbol proceden las hojas que constituyen el alimento principal del koala?",
+      "texto": "¿De qué árbol son las hojas que come principalmente el koala?",
       "opciones": {
         "A": "Olivo",
         "B": "Roble",
@@ -200,7 +461,7 @@
     {
       "id": "pregunta_008",
       "dificultad": 2,
-      "texto": "¿En qué región vive el oso polar en estado silvestre?",
+      "texto": "¿En qué región vive el oso polar en libertad?",
       "opciones": {
         "A": "Antártida",
         "B": "Patagonia",
@@ -226,11 +487,11 @@
     {
       "id": "pregunta_009",
       "dificultad": 2,
-      "texto": "¿Cuál es el roedor de mayor tamaño que vive actualmente?",
+      "texto": "¿Cuál es el roedor más grande que vive actualmente?",
       "opciones": {
         "A": "Carpincho o capibara",
-        "B": "Puercoespín crestado",
-        "C": "Castor europeo",
+        "B": "Puercoespín",
+        "C": "Castor",
         "D": "Coipo"
       },
       "respuesta_correcta": "A",
@@ -252,11 +513,11 @@
     {
       "id": "pregunta_010",
       "dificultad": 2,
-      "texto": "¿A qué grupo taxonómico de mamíferos pertenece el chimpancé?",
+      "texto": "¿A qué grupo de mamíferos pertenece el chimpancé?",
       "opciones": {
-        "A": "Carnívoros",
+        "A": "Cetáceos",
         "B": "Roedores",
-        "C": "Artiodáctilos",
+        "C": "Marsupiales",
         "D": "Primates"
       },
       "respuesta_correcta": "D",
@@ -276,9 +537,139 @@
       }
     },
     {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Qué técnica usan muchos murciélagos para orientarse en la oscuridad?",
+      "opciones": {
+        "A": "Hibernación",
+        "B": "Ecolocalización",
+        "C": "Camuflaje",
+        "D": "Migración"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿Cuál de estos mamíferos marinos es el miembro más grande de la familia de los delfines?",
+      "opciones": {
+        "A": "Orca",
+        "B": "Ballena azul",
+        "C": "Cachalote",
+        "D": "Beluga"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "¿Cómo se llama el proceso por el que una vaca devuelve alimento a la boca y vuelve a masticarlo?",
+      "opciones": {
+        "A": "Ecolocalización",
+        "B": "Muda",
+        "C": "Hibernación",
+        "D": "Rumia"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 50,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿Cuál de estos mamíferos es un marsupial?",
+      "opciones": {
+        "A": "Mapache",
+        "B": "Zarigüeya",
+        "C": "Erizo",
+        "D": "Nutria"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 50,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿Qué gran simio vive de forma natural en las islas de Borneo y Sumatra?",
+      "opciones": {
+        "A": "Chimpancé",
+        "B": "Bonobo",
+        "C": "Orangután",
+        "D": "Gorila"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_011",
       "dificultad": 3,
-      "texto": "¿Cuántas vértebras tiene normalmente el cuello de una jirafa?",
+      "texto": "¿Cuántas vértebras tiene normalmente una jirafa en el cuello?",
       "opciones": {
         "A": "Doce",
         "B": "Nueve",
@@ -304,7 +695,7 @@
     {
       "id": "pregunta_012",
       "dificultad": 3,
-      "texto": "¿De qué material están formados principalmente los cuernos de los rinocerontes?",
+      "texto": "¿De qué están hechos principalmente los cuernos del rinoceronte?",
       "opciones": {
         "A": "Cartílago",
         "B": "Queratina",
@@ -330,7 +721,7 @@
     {
       "id": "pregunta_013",
       "dificultad": 3,
-      "texto": "¿Qué dos partes de la cara están integradas en la trompa de un elefante?",
+      "texto": "¿Qué dos partes de la cara forman la trompa del elefante?",
       "opciones": {
         "A": "Nariz y labio inferior",
         "B": "Lengua y labio superior",
@@ -356,7 +747,7 @@
     {
       "id": "pregunta_014",
       "dificultad": 3,
-      "texto": "¿Qué tipo de dientes se han alargado para formar los colmillos de los elefantes?",
+      "texto": "¿Qué tipo de dientes forman los colmillos del elefante?",
       "opciones": {
         "A": "Molares",
         "B": "Incisivos",
@@ -382,11 +773,11 @@
     {
       "id": "pregunta_015",
       "dificultad": 3,
-      "texto": "¿Cuál es la función principal de las barbas de una ballena azul?",
+      "texto": "¿Para qué sirven las barbas de la ballena azul?",
       "opciones": {
-        "A": "Filtrar pequeños organismos del agua para alimentarse",
-        "B": "Producir los sonidos con los que se comunica",
-        "C": "Amplificar los sonidos que recibe bajo el agua",
+        "A": "Filtrar alimento del agua",
+        "B": "Producir sonidos para comunicarse",
+        "C": "Amplificar los sonidos que recibe",
         "D": "Sujetar peces grandes para desgarrarlos"
       },
       "respuesta_correcta": "A",
@@ -408,12 +799,12 @@
     {
       "id": "pregunta_016",
       "dificultad": 4,
-      "texto": "¿Cuál es el compartimento glandular del estómago de una vaca, conocido como su estómago verdadero?",
+      "texto": "El estómago de una vaca tiene cuatro partes. ¿En cuál actúan principalmente el ácido y las enzimas de sus jugos gástricos?",
       "opciones": {
-        "A": "Retículo",
-        "B": "Abomaso",
-        "C": "Omaso",
-        "D": "Rumen"
+        "A": "En la primera",
+        "B": "En la cuarta",
+        "C": "En la segunda",
+        "D": "En la tercera"
       },
       "respuesta_correcta": "B",
       "probabilidad_acierto": {
@@ -434,12 +825,12 @@
     {
       "id": "pregunta_017",
       "dificultad": 4,
-      "texto": "¿Cuál de estos mamíferos actuales pertenece al orden Tubulidentata?",
+      "texto": "¿Cuál de estos mamíferos pertenece al orden Tubulidentata?",
       "opciones": {
-        "A": "Cerdo hormiguero u oricteropo",
-        "B": "Equidna de hocico corto",
+        "A": "Cerdo hormiguero",
+        "B": "Equidna",
         "C": "Oso hormiguero gigante",
-        "D": "Pangolín de Temminck"
+        "D": "Pangolín"
       },
       "respuesta_correcta": "A",
       "probabilidad_acierto": {
@@ -460,7 +851,7 @@
     {
       "id": "pregunta_018",
       "dificultad": 4,
-      "texto": "¿Cuántos dientes permanentes contempla normalmente la dentición completa de un perro adulto?",
+      "texto": "¿Cuántos dientes tiene normalmente un perro adulto con su dentadura permanente completa?",
       "opciones": {
         "A": "30",
         "B": "42",
@@ -486,12 +877,12 @@
     {
       "id": "pregunta_019",
       "dificultad": 4,
-      "texto": "¿Qué tipo de receptores del pico permite al ornitorrinco detectar las señales eléctricas de sus presas bajo el agua?",
+      "texto": "¿Qué puede detectar el ornitorrinco con su pico para encontrar presas bajo el agua?",
       "opciones": {
-        "A": "Electrorreceptores",
-        "B": "Osmorreceptores",
-        "C": "Fotorreceptores",
-        "D": "Termorreceptores"
+        "A": "Señales eléctricas",
+        "B": "Luz ultravioleta",
+        "C": "Campos magnéticos",
+        "D": "Colores de advertencia"
       },
       "respuesta_correcta": "A",
       "probabilidad_acierto": {
@@ -512,7 +903,7 @@
     {
       "id": "pregunta_020",
       "dificultad": 4,
-      "texto": "¿Qué huesecillo del oído medio de los mamíferos es homólogo al hueso cuadrado de sus antepasados no mamíferos?",
+      "texto": "¿Qué hueso del oído de los mamíferos tiene su origen evolutivo en el hueso cuadrado de sus antepasados?",
       "opciones": {
         "A": "Martillo",
         "B": "Hueso timpánico",
@@ -564,7 +955,7 @@
     {
       "id": "pregunta_022",
       "dificultad": 5,
-      "texto": "¿Cuál es el nombre científico de la nutria gigante sudamericana, también llamada lobo de río?",
+      "texto": "¿Cuál es el nombre científico de la nutria gigante sudamericana o lobo de río?",
       "opciones": {
         "A": "Lutra lutra",
         "B": "Enhydra lutris",
@@ -642,12 +1033,12 @@
     {
       "id": "pregunta_025",
       "dificultad": 5,
-      "texto": "¿Cuál es el nombre científico de la fosa, el mamífero carnívoro de Madagascar?",
+      "texto": "¿Cuál de estos mamíferos puede tener nueve vértebras en el cuello?",
       "opciones": {
-        "A": "Cryptoprocta ferox",
-        "B": "Fossa fossana",
-        "C": "Galidia elegans",
-        "D": "Eupleres goudotii"
+        "A": "Perezoso de tres dedos",
+        "B": "Manatí",
+        "C": "Okapi",
+        "D": "Camello"
       },
       "respuesta_correcta": "A",
       "probabilidad_acierto": {

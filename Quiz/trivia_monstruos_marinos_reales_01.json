@@ -1,0 +1,1060 @@
+{
+  "version_estructura": 2,
+  "id": "trivia_monstruos_marinos_reales_01",
+  "tipo": "trivia_abcd",
+  "nombre": "Monstruos del océano",
+  "descripcion_tematica": "Animales marinos reales de gran tamaño, aspecto singular o adaptaciones sorprendentes: gigantes del océano, criaturas abisales, medusas y otros invertebrados. Incluye al megalodón, una especie extinta.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "beneficio_nominacion",
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué animal real pudo inspirar algunas leyendas del kraken?",
+      "opciones": {
+        "A": "Pez payaso",
+        "B": "Calamar gigante",
+        "C": "Sardina",
+        "D": "Caballito de mar"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Cuántos brazos tiene normalmente el pulpo gigante del Pacífico?",
+      "opciones": {
+        "A": "Seis",
+        "B": "Diez",
+        "C": "Ocho",
+        "D": "Doce"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Qué tipo de animal era el megalodón, hoy extinto?",
+      "opciones": {
+        "A": "Una ballena",
+        "B": "Un cocodrilo marino",
+        "C": "Un dinosaurio marino",
+        "D": "Un tiburón"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Para qué sirve el señuelo luminoso de una hembra de pez pescador abisal?",
+      "opciones": {
+        "A": "Para producir oxígeno",
+        "B": "Para calentar el agua",
+        "C": "Para atraer presas hacia su boca",
+        "D": "Para triturar conchas"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Qué pueden producir las rayas eléctricas?",
+      "opciones": {
+        "A": "Tinta defensiva",
+        "B": "Descargas eléctricas",
+        "C": "Dardos venenosos que disparan a distancia",
+        "D": "Burbujas de aire hirviendo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Cuál es el pez más grande que vive actualmente?",
+      "opciones": {
+        "A": "Tiburón ballena",
+        "B": "Atún rojo",
+        "C": "Tiburón blanco",
+        "D": "Pez espada"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿Qué sustancia expulsan muchos calamares para crear una nube que les ayude a escapar?",
+      "opciones": {
+        "A": "Arena",
+        "B": "Tinta",
+        "C": "Aceite",
+        "D": "Sal"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿Qué hace un pez globo para aumentar de tamaño cuando se siente amenazado?",
+      "opciones": {
+        "A": "Despliega un caparazón",
+        "B": "Se infla con agua",
+        "C": "Se cubre de arena",
+        "D": "Se une a otros peces"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "En los caballitos de mar, ¿quién lleva los huevos en una bolsa hasta que nacen las crías?",
+      "opciones": {
+        "A": "El macho",
+        "B": "Ninguno, los dejan sobre rocas",
+        "C": "La hembra",
+        "D": "Ambos se turnan"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Qué animal marino es famoso por un largo diente que recuerda al cuerno de un unicornio?",
+      "opciones": {
+        "A": "Elefante marino",
+        "B": "Morsa",
+        "C": "Narval",
+        "D": "Cachalote"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Qué sustancia de sus tentáculos hace peligrosa la picadura de muchas medusas?",
+      "opciones": {
+        "A": "Tinta",
+        "B": "Aceite",
+        "C": "Veneno",
+        "D": "Sal"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "Aunque su cuerpo recuerda a una serpiente, ¿qué tipo de animal es una morena?",
+      "opciones": {
+        "A": "Un reptil",
+        "B": "Un crustáceo",
+        "C": "Un molusco",
+        "D": "Un pez"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Qué mamífero marino debe su nombre a la nariz alargada de sus machos adultos?",
+      "opciones": {
+        "A": "Elefante marino",
+        "B": "León marino",
+        "C": "Leopardo marino",
+        "D": "Nutria marina"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿Qué tiburón es conocido por su cabeza ancha con forma de martillo?",
+      "opciones": {
+        "A": "Tiburón tigre",
+        "B": "Tiburón zorro",
+        "C": "Tiburón blanco",
+        "D": "Tiburón martillo"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Qué animal marino es conocido por sus dos largos colmillos y sus grandes bigotes?",
+      "opciones": {
+        "A": "Nutria marina",
+        "B": "Morsa",
+        "C": "León marino",
+        "D": "Delfín"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 2,
+      "texto": "¿Qué hace el tiburón duende con sus mandíbulas para capturar una presa?",
+      "opciones": {
+        "A": "Las cierra sobre sus propias branquias",
+        "B": "Las proyecta hacia delante",
+        "C": "Las gira una vuelta completa",
+        "D": "Las separa del cuerpo y después las recupera"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 2,
+      "texto": "¿Qué permite al pez de cabeza transparente mirar hacia arriba a través de su propia cabeza?",
+      "opciones": {
+        "A": "Ojos situados en la punta de la cola",
+        "B": "La ausencia completa de cráneo",
+        "C": "Una cubierta transparente que protege sus ojos",
+        "D": "Un espejo externo sobre la frente"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 2,
+      "texto": "A pesar de su nombre, ¿qué come principalmente el calamar vampiro?",
+      "opciones": {
+        "A": "Sangre de peces",
+        "B": "Algas del fondo",
+        "C": "Peces vivos",
+        "D": "Restos orgánicos que caen desde las aguas superiores"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 2,
+      "texto": "¿Qué puede hacer la llamada medusa inmortal cuando sufre ciertos daños o situaciones de estrés?",
+      "opciones": {
+        "A": "Transformarse en un pez",
+        "B": "Resucitar después de ser digerida por completo",
+        "C": "Vivir para siempre sin alimento",
+        "D": "Volver a ser un pólipo, una fase temprana de su vida"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 2,
+      "texto": "¿A qué grupo pertenece el isópodo gigante, parecido a una enorme cochinilla de la humedad?",
+      "opciones": {
+        "A": "Peces",
+        "B": "Crustáceos",
+        "C": "Moluscos",
+        "D": "Medusas"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Cuántos corazones tiene un pulpo?",
+      "opciones": {
+        "A": "Cuatro",
+        "B": "Tres",
+        "C": "Dos",
+        "D": "Uno"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿Cómo se alimenta principalmente el tiburón ballena?",
+      "opciones": {
+        "A": "Rompe corales para masticarlos",
+        "B": "Arranca carne de grandes ballenas",
+        "C": "Filtra plancton y pequeños animales del agua",
+        "D": "Raspa las rocas para comer algas"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "La carabela portuguesa parece una medusa. ¿Qué es en realidad?",
+      "opciones": {
+        "A": "Una masa flotante de huevos de peces",
+        "B": "Una única medusa de gran tamaño",
+        "C": "Una planta marina con forma de globo",
+        "D": "Una colonia de organismos de la misma especie que trabajan juntos"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿Qué animal tiene numerosos tentáculos y una concha externa en espiral dividida en cámaras?",
+      "opciones": {
+        "A": "Pulpo gigante",
+        "B": "Pepino de mar",
+        "C": "Nautilo",
+        "D": "Calamar gigante"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿De qué color es la sangre del cangrejo herradura cuando está oxigenada?",
+      "opciones": {
+        "A": "Negra",
+        "B": "Roja",
+        "C": "Verde",
+        "D": "Azul"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 3,
+      "texto": "¿Qué estructuras giratorias tiene el calamar colosal en los extremos de sus dos tentáculos largos?",
+      "opciones": {
+        "A": "Aguijones con veneno",
+        "B": "Placas de hueso",
+        "C": "Ganchos",
+        "D": "Dientes de esmalte"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 3,
+      "texto": "¿Cuántos brazos largos, con forma de cintas, tiene la medusa fantasma gigante?",
+      "opciones": {
+        "A": "Cuatro",
+        "B": "Dos",
+        "C": "Seis",
+        "D": "Ocho"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 3,
+      "texto": "¿Qué aleta mueve en ondas el pez remo para nadar?",
+      "opciones": {
+        "A": "Una inferior, junto a la pelvis",
+        "B": "La dorsal, en el lomo",
+        "C": "La caudal, en la cola",
+        "D": "Una pectoral, a un costado"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 0,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 3,
+      "texto": "¿Cuántos pares de aberturas para las branquias tiene el tiburón anguila?",
+      "opciones": {
+        "A": "Seis",
+        "B": "Cuatro",
+        "C": "Siete",
+        "D": "Cinco"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 3,
+      "texto": "En algunas especies de peces pescadores abisales, ¿qué le ocurre al macho tras unirse de forma permanente a la hembra?",
+      "opciones": {
+        "A": "Se fusiona con ella y recibe alimento a través de su cuerpo",
+        "B": "Incuba los huevos dentro de sus branquias",
+        "C": "Se transforma en una hembra después de la cópula",
+        "D": "Es absorbido por un huevo antes de fecundarlo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 4,
+      "texto": "Según una hipótesis, ¿cómo ayudan a la medusa Atolla los destellos que emite cuando la atacan?",
+      "opciones": {
+        "A": "Pueden atraer a un depredador mayor que ataque a su agresor",
+        "B": "Atraen presas pequeñas para recuperar energía",
+        "C": "Ocultan su silueta iluminando la parte inferior del cuerpo",
+        "D": "Avisan a otras medusas de que está lista para reproducirse"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 4,
+      "texto": "¿De qué color es la luz que ciertos peces dragón emiten bajo los ojos para iluminar a sus presas?",
+      "opciones": {
+        "A": "Rojo",
+        "B": "Verde",
+        "C": "Azul",
+        "D": "Amarillo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 4,
+      "texto": "¿Qué expulsa el calamar vampiro para distraer a sus depredadores?",
+      "opciones": {
+        "A": "Tinta negra",
+        "B": "Sangre roja",
+        "C": "Escamas brillantes",
+        "D": "Moco luminoso y pegajoso"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 4,
+      "texto": "¿Qué imitan los señuelos luminosos del sifonóforo pescador para atraer peces?",
+      "opciones": {
+        "A": "Pequeños crustáceos rojizos",
+        "B": "Escamas plateadas de un pez grande",
+        "C": "Algas verdes adheridas a una roca",
+        "D": "Huevos de tiburón negros"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 4,
+      "texto": "¿Cuántos pares de patas tiene un isópodo gigante adulto?",
+      "opciones": {
+        "A": "Ocho",
+        "B": "Cinco",
+        "C": "Siete",
+        "D": "Seis"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 5,
+      "texto": "¿Cuál es el nombre científico de la medusa fantasma gigante?",
+      "opciones": {
+        "A": "Stygiomedusa gigantea",
+        "B": "Periphylla periphylla",
+        "C": "Deepstaria enigmatica",
+        "D": "Tiburonia granrojo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 5,
+      "texto": "¿Cuál es el nombre científico del tiburón duende?",
+      "opciones": {
+        "A": "Megachasma pelagios",
+        "B": "Mitsukurina owstoni",
+        "C": "Hexanchus griseus",
+        "D": "Chlamydoselachus anguineus"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 5,
+      "texto": "¿Cuál es el nombre científico del pez pelícano, famoso por su enorme boca?",
+      "opciones": {
+        "A": "Saccopharynx ampullaceus",
+        "B": "Serrivomer beanii",
+        "C": "Nemichthys scolopaceus",
+        "D": "Eurypharynx pelecanoides"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 0,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 5,
+      "texto": "¿Cuál es el nombre científico del calamar colosal?",
+      "opciones": {
+        "A": "Dosidicus gigas",
+        "B": "Onykia robusta",
+        "C": "Mesonychoteuthis hamiltoni",
+        "D": "Architeuthis dux"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 0,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 5,
+      "texto": "¿En qué tiburón se estima que las hembras alcanzan la madurez sexual después de los cien años?",
+      "opciones": {
+        "A": "Tiburón blanco",
+        "B": "Tiburón martillo",
+        "C": "Tiburón tigre",
+        "D": "Tiburón de Groenlandia"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    }
+  ]
+}

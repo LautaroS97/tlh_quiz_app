@@ -1,12 +1,19 @@
-// Nombres de archivo tomados de tus capturas. Respetar mayúsculas y extensión.
-// Las rutas son relativas: funcionan también en github.io/nombre-del-repositorio/.
+// Rutas de las capturas; GitHub Pages distingue mayúsculas.
 export const QUIZZES = [
-  {file:'trivia_mamiferos_01.json', title:'Mamíferos', icon:'trivia_zebra.png', description:'Pelaje, colmillos y alguna que otra sorpresa.'},
-  {file:'trivia_monstruos_marinos_reales_02.json', title:'Monstruos marinos reales', icon:'trivia_jellyfish.png', description:'Lo más extraordinario vive bajo el agua.'},
-  {file:'trivia_insectos_03.json', title:'Insectos', icon:'trivia_butterfly.png', description:'Un universo diminuto, lleno de detalles.'},
-  {file:'trivia_bebidas_alcoholicas_04.json', title:'Bebidas alcohólicas', icon:'trivia_alcohol.png', description:'De la materia prima a la última copa.'},
-  {file:'trivia_geografia_05.json', title:'Geografía', icon:'trivia_earth.png', description:'Un recorrido por los rincones del mundo.'},
-  {file:'trivia_cine_06.json', title:'Cine', icon:'trivia_clapperboard.png', description:'Películas, nombres y premios memorables.'},
-  {file:'trivia_literatura_07.json', title:'Literatura', icon:'trivia_little_prince_no_title.png', description:'Historias que van más allá de sus páginas.'},
-  {file:'trivia_quimica_08.json', title:'Química', icon:'trivia_periodic_table.png', description:'Desde el agua hasta lo casi imposible.'}
-];
+['trivia_mamiferos_01.json','Mamíferos','trivia_zebra.png'],
+['trivia_monstruos_marinos_reales_01.json','Monstruos marinos reales','trivia_jellyfish.png'],
+['trivia_insectos_01.json','Insectos','trivia_butterfly.png'],
+['trivia_bebidas_alcoholicas_01.json','Bebidas alcohólicas','trivia_alcohol.png'],
+['trivia_geografia_01.json','Geografía','trivia_earth.png'],
+['trivia_cine_01.json','Cine','trivia_clapperboard.png'],
+['trivia_literatura_01.json','Literatura','trivia_little_prince_no_title.png'],
+['trivia_quimica_01.json','Química','trivia_periodic_table.png'],
+['aproximacion_alturas_edificios_monumentos_01.json','Edificios y monumentos','aprox_pisa.png'],
+['aproximacion_astronomia_01.json','Astronomía','aprox_saturn.png'],
+['aproximacion_cine_01.json','Cine','aprox_clapperboard.png'],
+['aproximacion_epidemias_pestes_01.json','Epidemias y pestes','aprox_virus.png'],
+['aproximacion_geografia_01.json','Geografía','aprox_earth.png'],
+['aproximacion_guerras_conflictos_belicos_01.json','Guerras y conflictos bélicos','aprox_t34.png'],
+['aproximacion_juegos_olimpicos_01.json','Juegos Olímpicos','aprox_olympics.png'],
+['aproximacion_literatura_01.json','Literatura','aprox_books.png']
+].map(([file,title,icon])=>({file,title,icon,mode:file.startsWith('aproximacion_')?'aproximacion':'trivia'}));

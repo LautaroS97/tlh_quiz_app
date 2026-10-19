@@ -3,7 +3,7 @@
   "id": "trivia_geografia_01",
   "tipo": "trivia_abcd",
   "nombre": "Coordenadas del mundo",
-  "descripcion_tematica": "25 preguntas de geografía física, política, histórica y económica, con cinco preguntas por nivel de dificultad, del 1 al 5. Incluye al menos una sobre cada país de los doce participantes y tres sobre la URSS: cantidad de repúblicas en 1985, el nombre de Volgogrado entre 1925 y 1961, y crecimiento porcentual del PBI total real ajustado por PPA entre 1922 y 1985 según Maddison Project Database 2020. Cada representante tiene 100 de probabilidad de acierto en la pregunta de su país; Kim tiene además 100 en las tres preguntas sobre la URSS.",
+  "descripcion_tematica": "Geografía física, política, histórica y económica del mundo: países, capitales, ríos, lagos, montañas, mares y fronteras. Incluye lugares emblemáticos, curiosidades naturales y aspectos geográficos de la antigua Unión Soviética.",
   "premios": {
     "primer_lugar": {
       "tipo": "inmunidad",
@@ -11,7 +11,8 @@
     },
     "segundo_lugar": {
       "tipo": "beneficio_nominacion",
-      "descripcion": "Obtiene un beneficio de nominación."
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
     }
   },
   "preguntas": [
@@ -146,9 +147,269 @@
       }
     },
     {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Francia?",
+      "opciones": {
+        "A": "Lisboa",
+        "B": "París",
+        "C": "Bruselas",
+        "D": "Roma"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿En qué continente está Brasil?",
+      "opciones": {
+        "A": "África",
+        "B": "Europa",
+        "C": "Asia",
+        "D": "América del Sur"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿En qué continente están las pirámides de Guiza, en Egipto?",
+      "opciones": {
+        "A": "Oceanía",
+        "B": "Asia",
+        "C": "África",
+        "D": "Europa"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "¿Cuál es el océano más grande del planeta?",
+      "opciones": {
+        "A": "Atlántico",
+        "B": "Pacífico",
+        "C": "Ártico",
+        "D": "Índico"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Qué cordillera recorre el oeste de América del Sur?",
+      "opciones": {
+        "A": "Los Alpes",
+        "B": "El Himalaya",
+        "C": "Los Andes",
+        "D": "Los Pirineos"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 100,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Japón?",
+      "opciones": {
+        "A": "Seúl",
+        "B": "Pekín",
+        "C": "Bangkok",
+        "D": "Tokio"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "¿Qué país europeo es conocido por tener forma de bota en el mapa?",
+      "opciones": {
+        "A": "Italia",
+        "B": "Portugal",
+        "C": "Grecia",
+        "D": "Francia"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de México?",
+      "opciones": {
+        "A": "Monterrey",
+        "B": "Guadalajara",
+        "C": "Cancún",
+        "D": "Ciudad de México"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 100,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Corea del Sur?",
+      "opciones": {
+        "A": "Pionyang",
+        "B": "Tokio",
+        "C": "Pekín",
+        "D": "Seúl"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 75,
+        "hyun": 100,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Cuál es la capital de Alemania?",
+      "opciones": {
+        "A": "Múnich",
+        "B": "Berlín",
+        "C": "Hamburgo",
+        "D": "Fráncfort"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 100
+      }
+    },
+    {
       "id": "pregunta_006",
       "dificultad": 2,
-      "texto": "¿Cómo se llamó la actual ciudad de Volgogrado entre 1925 y 1961, durante la época soviética?",
+      "texto": "¿Cómo se llamó Volgogrado entre 1925 y 1961?",
       "opciones": {
         "A": "Stalingrado",
         "B": "Leningrado",
@@ -200,7 +461,7 @@
     {
       "id": "pregunta_008",
       "dificultad": 2,
-      "texto": "¿Qué conjunto enumera los cuatro países que integran el Reino Unido?",
+      "texto": "¿Qué cuatro países forman el Reino Unido?",
       "opciones": {
         "A": "Inglaterra, Escocia, Gales y República de Irlanda",
         "B": "Inglaterra, Escocia, Irlanda del Norte y Jersey",
@@ -276,6 +537,136 @@
       }
     },
     {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Qué estrecho atraviesa Estambul y separa su parte europea de la asiática?",
+      "opciones": {
+        "A": "Bósforo",
+        "B": "Malaca",
+        "C": "Gibraltar",
+        "D": "Bering"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 100,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿En qué mar desemboca el río Nilo?",
+      "opciones": {
+        "A": "Mediterráneo",
+        "B": "Negro",
+        "C": "Rojo",
+        "D": "Arábigo"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "¿Qué dos países comparten las cataratas del Iguazú?",
+      "opciones": {
+        "A": "Paraguay y Uruguay",
+        "B": "Argentina y Uruguay",
+        "C": "Argentina y Brasil",
+        "D": "Brasil y Paraguay"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 100,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 50,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿Cómo se llama el paralelo de latitud cero que separa los hemisferios norte y sur?",
+      "opciones": {
+        "A": "Trópico de Cáncer",
+        "B": "Ecuador",
+        "C": "Trópico de Capricornio",
+        "D": "Círculo Polar Ártico"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿Qué mares conecta el canal de Suez?",
+      "opciones": {
+        "A": "Negro y Mediterráneo",
+        "B": "Caspio y Negro",
+        "C": "Mediterráneo y Rojo",
+        "D": "Rojo y Arábigo"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_011",
       "dificultad": 3,
       "texto": "¿Cuál es la montaña más alta de México?",
@@ -304,7 +695,7 @@
     {
       "id": "pregunta_012",
       "dificultad": 3,
-      "texto": "¿En qué montaña de Corea del Norte se encuentra el lago de cráter Chon?",
+      "texto": "¿En qué montaña, situada en la frontera de Corea del Norte con China, se encuentra el lago Chon?",
       "opciones": {
         "A": "Paektu",
         "B": "Myohyang",
@@ -330,7 +721,7 @@
     {
       "id": "pregunta_013",
       "dificultad": 3,
-      "texto": "¿Cuántas repúblicas de la Unión integraban la URSS en 1985?",
+      "texto": "¿Cuántas repúblicas formaban la URSS en 1985?",
       "opciones": {
         "A": "12",
         "B": "16",
@@ -382,7 +773,7 @@
     {
       "id": "pregunta_015",
       "dificultad": 3,
-      "texto": "¿Qué mar se distingue por tener sus límites definidos por corrientes oceánicas, en lugar de costas terrestres?",
+      "texto": "¿Qué mar tiene sus límites marcados por corrientes oceánicas en lugar de costas?",
       "opciones": {
         "A": "Mar de los Sargazos",
         "B": "Mar de Coral",
@@ -408,7 +799,7 @@
     {
       "id": "pregunta_016",
       "dificultad": 4,
-      "texto": "¿A qué país pertenece la República Autónoma de Najicheván?",
+      "texto": "¿De qué país forma parte la república autónoma de Najicheván?",
       "opciones": {
         "A": "Georgia",
         "B": "Armenia",
@@ -434,12 +825,12 @@
     {
       "id": "pregunta_017",
       "dificultad": 4,
-      "texto": "¿Qué lago de Kazajistán tiene una parte occidental de agua casi dulce y otra oriental más salina?",
+      "texto": "¿En qué país está el lago Baljash, con agua casi dulce al oeste y más salada al este?",
       "opciones": {
-        "A": "Baljash",
-        "B": "Zaisán",
-        "C": "Tengiz",
-        "D": "Alakol"
+        "A": "Kazajistán",
+        "B": "Mongolia",
+        "C": "China",
+        "D": "Rusia"
       },
       "respuesta_correcta": "A",
       "probabilidad_acierto": {
@@ -460,7 +851,7 @@
     {
       "id": "pregunta_018",
       "dificultad": 4,
-      "texto": "¿En qué país se encuentra el delta interior del Okavango?",
+      "texto": "¿En qué país está el delta del Okavango, cuyas aguas se dispersan tierra adentro sin llegar al mar?",
       "opciones": {
         "A": "Namibia",
         "B": "Zambia",
@@ -486,7 +877,7 @@
     {
       "id": "pregunta_019",
       "dificultad": 4,
-      "texto": "¿En qué país se encuentra el lago Tana, del que sale el Nilo Azul?",
+      "texto": "¿En qué país está el lago Tana, donde nace el Nilo Azul?",
       "opciones": {
         "A": "Eritrea",
         "B": "Uganda",
@@ -512,7 +903,7 @@
     {
       "id": "pregunta_020",
       "dificultad": 4,
-      "texto": "¿Qué dos cuerpos de agua comunican el estrecho de Bab el-Mandeb?",
+      "texto": "¿Qué dos zonas marítimas conecta el estrecho de Bab el-Mandeb?",
       "opciones": {
         "A": "El golfo de Adén y el golfo Pérsico",
         "B": "El mar Rojo y el golfo de Adén",
@@ -538,7 +929,7 @@
     {
       "id": "pregunta_021",
       "dificultad": 5,
-      "texto": "¿En cuál de estas islas de las Islas Salomón se encuentra el lago Tegano?",
+      "texto": "¿En qué isla de las Islas Salomón está el lago Tegano?",
       "opciones": {
         "A": "Guadalcanal",
         "B": "Rennell",
@@ -564,7 +955,7 @@
     {
       "id": "pregunta_022",
       "dificultad": 5,
-      "texto": "¿Cuál de estos picos es el punto más alto del desierto del Sahara?",
+      "texto": "¿Cuál de estas montañas es la más alta del desierto del Sahara?",
       "opciones": {
         "A": "Tahat",
         "B": "Tarso Voon",
@@ -590,7 +981,7 @@
     {
       "id": "pregunta_023",
       "dificultad": 5,
-      "texto": "¿Qué río forma las gargantas asociadas al paisaje kárstico de Tsingy de Bemaraha, en Madagascar?",
+      "texto": "¿Qué río atraviesa las gargantas de Tsingy de Bemaraha, en Madagascar?",
       "opciones": {
         "A": "Manambolo",
         "B": "Betsiboka",
@@ -616,24 +1007,24 @@
     {
       "id": "pregunta_024",
       "dificultad": 5,
-      "texto": "¿Cómo se llama el estrecho que conecta las partes occidental y oriental del lago Baljash, en Kazajistán?",
+      "texto": "¿Qué dos países acordaron en 2022 dividirse la isla de Hans, en el Ártico?",
       "opciones": {
-        "A": "Tonki",
-        "B": "Buganaz",
-        "C": "Sredni",
-        "D": "Uzynaral"
+        "A": "Noruega y Rusia",
+        "B": "Estados Unidos y Canadá",
+        "C": "Suecia y Finlandia",
+        "D": "Canadá y Dinamarca"
       },
       "respuesta_correcta": "D",
       "probabilidad_acierto": {
-        "alan": 0,
+        "alan": 25,
         "ashley": 0,
         "pretty": 0,
-        "gloria": 0,
+        "gloria": 25,
         "wiktor": 25,
-        "megan": 0,
+        "megan": 25,
         "kerem": 0,
         "bruno": 0,
-        "brody": 0,
+        "brody": 25,
         "kim": 25,
         "hyun": 0,
         "jana": 0
@@ -642,7 +1033,7 @@
     {
       "id": "pregunta_025",
       "dificultad": 5,
-      "texto": "Según la Maddison Project Database 2020, ¿cuál de estos países tuvo el mayor crecimiento porcentual acumulado de su PBI total real, ajustado por paridad de poder adquisitivo (PPA), entre 1922 y 1985?",
+      "texto": "Entre 1922 y 1985, ¿cuál de estos países tuvo el mayor crecimiento porcentual de su PBI total, ajustado por poder de compra?",
       "opciones": {
         "A": "Japón",
         "B": "Unión Soviética",

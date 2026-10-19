@@ -3,7 +3,7 @@
   "id": "trivia_insectos_01",
   "tipo": "trivia_abcd",
   "nombre": "Universo insecto",
-  "descripcion_tematica": "25 preguntas exclusivamente sobre insectos, distribuidas en cinco niveles de dificultad: cinco fáciles, cinco regulares, cinco difíciles, cinco muy difíciles y cinco imposibles. Incluye anatomía, desarrollo, fisiología, comportamiento y nombres científicos.",
+  "descripcion_tematica": "El mundo de los insectos: sus características, alimentación, desarrollo, comportamiento y adaptaciones. Incluye especies conocidas, curiosidades de su biología y nombres científicos.",
   "premios": {
     "primer_lugar": {
       "tipo": "inmunidad",
@@ -11,7 +11,8 @@
     },
     "segundo_lugar": {
       "tipo": "beneficio_nominacion",
-      "descripcion": "Obtiene un beneficio de nominación."
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
     }
   },
   "preguntas": [
@@ -70,7 +71,7 @@
     {
       "id": "pregunta_003",
       "dificultad": 1,
-      "texto": "¿Qué insecto sin alas, capaz de saltar, suele parasitar a perros y gatos?",
+      "texto": "¿Qué insecto sin alas salta y suele vivir entre el pelo de perros y gatos?",
       "opciones": {
         "A": "Libélula",
         "B": "Mariposa",
@@ -96,7 +97,7 @@
     {
       "id": "pregunta_004",
       "dificultad": 1,
-      "texto": "¿Cómo se llama la fase larvaria de una mariposa?",
+      "texto": "¿Cómo se llama la mariposa cuando todavía es una larva?",
       "opciones": {
         "A": "Crisálida",
         "B": "Ninfa",
@@ -122,7 +123,7 @@
     {
       "id": "pregunta_005",
       "dificultad": 1,
-      "texto": "¿Qué líquido de las flores transforman las abejas melíferas para producir miel?",
+      "texto": "¿Qué líquido de las flores usan las abejas para producir miel?",
       "opciones": {
         "A": "Savia de las raíces",
         "B": "Resina",
@@ -146,9 +147,269 @@
       }
     },
     {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Qué insecto también se conoce como mariquita y suele representarse rojo con puntos negros?",
+      "opciones": {
+        "A": "Grillo",
+        "B": "Termita",
+        "C": "Mosquito",
+        "D": "Vaquita de San Antonio"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿Qué insecto mantiene sus patas delanteras dobladas en una postura que recuerda a alguien rezando?",
+      "opciones": {
+        "A": "Mosca doméstica",
+        "B": "Escarabajo pelotero",
+        "C": "Mantis religiosa",
+        "D": "Cucaracha"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 75,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿Con qué material forma su capullo el gusano de seda?",
+      "opciones": {
+        "A": "Resina",
+        "B": "Barro",
+        "C": "Cera",
+        "D": "Seda"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "¿Cómo se llama el nido donde vive una colonia de hormigas?",
+      "opciones": {
+        "A": "Colmena",
+        "B": "Hormiguero",
+        "C": "Termitero",
+        "D": "Avispero"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Qué patas usa principalmente un saltamontes para impulsarse al saltar?",
+      "opciones": {
+        "A": "Las traseras",
+        "B": "Las del medio",
+        "C": "Las tres parejas por igual",
+        "D": "Las delanteras"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Qué insecto es famoso por emitir destellos de luz durante la noche?",
+      "opciones": {
+        "A": "Mosca doméstica",
+        "B": "Pulga",
+        "C": "Piojo",
+        "D": "Luciérnaga"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 75,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "¿Qué material hacen rodar en forma de bola muchos escarabajos peloteros?",
+      "opciones": {
+        "A": "Excremento",
+        "B": "Arena",
+        "C": "Pétalos",
+        "D": "Hojas secas"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Qué material mastican las avispas papeleras para construir sus nidos?",
+      "opciones": {
+        "A": "Cera de abejas",
+        "B": "Fibras de madera",
+        "C": "Granos de arena",
+        "D": "Piedras pequeñas"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿Qué insecto es conocido porque sus larvas pueden agujerear la ropa de lana?",
+      "opciones": {
+        "A": "Libélula",
+        "B": "Mosquito",
+        "C": "Polilla de la ropa",
+        "D": "Mantis religiosa"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Qué insecto es conocido por el canto fuerte que sus machos producen en los árboles durante el verano?",
+      "opciones": {
+        "A": "Pulga",
+        "B": "Hormiga",
+        "C": "Cigarra",
+        "D": "Mosca doméstica"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_006",
       "dificultad": 2,
-      "texto": "¿Cuáles son las tres regiones principales del cuerpo de un insecto?",
+      "texto": "¿Cuáles son las tres partes principales del cuerpo de un insecto?",
       "opciones": {
         "A": "Cefalotórax, abdomen y cola",
         "B": "Cabeza, cuello y abdomen",
@@ -174,12 +435,12 @@
     {
       "id": "pregunta_007",
       "dificultad": 2,
-      "texto": "¿Cómo se llama la cubierta externa que protege y sostiene el cuerpo de los insectos?",
+      "texto": "¿Cómo se llama la cubierta externa que protege el cuerpo de los insectos?",
       "opciones": {
         "A": "Columna vertebral",
-        "B": "Notocorda",
+        "B": "Caparazón de hueso",
         "C": "Exoesqueleto",
-        "D": "Endoesqueleto"
+        "D": "Esqueleto interno"
       },
       "respuesta_correcta": "C",
       "probabilidad_acierto": {
@@ -200,7 +461,7 @@
     {
       "id": "pregunta_008",
       "dificultad": 2,
-      "texto": "En las especies de mosquitos que se alimentan de sangre, ¿qué individuos pican para obtenerla?",
+      "texto": "Entre los mosquitos que se alimentan de sangre, ¿cuáles pican?",
       "opciones": {
         "A": "Solo las hembras adultas",
         "B": "Solo los machos adultos",
@@ -226,9 +487,9 @@
     {
       "id": "pregunta_009",
       "dificultad": 2,
-      "texto": "¿Qué transportan las abejas entre flores al contribuir a la polinización?",
+      "texto": "¿Qué llevan las abejas de una flor a otra durante la polinización?",
       "opciones": {
-        "A": "Néctar que fecunda los óvulos",
+        "A": "Néctar",
         "B": "Fragmentos de pétalos",
         "C": "Semillas maduras",
         "D": "Polen"
@@ -252,12 +513,12 @@
     {
       "id": "pregunta_010",
       "dificultad": 2,
-      "texto": "¿Qué ventaja obtiene un insecto palo al parecerse a una ramita?",
+      "texto": "¿De qué le sirve al insecto palo parecerse a una ramita?",
       "opciones": {
-        "A": "Le permite almacenar más agua en las patas",
-        "B": "Dificulta que sus depredadores lo detecten",
-        "C": "Mejora su capacidad de producir sonidos",
-        "D": "Aumenta la velocidad con la que digiere hojas"
+        "A": "Almacena más agua en las patas",
+        "B": "Se oculta mejor de sus depredadores",
+        "C": "Produce sonidos más fuertes",
+        "D": "Digiere las hojas más rápido"
       },
       "respuesta_correcta": "B",
       "probabilidad_acierto": {
@@ -276,13 +537,143 @@
       }
     },
     {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Con hojas de qué árbol se alimenta tradicionalmente al gusano de seda?",
+      "opciones": {
+        "A": "Eucalipto",
+        "B": "Morera",
+        "C": "Pino",
+        "D": "Olivo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿Qué información transmiten las abejas de la miel con la llamada danza del meneo?",
+      "opciones": {
+        "A": "La ubicación de una fuente de alimento",
+        "B": "El número de huevos de la colmena",
+        "C": "La edad exacta de la reina",
+        "D": "El color de las flores que deben evitar"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "¿Cuántos pares de alas tiene una libélula adulta?",
+      "opciones": {
+        "A": "Cuatro pares",
+        "B": "Tres pares",
+        "C": "Un par",
+        "D": "Dos pares"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿Dónde se desarrollan las larvas de los mosquitos?",
+      "opciones": {
+        "A": "Dentro de madera seca",
+        "B": "En el agua",
+        "C": "Entre las plumas de las aves",
+        "D": "Dentro de frutos secos"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿De qué se alimentan los pulgones que encontramos en las plantas?",
+      "opciones": {
+        "A": "De granos de arena sobre sus hojas",
+        "B": "De los hongos del suelo exclusivamente",
+        "C": "De su savia",
+        "D": "De la tierra que rodea sus raíces"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_011",
       "dificultad": 3,
       "texto": "¿Cómo producen su canto muchos grillos machos?",
       "opciones": {
         "A": "Frotando sus alas anteriores entre sí",
         "B": "Chasqueando sus mandíbulas",
-        "C": "Haciendo vibrar membranas del abdomen como las cigarras",
+        "C": "Haciendo vibrar membranas del abdomen",
         "D": "Frotando sus patas traseras contra las alas"
       },
       "respuesta_correcta": "A",
@@ -304,9 +695,9 @@
     {
       "id": "pregunta_012",
       "dificultad": 3,
-      "texto": "¿Qué estructuras diminutas recubren las alas de las mariposas y contribuyen a sus colores y dibujos?",
+      "texto": "¿Qué pequeñas estructuras cubren las alas de las mariposas y forman sus colores y dibujos?",
       "opciones": {
-        "A": "Cilios móviles",
+        "A": "Pelos gruesos",
         "B": "Celdas de cera",
         "C": "Plumas",
         "D": "Escamas"
@@ -330,11 +721,11 @@
     {
       "id": "pregunta_013",
       "dificultad": 3,
-      "texto": "¿Cómo se llaman las alas anteriores endurecidas que protegen las alas posteriores de muchos escarabajos?",
+      "texto": "¿Cómo se llaman las alas duras que cubren y protegen las alas de vuelo de muchos escarabajos?",
       "opciones": {
-        "A": "Hemélitros",
-        "B": "Halterios",
-        "C": "Tégminas",
+        "A": "Antenas",
+        "B": "Mandíbulas",
+        "C": "Escamas",
         "D": "Élitros"
       },
       "respuesta_correcta": "D",
@@ -356,12 +747,12 @@
     {
       "id": "pregunta_014",
       "dificultad": 3,
-      "texto": "¿En qué medio se desarrollan las ninfas de las libélulas?",
+      "texto": "¿Dónde viven las libélulas antes de convertirse en adultas?",
       "opciones": {
-        "A": "En el interior de tallos herbáceos",
-        "B": "En túneles dentro de la madera seca",
+        "A": "Dentro de tallos de plantas",
+        "B": "Dentro de madera seca",
         "C": "En el agua",
-        "D": "En cámaras subterráneas sin agua"
+        "D": "En túneles de tierra seca"
       },
       "respuesta_correcta": "C",
       "probabilidad_acierto": {
@@ -382,7 +773,7 @@
     {
       "id": "pregunta_015",
       "dificultad": 3,
-      "texto": "¿Qué componente vegetal aprovechan las termitas que se alimentan de madera?",
+      "texto": "¿Qué sustancia de la madera aprovechan como alimento las termitas?",
       "opciones": {
         "A": "Celulosa",
         "B": "Sacarosa",
@@ -408,7 +799,7 @@
     {
       "id": "pregunta_016",
       "dificultad": 4,
-      "texto": "¿Cómo se llama el fluido circulatorio que baña los órganos en el sistema circulatorio abierto de los insectos?",
+      "texto": "¿Cómo se llama el líquido que circula por el cuerpo de los insectos y baña sus órganos?",
       "opciones": {
         "A": "Linfa",
         "B": "Hemolinfa",
@@ -434,7 +825,7 @@
     {
       "id": "pregunta_017",
       "dificultad": 4,
-      "texto": "¿Qué estructuras tubulares de los insectos retiran desechos nitrogenados de la hemolinfa y los vierten al tubo digestivo?",
+      "texto": "¿Qué estructuras eliminan desechos del líquido circulatorio de los insectos y los envían al intestino?",
       "opciones": {
         "A": "Túbulos de Malpighi",
         "B": "Tráqueas respiratorias",
@@ -460,7 +851,7 @@
     {
       "id": "pregunta_018",
       "dificultad": 4,
-      "texto": "¿Qué estructuras ancestrales se modificaron para formar los halterios de las moscas y otros dípteros?",
+      "texto": "Las moscas tienen unos pequeños balancines llamados halterios. ¿Qué par de alas se transformó en esas estructuras?",
       "opciones": {
         "A": "Las antenas",
         "B": "Las alas posteriores",
@@ -486,24 +877,24 @@
     {
       "id": "pregunta_019",
       "dificultad": 4,
-      "texto": "¿Cómo se denomina un estadio de crecimiento de un insecto inmaduro delimitado por mudas sucesivas?",
+      "texto": "¿Cuáles son los dos ciclos de vida característicos de las cigarras periódicas de Estados Unidos?",
       "opciones": {
-        "A": "Ecdisis",
-        "B": "Ínstar",
-        "C": "Apolisis",
-        "D": "Diapausa"
+        "A": "5 y 9 años",
+        "B": "13 y 17 años",
+        "C": "20 y 24 años",
+        "D": "30 y 35 años"
       },
       "respuesta_correcta": "B",
       "probabilidad_acierto": {
-        "alan": 0,
+        "alan": 25,
         "ashley": 0,
         "pretty": 0,
-        "gloria": 0,
+        "gloria": 25,
         "wiktor": 25,
         "megan": 0,
         "kerem": 0,
         "bruno": 0,
-        "brody": 0,
+        "brody": 25,
         "kim": 25,
         "hyun": 0,
         "jana": 0
@@ -512,24 +903,24 @@
     {
       "id": "pregunta_020",
       "dificultad": 4,
-      "texto": "¿Qué glándulas secretan la hormona juvenil en los insectos?",
+      "texto": "En las abejas de la miel, ¿de qué tipo de huevo nace normalmente un zángano, es decir, un macho?",
       "opciones": {
-        "A": "Glándulas de seda",
-        "B": "Glándulas protorácicas",
-        "C": "Corpora allata o cuerpos alados",
-        "D": "Glándulas salivales"
+        "A": "De un huevo fecundado por dos machos",
+        "B": "De un huevo puesto por otro zángano",
+        "C": "De un huevo sin fecundar",
+        "D": "De un huevo fecundado que recibe jalea real"
       },
       "respuesta_correcta": "C",
       "probabilidad_acierto": {
-        "alan": 0,
+        "alan": 25,
         "ashley": 0,
         "pretty": 0,
-        "gloria": 0,
+        "gloria": 25,
         "wiktor": 25,
         "megan": 0,
         "kerem": 0,
         "bruno": 0,
-        "brody": 0,
+        "brody": 25,
         "kim": 25,
         "hyun": 0,
         "jana": 0
@@ -642,7 +1033,7 @@
     {
       "id": "pregunta_025",
       "dificultad": 5,
-      "texto": "¿Cuál es el nombre científico de la especie conocida como pulga del gato?",
+      "texto": "¿Cuál es el nombre científico de la pulga del gato?",
       "opciones": {
         "A": "Xenopsylla cheopis",
         "B": "Ctenocephalides canis",

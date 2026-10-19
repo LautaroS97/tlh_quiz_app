@@ -3,7 +3,7 @@
   "id": "trivia_cine_01",
   "tipo": "trivia_abcd",
   "nombre": "Luces, cámara y memoria",
-  "descripcion_tematica": "25 preguntas exclusivamente sobre cine: directores, actores y actrices, cinematografías nacionales, recaudación en salas, premios Óscar, Cannes y Premios Razzie. Incluye cinco preguntas por nivel de dificultad, del 1 al 5, y una pregunta dedicada al cine de cada país de los doce participantes, con 75 de probabilidad de acierto para su representante. Megan y Gloria tienen una ventaja temática: 75 en niveles 1 y 2, 50 en niveles 3 y 4, y 25 en nivel 5. Las comparaciones de taquilla se refieren a recaudación mundial en salas sin ajustar por inflación; la comparación de animación tiene como fecha de corte el 31 de diciembre de 2025.",
+  "descripcion_tematica": "El mundo del cine: películas, personajes, actores, actrices y directores. Incluye cinematografías de distintos países, éxitos de taquilla y curiosidades de los premios Óscar, Cannes y Razzie.",
   "premios": {
     "primer_lugar": {
       "tipo": "inmunidad",
@@ -11,14 +11,15 @@
     },
     "segundo_lugar": {
       "tipo": "beneficio_nominacion",
-      "descripcion": "Obtiene un beneficio de nominación."
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
     }
   },
   "preguntas": [
     {
       "id": "pregunta_001",
       "dificultad": 1,
-      "texto": "¿Qué cineasta estadounidense dirigió Jurassic Park (1993)?",
+      "texto": "¿Qué director estadounidense hizo Jurassic Park (1993)?",
       "opciones": {
         "A": "James Cameron",
         "B": "Tim Burton",
@@ -70,7 +71,7 @@
     {
       "id": "pregunta_003",
       "dificultad": 1,
-      "texto": "¿Qué director español realizó Todo sobre mi madre (1999)?",
+      "texto": "¿Qué director español hizo Todo sobre mi madre (1999)?",
       "opciones": {
         "A": "Alejandro Amenábar",
         "B": "Pedro Almodóvar",
@@ -96,7 +97,7 @@
     {
       "id": "pregunta_004",
       "dificultad": 1,
-      "texto": "¿Qué director australiano realizó la primera película de Mad Max (1979)?",
+      "texto": "¿Qué director australiano hizo la primera película de Mad Max (1979)?",
       "opciones": {
         "A": "George Miller",
         "B": "Baz Luhrmann",
@@ -122,7 +123,7 @@
     {
       "id": "pregunta_005",
       "dificultad": 1,
-      "texto": "¿Qué actor argentino interpreta a Benjamín Espósito en El secreto de sus ojos (2009)?",
+      "texto": "¿Qué actor argentino interpreta al protagonista, Benjamín Espósito, en El secreto de sus ojos (2009)?",
       "opciones": {
         "A": "Ricardo Darín",
         "B": "Guillermo Francella",
@@ -146,9 +147,269 @@
       }
     },
     {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Qué representa el juguete Woody en Toy Story?",
+      "opciones": {
+        "A": "Un vaquero",
+        "B": "Un auto de carreras",
+        "C": "Un oso de peluche",
+        "D": "Un robot"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿A qué saga de películas pertenece Darth Vader?",
+      "opciones": {
+        "A": "El señor de los anillos",
+        "B": "Harry Potter",
+        "C": "Jurassic Park",
+        "D": "Star Wars"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿Quién dirigió Titanic (1997)?",
+      "opciones": {
+        "A": "James Cameron",
+        "B": "Steven Spielberg",
+        "C": "Christopher Nolan",
+        "D": "Tim Burton"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "¿Qué actor interpreta al capitán Jack Sparrow en Piratas del Caribe?",
+      "opciones": {
+        "A": "Orlando Bloom",
+        "B": "Johnny Depp",
+        "C": "Brad Pitt",
+        "D": "Tom Cruise"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Cómo se llama la hermana de Anna que tiene poderes de hielo en Frozen?",
+      "opciones": {
+        "A": "Rapunzel",
+        "B": "Elsa",
+        "C": "Bella",
+        "D": "Ariel"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Qué tipo de criatura es Shrek?",
+      "opciones": {
+        "A": "Un duende",
+        "B": "Un ogro",
+        "C": "Un cíclope",
+        "D": "Un dragón"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "¿Qué actor interpreta a Tony Stark en Iron Man (2008)?",
+      "opciones": {
+        "A": "Chris Hemsworth",
+        "B": "Mark Ruffalo",
+        "C": "Robert Downey Jr.",
+        "D": "Chris Evans"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Quién dirigió Pulp Fiction (1994)?",
+      "opciones": {
+        "A": "Ridley Scott",
+        "B": "David Fincher",
+        "C": "Quentin Tarantino",
+        "D": "Martin Scorsese"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿En qué película Neo debe elegir entre una pastilla roja y una azul?",
+      "opciones": {
+        "A": "Blade Runner",
+        "B": "Terminator",
+        "C": "El origen",
+        "D": "Matrix"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Qué premio de cine entrega una estatuilla dorada de un caballero que sostiene una espada?",
+      "opciones": {
+        "A": "Palma de Oro",
+        "B": "Óscar",
+        "C": "León de Oro",
+        "D": "Goya"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_006",
       "dificultad": 2,
-      "texto": "¿Qué director mexicano realizó El laberinto del fauno (2006)?",
+      "texto": "¿Qué director mexicano hizo El laberinto del fauno (2006)?",
       "opciones": {
         "A": "Robert Rodríguez",
         "B": "Alfonso Cuarón",
@@ -174,7 +435,7 @@
     {
       "id": "pregunta_007",
       "dificultad": 2,
-      "texto": "¿Qué película representó a Sudáfrica y ganó el Óscar a mejor película de habla no inglesa en la ceremonia de 2006?",
+      "texto": "¿Qué película sudafricana ganó el Óscar a mejor película de habla no inglesa en 2006?",
       "opciones": {
         "A": "District 9",
         "B": "Tsotsi",
@@ -226,12 +487,12 @@
     {
       "id": "pregunta_009",
       "dificultad": 2,
-      "texto": "¿Quién dirigió la película alemana La vida de los otros (Das Leben der Anderen, 2006)?",
+      "texto": "¿Qué película alemana de 2006 sigue a un agente de la Stasi que vigila a un escritor?",
       "opciones": {
-        "A": "Tom Tykwer",
-        "B": "Fatih Akin",
-        "C": "Wolfgang Becker",
-        "D": "Florian Henckel von Donnersmarck"
+        "A": "Good Bye, Lenin!",
+        "B": "Corre, Lola, corre",
+        "C": "La ola",
+        "D": "La vida de los otros"
       },
       "respuesta_correcta": "D",
       "probabilidad_acierto": {
@@ -252,7 +513,7 @@
     {
       "id": "pregunta_010",
       "dificultad": 2,
-      "texto": "¿Qué distinguen de forma satírica los Premios Razzie o Golden Raspberry?",
+      "texto": "¿Qué premian de forma humorística los Razzie?",
       "opciones": {
         "A": "Las mejores bandas sonoras",
         "B": "Las mejores películas de animación",
@@ -276,9 +537,139 @@
       }
     },
     {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Qué actor interpretó al Joker en Batman: El caballero de la noche (2008)?",
+      "opciones": {
+        "A": "Joaquin Phoenix",
+        "B": "Jack Nicholson",
+        "C": "Jared Leto",
+        "D": "Heath Ledger"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿Cuál fue el primer largometraje de Pixar?",
+      "opciones": {
+        "A": "Toy Story",
+        "B": "Bichos",
+        "C": "Buscando a Nemo",
+        "D": "Monsters, Inc."
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "¿Quién dirigió la trilogía de El señor de los anillos estrenada entre 2001 y 2003?",
+      "opciones": {
+        "A": "George Lucas",
+        "B": "James Cameron",
+        "C": "Peter Jackson",
+        "D": "Guillermo del Toro"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿Qué actriz interpreta a Miranda Priestly, la exigente jefa de El diablo viste a la moda (2006)?",
+      "opciones": {
+        "A": "Anne Hathaway",
+        "B": "Judi Dench",
+        "C": "Meryl Streep",
+        "D": "Glenn Close"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿Qué director creó la saga cinematográfica Star Wars?",
+      "opciones": {
+        "A": "James Cameron",
+        "B": "Steven Spielberg",
+        "C": "Ridley Scott",
+        "D": "George Lucas"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 75,
+        "wiktor": 50,
+        "megan": 75,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
       "id": "pregunta_011",
       "dificultad": 3,
-      "texto": "¿Qué cineasta polaco dirigió Ida (2013), ganadora del Óscar a mejor película de habla no inglesa en 2015?",
+      "texto": "¿Qué director polaco hizo Ida (2013), ganadora del Óscar en 2015?",
       "opciones": {
         "A": "Agnieszka Holland",
         "B": "Krzysztof Kieślowski",
@@ -304,7 +695,7 @@
     {
       "id": "pregunta_012",
       "dificultad": 3,
-      "texto": "¿Qué director turco ganó la Palma de Oro de Cannes en 2014 con Winter Sleep (Sueño de invierno)?",
+      "texto": "¿Qué director turco ganó la Palma de Oro de Cannes en 2014 con Sueño de invierno?",
       "opciones": {
         "A": "Semih Kaplanoğlu",
         "B": "Yılmaz Güney",
@@ -330,7 +721,7 @@
     {
       "id": "pregunta_013",
       "dificultad": 3,
-      "texto": "¿Qué cineasta dirigió Pulgasari, una producción del cine norcoreano rodada en la década de 1980?",
+      "texto": "¿Quién dirigió Pulgasari (1985), una película de monstruos del cine norcoreano?",
       "opciones": {
         "A": "Kim Ki-young",
         "B": "Shin Sang-ok",
@@ -356,7 +747,7 @@
     {
       "id": "pregunta_014",
       "dificultad": 3,
-      "texto": "¿Cuántos premios Óscar ganó Titanic (1997) en la ceremonia de 1998?",
+      "texto": "¿Cuántos Óscar ganó Titanic (1997) en la ceremonia de 1998?",
       "opciones": {
         "A": "9",
         "B": "11",
@@ -382,7 +773,7 @@
     {
       "id": "pregunta_015",
       "dificultad": 3,
-      "texto": "Entre estas películas animadas, ¿cuál tenía la mayor recaudación mundial acumulada en cines al 31 de diciembre de 2025, sin ajustar por inflación?",
+      "texto": "Hasta finales de 2025, ¿cuál de estas películas animadas había recaudado más en cines de todo el mundo, sin ajustar por inflación?",
       "opciones": {
         "A": "Coco (2017)",
         "B": "Frozen (2013)",
@@ -408,7 +799,7 @@
     {
       "id": "pregunta_016",
       "dificultad": 4,
-      "texto": "¿Qué actriz recibió en 2010 el Óscar por The Blind Side y el Razzie a peor actriz por All About Steve?",
+      "texto": "¿Qué actriz ganó en 2010 un Óscar por The Blind Side y un Razzie por All About Steve?",
       "opciones": {
         "A": "Reese Witherspoon",
         "B": "Halle Berry",
@@ -434,7 +825,7 @@
     {
       "id": "pregunta_017",
       "dificultad": 4,
-      "texto": "¿Qué dos actrices empataron y recibieron ambas el Óscar a mejor actriz protagonista en la ceremonia de 1969?",
+      "texto": "¿Qué dos actrices empataron y ganaron el Óscar a mejor actriz en 1969?",
       "opciones": {
         "A": "Katharine Hepburn y Barbra Streisand",
         "B": "Vanessa Redgrave y Patricia Neal",
@@ -460,7 +851,7 @@
     {
       "id": "pregunta_018",
       "dificultad": 4,
-      "texto": "¿Quién ganó el Óscar a mejor dirección en la ceremonia de 1969 por Oliver!?",
+      "texto": "¿Quién ganó el Óscar a mejor dirección por Oliver! en 1969?",
       "opciones": {
         "A": "David Lean",
         "B": "Robert Wise",
@@ -486,7 +877,7 @@
     {
       "id": "pregunta_019",
       "dificultad": 4,
-      "texto": "¿Qué película ganó las diez categorías competitivas de los Premios Razzie en la ceremonia celebrada en 2012?",
+      "texto": "¿Qué película ganó las diez categorías de los Razzie en la ceremonia de 2012?",
       "opciones": {
         "A": "Jack and Jill",
         "B": "Movie 43",
@@ -512,7 +903,7 @@
     {
       "id": "pregunta_020",
       "dificultad": 4,
-      "texto": "Según la clasificación mundial de Box Office Mojo para películas estrenadas en 2001, ¿cuál quedó segunda por recaudación, detrás de Harry Potter y la piedra filosofal?",
+      "texto": "Entre las películas estrenadas en 2001, ¿cuál quedó segunda en taquilla mundial, detrás de Harry Potter y la piedra filosofal?",
       "opciones": {
         "A": "El señor de los anillos: La comunidad del anillo",
         "B": "Shrek",
@@ -538,12 +929,12 @@
     {
       "id": "pregunta_021",
       "dificultad": 5,
-      "texto": "¿Qué pareja recibió el Óscar a dirección artística por The Merry Widow (La viuda alegre, 1934) en la ceremonia de 1935?",
+      "texto": "¿En qué película coincidieron una actuación ganadora del Óscar y otra ganadora del Razzie en las ceremonias de 1988?",
       "opciones": {
-        "A": "Anton Grot y Leo K. Kuter",
-        "B": "Van Nest Polglase y Carroll Clark",
-        "C": "Hans Dreier y Roland Anderson",
-        "D": "Cedric Gibbons y Fredric Hope"
+        "A": "Atracción fatal",
+        "B": "Hechizo de luna",
+        "C": "Buenos días, Vietnam",
+        "D": "Wall Street"
       },
       "respuesta_correcta": "D",
       "probabilidad_acierto": {
@@ -556,7 +947,7 @@
         "kerem": 0,
         "bruno": 0,
         "brody": 0,
-        "kim": 0,
+        "kim": 25,
         "hyun": 0,
         "jana": 0
       }
@@ -564,7 +955,7 @@
     {
       "id": "pregunta_022",
       "dificultad": 5,
-      "texto": "¿Quién recibió el Óscar a fotografía en blanco y negro por Great Expectations (Grandes esperanzas, 1946) en la ceremonia de 1948?",
+      "texto": "¿Quién ganó el Óscar a fotografía en blanco y negro por Grandes esperanzas (1946), entregado en 1948?",
       "opciones": {
         "A": "Jack Hildyard",
         "B": "Guy Green",
@@ -590,7 +981,7 @@
     {
       "id": "pregunta_023",
       "dificultad": 5,
-      "texto": "¿Quién recibió el Razzie a peor actriz de reparto por Honeysuckle Rose (1980) en la primera ceremonia, celebrada en 1981?",
+      "texto": "¿Qué actriz ganó el Razzie de reparto por Honeysuckle Rose (1980) en la primera ceremonia, celebrada en 1981?",
       "opciones": {
         "A": "Amy Irving",
         "B": "Betsy Palmer",
@@ -616,7 +1007,7 @@
     {
       "id": "pregunta_024",
       "dificultad": 5,
-      "texto": "¿Quién ganó el Óscar a fotografía en blanco y negro por Who’s Afraid of Virginia Woolf? (¿Quién teme a Virginia Woolf?, 1966) en la ceremonia de 1967?",
+      "texto": "¿Quién ganó el Óscar a fotografía en blanco y negro por ¿Quién teme a Virginia Woolf? (1966), entregado en 1967?",
       "opciones": {
         "A": "Haskell Wexler",
         "B": "Conrad L. Hall",
@@ -642,12 +1033,12 @@
     {
       "id": "pregunta_025",
       "dificultad": 5,
-      "texto": "¿Qué pareja recibió el Óscar a montaje por Ben-Hur (1959) en la ceremonia de 1960?",
+      "texto": "¿Qué película de Steven Spielberg tuvo once nominaciones al Óscar en 1986 y no ganó ninguna?",
       "opciones": {
-        "A": "Daniel Mandell y George Tomasini",
-        "B": "William H. Reynolds y William A. Lyon",
-        "C": "Ralph E. Winters y John D. Dunning",
-        "D": "Anne V. Coates y Peter Taylor"
+        "A": "La lista de Schindler",
+        "B": "El imperio del sol",
+        "C": "El color púrpura",
+        "D": "A.I. Inteligencia artificial"
       },
       "respuesta_correcta": "C",
       "probabilidad_acierto": {
@@ -655,12 +1046,12 @@
         "ashley": 0,
         "pretty": 0,
         "gloria": 25,
-        "wiktor": 0,
+        "wiktor": 25,
         "megan": 25,
         "kerem": 0,
         "bruno": 0,
         "brody": 0,
-        "kim": 0,
+        "kim": 25,
         "hyun": 0,
         "jana": 0
       }

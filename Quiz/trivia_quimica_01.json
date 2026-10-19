@@ -1,0 +1,1060 @@
+{
+  "version_estructura": 3,
+  "id": "trivia_quimica_01",
+  "tipo": "trivia_abcd",
+  "nombre": "Elementos en juego",
+  "descripcion_tematica": "La química en la vida cotidiana: alimentos, bebidas, materiales, metales y gases. Incluye elementos, átomos, transformaciones de la materia, fenómenos sorprendentes y curiosidades de la historia de la química.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "beneficio_nominacion",
+      "nombre": "Votos turbo",
+      "descripcion": "Durante la nominación, el participante emite 3 votos para un participante y 2 votos para otro."
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Cuál es la fórmula química del agua?",
+      "opciones": {
+        "A": "O2",
+        "B": "H2O",
+        "C": "CO2",
+        "D": "H2O2"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Qué compuesto es el principal componente de la sal de mesa?",
+      "opciones": {
+        "A": "Cloruro de sodio",
+        "B": "Carbonato de calcio",
+        "C": "Bicarbonato de sodio",
+        "D": "Sulfato de magnesio"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Cuál es el símbolo químico del oro?",
+      "opciones": {
+        "A": "Fe",
+        "B": "Au",
+        "C": "Cu",
+        "D": "Ag"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Qué partícula de un átomo tiene carga eléctrica negativa?",
+      "opciones": {
+        "A": "Neutrón",
+        "B": "Protón",
+        "C": "Electrón",
+        "D": "Núcleo"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "A temperatura ambiente, ¿cuál de estos valores de pH corresponde a una solución claramente ácida?",
+      "opciones": {
+        "A": "2",
+        "B": "12",
+        "C": "9",
+        "D": "7"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 1,
+      "texto": "¿Qué ácido es el principal responsable de la acidez del limón?",
+      "opciones": {
+        "A": "Ácido láctico",
+        "B": "Ácido sulfúrico",
+        "C": "Ácido acético",
+        "D": "Ácido cítrico"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 1,
+      "texto": "¿Qué gas forma las burbujas de las gaseosas?",
+      "opciones": {
+        "A": "Helio",
+        "B": "Nitrógeno",
+        "C": "Dióxido de carbono",
+        "D": "Hidrógeno"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 1,
+      "texto": "¿Qué gas del aire permite que una vela siga ardiendo?",
+      "opciones": {
+        "A": "Oxígeno",
+        "B": "Helio",
+        "C": "Dióxido de carbono",
+        "D": "Nitrógeno"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 1,
+      "texto": "¿Qué metal es líquido a temperatura ambiente y se usaba en muchos termómetros?",
+      "opciones": {
+        "A": "Cobre",
+        "B": "Mercurio",
+        "C": "Plata",
+        "D": "Hierro"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 1,
+      "texto": "¿Qué gas se usa habitualmente para inflar globos que flotan por ser más liviano que el aire?",
+      "opciones": {
+        "A": "Dióxido de carbono",
+        "B": "Argón",
+        "C": "Oxígeno",
+        "D": "Helio"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 1,
+      "texto": "¿Cómo se llama el paso del agua líquida a hielo?",
+      "opciones": {
+        "A": "Condensación",
+        "B": "Sublimación",
+        "C": "Solidificación",
+        "D": "Evaporación"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 1,
+      "texto": "¿Qué ocurre con el azúcar cuando se incorpora al agua y deja de verse tras revolver?",
+      "opciones": {
+        "A": "Se evapora",
+        "B": "Se disuelve",
+        "C": "Se derrite",
+        "D": "Se transforma en otra sustancia"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 1,
+      "texto": "¿Qué metal se utiliza habitualmente para fabricar latas de bebidas?",
+      "opciones": {
+        "A": "Plomo",
+        "B": "Mercurio",
+        "C": "Aluminio",
+        "D": "Oro"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 1,
+      "texto": "¿Qué suele ocurrir al dejar reposar una mezcla de aceite y agua?",
+      "opciones": {
+        "A": "Forman cristales",
+        "B": "Se evaporan de inmediato",
+        "C": "Permanecen mezclados de forma uniforme",
+        "D": "Se separan en capas"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 50,
+        "pretty": 50,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 50,
+        "bruno": 50,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 50,
+        "jana": 50
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 1,
+      "texto": "¿Qué se observa cuando el bicarbonato de sodio reacciona con vinagre?",
+      "opciones": {
+        "A": "Se forma una capa de aceite",
+        "B": "Se forman burbujas de gas",
+        "C": "Aparecen cristales negros",
+        "D": "La mezcla se vuelve azul"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 2,
+      "texto": "¿Qué indica el número atómico de un elemento?",
+      "opciones": {
+        "A": "La cantidad de neutrones de su núcleo",
+        "B": "La cantidad de protones de su núcleo",
+        "C": "La cantidad de enlaces que siempre forma",
+        "D": "La suma de protones y neutrones de su núcleo"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 2,
+      "texto": "Los isótopos son versiones de un mismo elemento. ¿En qué se diferencian?",
+      "opciones": {
+        "A": "En su símbolo químico de elemento",
+        "B": "En su número de protones",
+        "C": "En su número de neutrones",
+        "D": "En su posición en la tabla periódica"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 2,
+      "texto": "Cuando el hielo seco pasa de sólido a gas sin hacerse líquido, ¿cómo se llama ese cambio?",
+      "opciones": {
+        "A": "Fusión",
+        "B": "Solidificación",
+        "C": "Condensación",
+        "D": "Sublimación"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 2,
+      "texto": "¿Qué carga tiene el ion de sodio que se forma al disolver sal de mesa en agua?",
+      "opciones": {
+        "A": "Negativa",
+        "B": "No tiene carga",
+        "C": "Cambia continuamente entre positiva y negativa",
+        "D": "Positiva"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 2,
+      "texto": "¿Qué alcohol contienen bebidas como el vino y la cerveza?",
+      "opciones": {
+        "A": "Metanol",
+        "B": "Isopropanol",
+        "C": "Etanol",
+        "D": "Butanol"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 0,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 2,
+      "texto": "¿Qué gas representa aproximadamente el 78 por ciento del aire seco?",
+      "opciones": {
+        "A": "Nitrógeno",
+        "B": "Hidrógeno",
+        "C": "Dióxido de carbono",
+        "D": "Oxígeno"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 2,
+      "texto": "¿Qué elemento forma tanto el diamante como el grafito de los lápices?",
+      "opciones": {
+        "A": "Silicio",
+        "B": "Hierro",
+        "C": "Calcio",
+        "D": "Carbono"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 2,
+      "texto": "¿Por qué echar sal puede ayudar a derretir el hielo de una calle?",
+      "opciones": {
+        "A": "Porque convierte el hielo en arena",
+        "B": "Porque transforma el hielo en alcohol",
+        "C": "Porque reduce la temperatura a la que se congela el agua",
+        "D": "Porque hace que el agua se congele a una temperatura mayor"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 2,
+      "texto": "¿Qué tipo de cambio ocurre al cocinar un huevo, cuando sus proteínas se transforman y coagulan?",
+      "opciones": {
+        "A": "Un cambio químico",
+        "B": "Una fusión",
+        "C": "Una disolución",
+        "D": "Una simple evaporación"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 50,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 50,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 2,
+      "texto": "¿Qué ácido le da al vinagre su acidez característica?",
+      "opciones": {
+        "A": "Ácido fosfórico",
+        "B": "Ácido acético",
+        "C": "Ácido láctico",
+        "D": "Ácido cítrico"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 25,
+        "pretty": 25,
+        "gloria": 50,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 25,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 3,
+      "texto": "En una transferencia de electrones, ¿qué hace la sustancia que se oxida?",
+      "opciones": {
+        "A": "Siempre pierde neutrones",
+        "B": "Siempre gana protones",
+        "C": "Gana electrones",
+        "D": "Pierde electrones"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 3,
+      "texto": "¿Cómo consigue un catalizador acelerar una reacción química?",
+      "opciones": {
+        "A": "Transformando unos elementos en otros",
+        "B": "Haciendo que cualquier reacción produzca calor",
+        "C": "Eliminando la necesidad de que las sustancias entren en contacto",
+        "D": "Ofreciendo un camino que requiere menos energía para que la reacción ocurra"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 3,
+      "texto": "En el metano, ¿qué figura forman los cuatro átomos de hidrógeno alrededor del carbono?",
+      "opciones": {
+        "A": "Una pirámide de base cuadrada",
+        "B": "Un cuadrado plano",
+        "C": "Un tetraedro, con cuatro caras triangulares",
+        "D": "Una línea recta"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 3,
+      "texto": "¿Las sales de cuál de estos elementos se usan para producir el color rojo en fuegos artificiales?",
+      "opciones": {
+        "A": "Estroncio",
+        "B": "Sodio",
+        "C": "Cobre",
+        "D": "Magnesio"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 3,
+      "texto": "¿Qué compuesto forma la mayor parte de la cáscara de un huevo de gallina?",
+      "opciones": {
+        "A": "Cloruro de sodio",
+        "B": "Carbonato de calcio",
+        "C": "Óxido de hierro",
+        "D": "Bicarbonato de sodio"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 50,
+        "megan": 25,
+        "kerem": 25,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 50,
+        "hyun": 0,
+        "jana": 25
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 4,
+      "texto": "¿Qué gas puro se convierte en un líquido azul pálido cuando se enfría lo suficiente?",
+      "opciones": {
+        "A": "Nitrógeno",
+        "B": "Hidrógeno",
+        "C": "Helio",
+        "D": "Oxígeno"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 4,
+      "texto": "¿Qué metal forma parte de las amalgamas utilizadas en empastes dentales tradicionales?",
+      "opciones": {
+        "A": "Mercurio",
+        "B": "Plomo",
+        "C": "Cadmio",
+        "D": "Aluminio"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 4,
+      "texto": "Al fabricar amoníaco a partir de nitrógeno e hidrógeno, ¿qué favorece comprimir la mezcla manteniendo la temperatura?",
+      "opciones": {
+        "A": "La formación de más amoníaco",
+        "B": "La descomposición del amoníaco en los gases de partida",
+        "C": "Ningún cambio, porque la presión no influye en ese equilibrio",
+        "D": "El aumento de la cantidad total de átomos dentro del recipiente"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 4,
+      "texto": "¿Con qué metal se recubre el hierro en el galvanizado para protegerlo de la corrosión?",
+      "opciones": {
+        "A": "Estaño",
+        "B": "Zinc",
+        "C": "Cromo",
+        "D": "Níquel"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 4,
+      "texto": "¿Qué gas liberan frutas como la banana y la manzana y que puede acelerar la maduración de otras frutas cercanas?",
+      "opciones": {
+        "A": "Metano",
+        "B": "Etileno",
+        "C": "Propano",
+        "D": "Ozono"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 25,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 25,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 5,
+      "texto": "¿Qué par de elementos descubrieron Robert Bunsen y Gustav Kirchhoff al analizar la luz emitida por muestras calentadas?",
+      "opciones": {
+        "A": "Sodio y potasio",
+        "B": "Neón y argón",
+        "C": "Cesio y rubidio",
+        "D": "Calcio y magnesio"
+      },
+      "respuesta_correcta": "C",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 5,
+      "texto": "¿A qué temperatura aproximada, en grados Celsius, se funde el galio puro?",
+      "opciones": {
+        "A": "29,8",
+        "B": "19,8",
+        "C": "39,8",
+        "D": "49,8"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 5,
+      "texto": "¿Qué elemento descubrió Hennig Brand en 1669 a partir de orina?",
+      "opciones": {
+        "A": "Azufre",
+        "B": "Arsénico",
+        "C": "Antimonio",
+        "D": "Fósforo"
+      },
+      "respuesta_correcta": "D",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 5,
+      "texto": "¿Cuántos átomos hay en total en una molécula de sacarosa, el azúcar de mesa?",
+      "opciones": {
+        "A": "24",
+        "B": "45",
+        "C": "36",
+        "D": "54"
+      },
+      "respuesta_correcta": "B",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 5,
+      "texto": "¿Qué isótopo del xenón es el más abundante en el aire?",
+      "opciones": {
+        "A": "Xenón-132",
+        "B": "Xenón-134",
+        "C": "Xenón-129",
+        "D": "Xenón-131"
+      },
+      "respuesta_correcta": "A",
+      "probabilidad_acierto": {
+        "alan": 0,
+        "ashley": 0,
+        "pretty": 0,
+        "gloria": 0,
+        "wiktor": 25,
+        "megan": 0,
+        "kerem": 0,
+        "bruno": 0,
+        "brody": 0,
+        "kim": 25,
+        "hyun": 0,
+        "jana": 0
+      }
+    }
+  ]
+}
