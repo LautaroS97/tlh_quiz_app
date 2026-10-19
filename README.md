@@ -47,3 +47,14 @@ Se esperan estos JSON dentro de `Quiz/` y estos PNG dentro de `Images/`. Los nom
 Las rutas son relativas y funcionan en GitHub Pages dentro de la carpeta del repositorio. No abras `index.html` mediante doble clic para probar la carga de JSON: usá GitHub Pages o un servidor local.
 
 Se mantiene el diseño blanco, gris y negro, con adaptación a pantallas pequeñas. Si un icono falta, se muestra una inicial; si un JSON falta o tiene una estructura incorrecta, la tarjeta informa el problema sin bloquear los demás desafíos.
+
+
+## Clasificación final de los 13 jugadores
+
+Después de responder las ocho preguntas aparece tu puesto y la tabla de los doce personajes más vos.
+
+En trivias, se ordena por respuestas correctas. Los aciertos de cada personaje se simulan a partir de `probabilidad_acierto` y quedan determinados por la partida: recargar o revisar no vuelve a sortearlos. Los empates comparten puesto (por ejemplo, 1.º, 1.º, 3.º). Se trata de una simulación, no de respuestas de otros usuarios reales.
+
+En aproximación, primero se cuentan las victorias por cercanía, incluidos los empates en primer lugar. Si hay igual cantidad de victorias, se desempata por menor error relativo medio: para cada pregunta, error absoluto dividido por el valor absoluto de la respuesta correcta. Si esa respuesta es 0, se divide por 1. Se promedian los ocho valores. La tabla muestra ese promedio como porcentaje, redondeado solo para visualizar; los cálculos usan mayor precisión.
+
+Esta actualización conserva el historial de la versión de ocho preguntas y calcula también las clasificaciones de sus partidas anteriores. No es necesario limpiar el historial. Conservá tus carpetas Quiz e Images y reemplazá los archivos de la app del ZIP.

@@ -97,3 +97,38 @@ export function readState(storage){
  const value=storage.getItem(STORAGE_KEY);if(!value)return {version:2,quizzes:{}};
  const parsed=JSON.parse(value);if(parsed?.version!==2||!parsed.quizzes||typeof parsed.quizzes!=='object'||Array.isArray(parsed.quizzes))throw new Error('El historial guardado no tiene un formato válido.');return parsed;
 }
+
+// Simulación estable: revisar resultados nunca vuelve a sortear los aciertos.
+function stableRoll(text){
+ let hash=2166136261;for(let i=0;i<text.length;i++){hash^=text.charCodeAt(i);hash=Math.imul(hash,16777619);}return (hash>>>0)/4294967296;
+}
+export function finalRanking(run,questions){
+ if(!run?.finished||run.ids.some(id=>!Object.hasOwn(run.answers,id)))throw new Error('La clasificación requiere una partida completada.');
+ const lookup=new Map(questions.map(q=>[q.id,q])),selected=run.ids.map(id=>lookup.get(id));
+ if(selected.some(q=>!q))throw new Error('Faltan preguntas de esta partida.');
+ const numeric=isNumeric(selected[0]);
+ if(!numeric&&selected.some(q=>PARTICIPANTS.some(n=>typeof q.probabilidad_acierto?.[n]!=='number'||q.probabilidad_acierto[n]<0||q.probabilidad_acierto[n]>100)))return null;
+ const rows=[{id:'you',name:'Vos',you:true},...PARTICIPANTS.map(id=>({id,name:id[0].toUpperCase()+id.slice(1),you:false}))].map(p=>({...p,points:0,exact:0,relativeError:0}));
+ for(const q of selected){
+  if(numeric){
+   const result=numericResult(q,run.answers[q.id]),minimum=result.entries[0].error;
+   for(const row of rows){
+    const error=row.you?result.error:rounded(q,Math.abs(q.desvio_respuesta[row.id]));
+    if(error===minimum)row.points++;
+    if(error===0)row.exact++;
+    row.relativeError+=error/Math.max(Math.abs(q.respuesta_correcta),1);
+   }
+  }else{
+   for(const row of rows){
+    const probability=row.you?null:q.probabilidad_acierto[row.id];
+    const correct=row.you?run.answers[q.id]===q.respuesta_correcta:stableRoll(JSON.stringify([run.startedAt,run.ids,q.id,q.texto,row.id]))<probability/100;
+    if(correct){row.points++;row.exact++;}
+   }
+  }
+ }
+ for(const row of rows){row.relativeError=Number((row.relativeError/selected.length).toFixed(10));}
+ rows.sort((a,b)=>b.points-a.points||(numeric?a.relativeError-b.relativeError:0)||Number(b.you)-Number(a.you)||a.name.localeCompare(b.name));
+ rows.forEach((row,i)=>{const previous=rows[i-1];row.rank=previous&&row.points===previous.points&&(!numeric||row.relativeError===previous.relativeError)?previous.rank:i+1;});
+ const own=rows.find(row=>row.you),tied=rows.filter(row=>row.rank===own.rank).length>1;
+ return {numeric,rows,rank:own.rank,tied};
+}
