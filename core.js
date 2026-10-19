@@ -34,8 +34,13 @@ export function normalize(raw){
    result.decimales_permitidos=q.decimales_permitidos??0;result.respuesta_minima=q.respuesta_minima??0;
    if(!Number.isInteger(result.decimales_permitidos)||result.decimales_permitidos<0||result.decimales_permitidos>6)throw new Error(`Precisión inválida en la pregunta ${i+1}.`);
    if(numericError(result,q.respuesta_correcta))throw new Error(`Respuesta numérica inválida en la pregunta ${i+1}.`);
-   if(PARTICIPANTS.some(n=>typeof q.desvio_respuesta?.[n]!=='number'||!Number.isFinite(q.desvio_respuesta[n])))throw new Error(`Faltan desvíos numéricos en la pregunta ${i+1}.`);
-   if(PARTICIPANTS.some(n=>numericError(result,rounded(result,q.respuesta_correcta+q.desvio_respuesta[n]))))throw new Error(`Un desvío genera una respuesta fuera de rango en la pregunta ${i+1}.`);
+   if(!q.intervalos_desvio_si_falla&&PARTICIPANTS.some(n=>typeof q.desvio_respuesta?.[n]!=='number'||!Number.isFinite(q.desvio_respuesta[n])))throw new Error(`Faltan desvíos numéricos en la pregunta ${i+1}.`);
+   if(!q.intervalos_desvio_si_falla&&PARTICIPANTS.some(n=>numericError(result,rounded(result,q.respuesta_correcta+q.desvio_respuesta[n]))))throw new Error(`Un desvío genera una respuesta fuera de rango en la pregunta ${i+1}.`);
+   if(q.intervalos_desvio_si_falla){
+    result.simulation='probabilistic-v1';
+    result.paso_desvio_si_falla=q.paso_desvio_si_falla??raw.modelo_simulacion?.paso_desvio??1;
+    validateSimulation(result,raw.modelo_simulacion?.probabilidades_acierto_permitidas??[10,25,50]);
+   }
   }return result;
  });
  if(new Set(questions.map(q=>q.id)).size!==questions.length)throw new Error('Hay identificadores de preguntas repetidos.');
@@ -43,7 +48,7 @@ export function normalize(raw){
  return questions;
 }
 export function signature(questions){
- const text=JSON.stringify(questions.map(q=>[q.id,q.mode,q.dificultad,q.texto,q.opciones,q.respuesta_correcta,q.unidad,q.decimales_permitidos,q.respuesta_minima,q.respuesta_maxima,q.desvio_respuesta]));
+ const text=JSON.stringify(questions.map(q=>[q.id,q.mode,q.dificultad,q.texto,q.opciones,q.respuesta_correcta,q.unidad,q.decimales_permitidos,q.respuesta_minima,q.respuesta_maxima,q.desvio_respuesta,...(q.simulation?[q.probabilidad_acierto,q.nivel_error_si_falla,q.intervalos_desvio_si_falla,q.paso_desvio_si_falla]:[])]));
  let hash=2166136261;for(let i=0;i<text.length;i++){hash^=text.charCodeAt(i);hash=Math.imul(hash,16777619);}return (hash>>>0).toString(16);
 }
 const idsFor=(p,index)=>QUOTAS.flatMap((n,i)=>p.decks[i+1].slice(index*n,(index+1)*n));
@@ -58,6 +63,7 @@ export function validProgress(progress,questions){
   const run=progress.runs[i],expected=idsFor(progress,i);
   if(!Array.isArray(run.ids)||run.ids.length!==RUN_SIZE||run.ids.some((id,j)=>id!==expected[j]))return false;
   if(!run.answers||typeof run.answers!=='object'||Array.isArray(run.answers)||typeof run.finished!=='boolean')return false;
+  if(expected.some(id=>lookup.get(id).simulation)&&!validRivalAnswers(run,lookup))return false;
   const entries=Object.entries(run.answers);
   if(entries.some(([id,a])=>!run.ids.includes(id)||(isNumeric(lookup.get(id))?!!numericError(lookup.get(id),a):!['A','B','C','D'].includes(a))))return false;
   if(run.ids.some((id,j)=>j<entries.length?!Object.hasOwn(run.answers,id):Object.hasOwn(run.answers,id)))return false;
@@ -70,10 +76,15 @@ export function prepareProgress(previous,questions,random=Math.random){
  if(validProgress(previous,questions))return previous;
  return {signature:signature(questions),decks:Object.fromEntries(QUOTAS.map((_,i)=>[i+1,shuffle(questions.filter(q=>q.dificultad===i+1).map(q=>q.id),random)])),runs:[]};
 }
-export function startRun(progress){
+export function startRun(progress,questions,random=Math.random){
  const active=progress.runs.find(r=>!r.finished);if(active)return active;
  if(progress.runs.length>=MAX_RUNS)throw new Error('Ya completaste las cinco partidas de este desafío.');
- const run={ids:idsFor(progress,progress.runs.length),answers:{},finished:false,startedAt:new Date().toISOString()};progress.runs.push(run);return run;
+ const run={ids:idsFor(progress,progress.runs.length),answers:{},finished:false,startedAt:new Date().toISOString()};
+ if(questions?.some(q=>q.simulation)){
+  const lookup=new Map(questions.map(q=>[q.id,q]));
+  run.rivalAnswers=Object.fromEntries(run.ids.map(id=>{const q=lookup.get(id);return [id,Object.fromEntries(PARTICIPANTS.map(n=>[n,simulateNumericAnswer(q,n,random)]))];}));
+ }
+ progress.runs.push(run);return run;
 }
 export function recordAnswer(run,id,answer,question){
  if(run.finished||run.ids[Object.keys(run.answers).length]!==id)return false;
@@ -84,14 +95,18 @@ export function finishRun(run){
  if(run.ids.some(id=>!Object.hasOwn(run.answers,id)))throw new Error('Faltan respuestas.');
  run.finished=true;run.finishedAt=new Date().toISOString();
 }
-export function numericResult(q,answer){
+export function numericResult(q,answer,run){
  const target=q.respuesta_correcta;
- const entries=[{name:'Vos',answer,error:rounded(q,Math.abs(answer-target)),you:true},...PARTICIPANTS.map(n=>({name:n[0].toUpperCase()+n.slice(1),answer:rounded(q,target+q.desvio_respuesta[n]),error:rounded(q,Math.abs(q.desvio_respuesta[n])),you:false}))].sort((a,b)=>a.error-b.error||Number(b.you)-Number(a.you));
+ const entries=[{id:'you',name:'Vos',answer,error:rounded(q,Math.abs(answer-target)),you:true},...PARTICIPANTS.map(n=>{
+  const value=q.simulation?run?.rivalAnswers?.[q.id]?.[n]:rounded(q,target+q.desvio_respuesta[n]);
+  if(numericError(q,value))throw new Error('Faltan respuestas guardadas de los participantes. Volvé a iniciar este desafío.');
+  return {id:n,name:n[0].toUpperCase()+n.slice(1),answer:value,error:rounded(q,Math.abs(value-target)),you:false};
+ })].sort((a,b)=>a.error-b.error||Number(b.you)-Number(a.you));
  const own=entries.find(e=>e.you),rank=1+entries.filter(e=>e.error<own.error).length;
  return {entries,error:own.error,rank,win:rank===1,exact:own.error===0,tied:entries.filter(e=>e.error===own.error).length>1};
 }
 export function scoreRun(run,questions){
- const lookup=new Map(questions.map(q=>[q.id,q]));return run.ids.filter(id=>{if(!Object.hasOwn(run.answers,id))return false;const q=lookup.get(id);return isNumeric(q)?numericResult(q,run.answers[id]).win:run.answers[id]===q.respuesta_correcta;}).length;
+ const lookup=new Map(questions.map(q=>[q.id,q]));return run.ids.filter(id=>{if(!Object.hasOwn(run.answers,id))return false;const q=lookup.get(id);return isNumeric(q)?numericResult(q,run.answers[id],run).win:run.answers[id]===q.respuesta_correcta;}).length;
 }
 export function readState(storage){
  const value=storage.getItem(STORAGE_KEY);if(!value)return {version:2,quizzes:{}};
@@ -111,9 +126,9 @@ export function finalRanking(run,questions){
  const rows=[{id:'you',name:'Vos',you:true},...PARTICIPANTS.map(id=>({id,name:id[0].toUpperCase()+id.slice(1),you:false}))].map(p=>({...p,points:0,exact:0,relativeError:0}));
  for(const q of selected){
   if(numeric){
-   const result=numericResult(q,run.answers[q.id]),minimum=result.entries[0].error;
+   const result=numericResult(q,run.answers[q.id],run),minimum=result.entries[0].error;
    for(const row of rows){
-    const error=row.you?result.error:rounded(q,Math.abs(q.desvio_respuesta[row.id]));
+    const error=row.you?result.error:result.entries.find(e=>e.id===row.id).error;
     if(error===minimum)row.points++;
     if(error===0)row.exact++;
     row.relativeError+=error/Math.max(Math.abs(q.respuesta_correcta),1);
@@ -131,4 +146,66 @@ export function finalRanking(run,questions){
  rows.forEach((row,i)=>{const previous=rows[i-1];row.rank=previous&&row.points===previous.points&&(!numeric||row.relativeError===previous.relativeError)?previous.rank:i+1;});
  const own=rows.find(row=>row.you),tied=rows.filter(row=>row.rank===own.rank).length>1;
  return {numeric,rows,rank:own.rank,tied};
+}
+
+// Los sorteos solo ocurren al crear una partida; las vistas leen rivalAnswers.
+const integerTick=(value,scale)=>{
+ const tick=Math.round(value*scale);
+ if(!Number.isSafeInteger(tick)||Math.abs(value*scale-tick)>1e-6)throw new Error('Un valor no respeta la precisión numérica.');
+ return tick;
+};
+function intervalGrid(q,level){
+ const scale=10**q.decimales_permitidos,step=integerTick(q.paso_desvio_si_falla,scale);
+ if(step<=0)throw new Error('El paso de desvío debe ser positivo.');
+ const intervals=q.intervalos_desvio_si_falla?.[level];
+ if(!Array.isArray(intervals)||!intervals.length)throw new Error('Faltan intervalos de desvío.');
+ const bands=intervals.map(p=>{
+  if(typeof p.min!=='number'||!Number.isFinite(p.min)||typeof p.max!=='number'||!Number.isFinite(p.max))throw new Error('Los extremos de los intervalos deben ser números.');
+  const min=integerTick(p.min,scale),max=integerTick(p.max,scale);
+  if(min>max||min<=0&&max>=0||min%step!==0||max%step!==0)throw new Error('Un intervalo incluye cero, está invertido o no respeta el paso.');
+  const count=(max-min)/step+1;
+  if(!Number.isSafeInteger(count))throw new Error('El intervalo excede el rango numérico permitido.');
+  if(numericError(q,rounded(q,q.respuesta_correcta+min/scale))||numericError(q,rounded(q,q.respuesta_correcta+max/scale)))throw new Error('Un intervalo genera respuestas fuera de los límites de la pregunta.');
+  return {min,max,count};
+ });
+ const sorted=[...bands].sort((a,b)=>a.min-b.min);
+ if(sorted.some((p,i)=>i&&p.min<=sorted[i-1].max))throw new Error('Hay intervalos superpuestos.');
+ const total=bands.reduce((n,p)=>n+p.count,0);
+ if(!Number.isSafeInteger(total))throw new Error('Hay demasiados desvíos posibles.');
+ return {scale,step,bands,total};
+}
+function validateSimulation(q,allowed){
+ if(!Array.isArray(allowed)||!allowed.length||allowed.some(p=>typeof p!=='number'||!Number.isFinite(p)||p<0||p>100))throw new Error('Probabilidades permitidas inválidas.');
+ if(typeof q.paso_desvio_si_falla!=='number'||!Number.isFinite(q.paso_desvio_si_falla))throw new Error('El paso debe ser numérico.');
+ if(PARTICIPANTS.some(n=>typeof q.probabilidad_acierto?.[n]!=='number'||!allowed.includes(q.probabilidad_acierto[n])||!['bajo','medio','alto'].includes(q.nivel_error_si_falla?.[n])))throw new Error('Faltan probabilidades o niveles de error válidos para los 12 participantes.');
+ let previous=0;
+ for(const level of ['bajo','medio','alto']){
+  const {bands}=intervalGrid(q,level),low=Math.min(...bands.map(p=>Math.min(Math.abs(p.min),Math.abs(p.max)))),high=Math.max(...bands.map(p=>Math.max(Math.abs(p.min),Math.abs(p.max))));
+  if(low<=previous)throw new Error('Los niveles de error se superponen o no crecen.');previous=high;
+ }
+}
+const roll=random=>{const x=random();if(typeof x!=='number'||!Number.isFinite(x)||x<0||x>=1)throw new Error('Sorteo inválido.');return x;};
+export function simulateNumericAnswer(q,participant,random=Math.random){
+ if(!q.simulation)return rounded(q,q.respuesta_correcta+q.desvio_respuesta[participant]);
+ if(roll(random)<q.probabilidad_acierto[participant]/100)return q.respuesta_correcta;
+ const {scale,step,bands,total}=intervalGrid(q,q.nivel_error_si_falla[participant]);let index=Math.floor(roll(random)*total);
+ for(const band of bands){
+  if(index<band.count){const offset=band.min+index*step;return (integerTick(q.respuesta_correcta,scale)+offset)/scale;}index-=band.count;
+ }
+ throw new Error('No se pudo elegir un desvío.');
+}
+function validRivalAnswers(run,lookup){
+ if(!run.rivalAnswers||typeof run.rivalAnswers!=='object'||Object.keys(run.rivalAnswers).length!==run.ids.length)return false;
+ for(const id of run.ids){
+  const q=lookup.get(id),answers=run.rivalAnswers[id];
+  if(!answers||Object.keys(answers).length!==PARTICIPANTS.length)return false;
+  for(const n of PARTICIPANTS){
+   const value=answers[n];if(numericError(q,value))return false;
+   if(value===q.respuesta_correcta){if(q.probabilidad_acierto[n]<=0)return false;continue;}
+   if(q.probabilidad_acierto[n]>=100)return false;
+   const {scale,step,bands}=intervalGrid(q,q.nivel_error_si_falla[n]);
+   const delta=integerTick(value,scale)-integerTick(q.respuesta_correcta,scale);
+   if(!bands.some(p=>delta>=p.min&&delta<=p.max&&(delta-p.min)%step===0))return false;
+  }
+ }return true;
 }

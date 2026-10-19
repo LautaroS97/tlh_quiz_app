@@ -1,0 +1,2910 @@
+{
+  "version_estructura": 2,
+  "id": "aproximacion_geografia_01",
+  "tipo": "aproximacion_numerica",
+  "nombre": "El mundo en cifras",
+  "descripcion_tematica": "Geografía física y política del mundo: países, divisiones territoriales, fronteras, coordenadas, océanos, montañas, lagos, cordilleras y canales.",
+  "instrucciones_respuesta": "Respondé en la unidad indicada. Para las fechas, ingresá el año completo. Usá punto como separador decimal y respetá el redondeo solicitado. Las medidas geográficas aproximadas se comparan con el valor de referencia de la fuente indicada.",
+  "fecha_verificacion": "2026-10-19",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "salvacion",
+      "nombre": "Salvación",
+      "descripcion": "Permite salvar a otro participante de la placa de nominados, siempre que haya más de dos nominados. No permite salvarse a sí mismo.",
+      "minimo_nominados_para_usar": 3,
+      "permite_salvarse_a_si_mismo": false
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿En cuántos hemisferios divide la Tierra la línea del ecuador?",
+      "respuesta_correcta": 2,
+      "unidad": "hemisferios",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://uat.oceanservice.noaa.gov/education/tutorial_nautical_charts/glossary.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Cuántos grados de latitud tiene la línea del ecuador?",
+      "respuesta_correcta": 0,
+      "unidad": "grados_de_latitud",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://oceanservice.noaa.gov/facts/latitude.html",
+      "respuesta_maxima": 90,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": 16,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Cuántos grados de latitud norte tiene el Polo Norte?",
+      "respuesta_correcta": 90,
+      "unidad": "grados_de_latitud_norte",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://oceanservice.noaa.gov/facts/latitude.html",
+      "respuesta_maxima": 90,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -16
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Cuántos grados completás al dar una vuelta entera alrededor de la Tierra siguiendo el ecuador?",
+      "respuesta_correcta": 360,
+      "unidad": "grados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://pubs.usgs.gov/bul/1532/report.pdf",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -70,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 70
+          }
+        ],
+        "alto": [
+          {
+            "min": -180,
+            "max": -71
+          },
+          {
+            "min": 71,
+            "max": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Cuántos océanos se distinguen en la clasificación que incluye al océano Austral o Antártico?",
+      "respuesta_correcta": 5,
+      "unidad": "oceanos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.noaa.gov/education/resource-collections/ocean-coasts",
+      "explicacion_respuesta": "Se cuentan Pacífico, Atlántico, Índico, Ártico y Austral o Antártico.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 1,
+      "texto": "¿Qué porcentaje aproximado de la superficie terrestre está cubierto por el océano? Redondeá al entero más cercano.",
+      "respuesta_correcta": 71,
+      "unidad": "porcentaje",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.noaa.gov/jetstream/ocean",
+      "respuesta_maxima": 100,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -12,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 12
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -13
+          },
+          {
+            "min": 13,
+            "max": 29
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 1,
+      "texto": "¿Cuántos estados tiene Estados Unidos, sin contar el Distrito de Columbia ni sus territorios?",
+      "respuesta_correcta": 50,
+      "unidad": "estados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://data.census.gov/profile/United_States?g=010XX00US",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 50,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -7,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 7
+          }
+        ],
+        "alto": [
+          {
+            "min": -20,
+            "max": -8
+          },
+          {
+            "min": 8,
+            "max": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 1,
+      "texto": "¿Cuántas provincias tiene Argentina, sin contar la Ciudad Autónoma de Buenos Aires?",
+      "respuesta_correcta": 23,
+      "unidad": "provincias",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.argentina.gob.ar/pais/provincias",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -12,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 1,
+      "texto": "¿Cuántas comunidades autónomas tiene España, sin contar las ciudades autónomas de Ceuta y Melilla?",
+      "respuesta_correcta": 17,
+      "unidad": "comunidades_autonomas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.lamoncloa.gob.es/espana/organizacionestado/Paginas/index.aspx",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 50,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -10,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 1,
+      "texto": "¿Cuántas capitales tiene Sudáfrica en su organización tradicional de funciones de gobierno?",
+      "respuesta_correcta": 3,
+      "unidad": "capitales",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.gov.za/south-africa-glance",
+      "explicacion_respuesta": "Pretoria es la capital administrativa, Ciudad del Cabo la legislativa y Bloemfontein la judicial. La Corte Constitucional tiene su sede en Johannesburgo.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 25,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "bajo",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 1,
+      "texto": "¿Cuántos estados federados, llamados Länder, tiene Alemania?",
+      "respuesta_correcta": 16,
+      "unidad": "estados_federados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Glossar/bundeslaender.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -10,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 1,
+      "texto": "¿Cuántas naciones constitutivas integran el Reino Unido?",
+      "respuesta_correcta": 4,
+      "unidad": "naciones",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.gov.uk/government/news/welsh-secretary-four-nations-of-the-uk-are-better-together",
+      "explicacion_respuesta": "Inglaterra, Escocia, Gales e Irlanda del Norte.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 1,
+      "texto": "¿En cuántas grandes regiones geográficas se divide tradicionalmente Turquía?",
+      "respuesta_correcta": 7,
+      "unidad": "regiones",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://lakes.goturkiye.com/lakes-goturkiye",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 25,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "bajo",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 1,
+      "texto": "¿Cuántos estados tiene Australia, sin contar sus territorios?",
+      "respuesta_correcta": 6,
+      "unidad": "estados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.dfat.gov.au/about-australia",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 1,
+      "texto": "¿Cuántas entidades federativas tiene México, incluyendo la Ciudad de México?",
+      "respuesta_correcta": 32,
+      "unidad": "entidades_federativas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://cuentame.inegi.org.mx/explora/geografia/division_territorial/",
+      "explicacion_respuesta": "Son 31 estados y la Ciudad de México.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 25,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "bajo",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -20,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 2,
+      "texto": "¿En cuántas regiones administrativas de primer nivel, llamadas voivodatos, se divide Polonia?",
+      "respuesta_correcta": 16,
+      "unidad": "voivodatos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://stat.gov.pl/en/regional-statistics/classification-of-territorial-units/administrative-division-of-poland/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -10,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 2,
+      "texto": "¿Qué número de paralelo norte se utilizó para dividir Corea en zonas de ocupación en 1945?",
+      "respuesta_correcta": 38,
+      "unidad": "numero_de_paralelo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://nationalatlas.ngii.go.kr/pages/page_3074.php",
+      "respuesta_maxima": 90,
+      "explicacion_respuesta": "El paralelo 38 fue la referencia de la división de 1945. La frontera actual no sigue exactamente ese paralelo.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 25,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "bajo",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 2,
+      "texto": "¿Cuántos metros sobre el nivel del mar mide el Everest según la altura conjunta anunciada por Nepal y China en 2020? Redondeá al metro más cercano.",
+      "respuesta_correcta": 8849,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://escap.china-mission.gov.cn/eng/zgyw/202012/t20201210_8379210.htm",
+      "explicacion_respuesta": "La altura anunciada fue de 8848.86 metros, incluida la cubierta de nieve. El valor redondeado es 8849.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -350,
+            "max": -100
+          },
+          {
+            "min": 100,
+            "max": 350
+          }
+        ],
+        "medio": [
+          {
+            "min": -1200,
+            "max": -351
+          },
+          {
+            "min": 351,
+            "max": 1200
+          }
+        ],
+        "alto": [
+          {
+            "min": -3500,
+            "max": -1201
+          },
+          {
+            "min": 1201,
+            "max": 3500
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 2,
+      "texto": "¿Cuántos metros sobre el nivel del mar mide el Aconcagua según el Instituto Geográfico Nacional argentino? Redondeá al metro más cercano.",
+      "respuesta_correcta": 6961,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.ign.gob.ar/Novedades/NuevaAlturaAconcagua",
+      "explicacion_respuesta": "La medición oficial citada es de 6960.8 metros.",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -300,
+            "max": -100
+          },
+          {
+            "min": 100,
+            "max": 300
+          }
+        ],
+        "medio": [
+          {
+            "min": -1000,
+            "max": -301
+          },
+          {
+            "min": 301,
+            "max": 1000
+          }
+        ],
+        "alto": [
+          {
+            "min": -2700,
+            "max": -1001
+          },
+          {
+            "min": 1001,
+            "max": 2700
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 2,
+      "texto": "¿Con cuántos países limita Argentina?",
+      "respuesta_correcta": 5,
+      "unidad": "paises",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.ign.gob.ar/node/46",
+      "explicacion_respuesta": "Chile, Bolivia, Paraguay, Brasil y Uruguay.",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 2,
+      "texto": "¿Con cuántos países comparte fronteras terrestres Alemania?",
+      "respuesta_correcta": 9,
+      "unidad": "paises",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.deutschland.de/en/topic/politics/germany-nine-neighbours-facts",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -3,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": -6,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 2,
+      "texto": "¿En qué año se inauguró el Canal de Panamá?",
+      "respuesta_correcta": 1914,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://pancanal.com/culminacion-de-la-construccion/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 2,
+      "texto": "¿En qué año se inauguró el Canal de Suez?",
+      "respuesta_correcta": 1869,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/CanalHistory.aspx",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 2,
+      "texto": "¿Cuántos kilómetros mide aproximadamente una vuelta a la Tierra por el ecuador? Redondeá al kilómetro entero más cercano.",
+      "respuesta_correcta": 40075,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://people.ohio.edu/dyer/TPE/tpe_3e/earth_system/describing_earth.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2000,
+            "max": -500
+          },
+          {
+            "min": 500,
+            "max": 2000
+          }
+        ],
+        "medio": [
+          {
+            "min": -6000,
+            "max": -2001
+          },
+          {
+            "min": 2001,
+            "max": 6000
+          }
+        ],
+        "alto": [
+          {
+            "min": -18000,
+            "max": -6001
+          },
+          {
+            "min": 6001,
+            "max": 18000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 2,
+      "texto": "¿Cuántos kilómetros mide aproximadamente la frontera total entre Estados Unidos y Canadá, incluyendo el tramo con Alaska?",
+      "respuesta_correcta": 8891,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://internationalboundarycommission.org/en/about/the-boundary.php",
+      "explicacion_respuesta": "Se usa el total de 8891 kilómetros publicado por la Comisión Internacional de Límites; incluye tramos terrestres y acuáticos.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1000,
+            "max": -300
+          },
+          {
+            "min": 300,
+            "max": 1000
+          }
+        ],
+        "medio": [
+          {
+            "min": -3000,
+            "max": -1001
+          },
+          {
+            "min": 1001,
+            "max": 3000
+          }
+        ],
+        "alto": [
+          {
+            "min": -6500,
+            "max": -3001
+          },
+          {
+            "min": 3001,
+            "max": 6500
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 3,
+      "texto": "¿Cuántos metros sobre el nivel del mar alcanza la cumbre del Kilimanjaro?",
+      "respuesta_correcta": 5895,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://whc.unesco.org/en/list/403/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -300,
+            "max": -100
+          },
+          {
+            "min": 100,
+            "max": 300
+          }
+        ],
+        "medio": [
+          {
+            "min": -900,
+            "max": -301
+          },
+          {
+            "min": 301,
+            "max": 900
+          }
+        ],
+        "alto": [
+          {
+            "min": -2200,
+            "max": -901
+          },
+          {
+            "min": 901,
+            "max": 2200
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 3,
+      "texto": "¿Por cuántos países pasa o forma frontera el curso principal del Danubio?",
+      "respuesta_correcta": 10,
+      "unidad": "paises",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.icpdr.org/maps-data/maps",
+      "explicacion_respuesta": "Se pregunta por el río principal, no por todos los países de su cuenca hidrográfica.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -3,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": -7,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 3,
+      "texto": "¿Cuántos kilómetros de longitud tiene aproximadamente la cordillera de los Andes?",
+      "respuesta_correcta": 7000,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Peruvian_landscape",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -700,
+            "max": -200
+          },
+          {
+            "min": 200,
+            "max": 700
+          }
+        ],
+        "medio": [
+          {
+            "min": -2000,
+            "max": -701
+          },
+          {
+            "min": 701,
+            "max": 2000
+          }
+        ],
+        "alto": [
+          {
+            "min": -4500,
+            "max": -2001
+          },
+          {
+            "min": 2001,
+            "max": 4500
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 3,
+      "texto": "¿Cuántos millones de años de antigüedad tiene aproximadamente el lago Baikal, según la UNESCO?",
+      "respuesta_correcta": 25,
+      "unidad": "millones_de_anios",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://whc.unesco.org/en/list/754/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -18,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 3,
+      "texto": "¿Cuántos metros sobre el nivel del mar mide el monte Kosciuszko, la cumbre más alta de Australia continental?",
+      "respuesta_correcta": 2228,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/highest-mountains",
+      "explicacion_respuesta": "Se especifica Australia continental: no se incluyen las cumbres de sus territorios externos.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -150,
+            "max": -50
+          },
+          {
+            "min": 50,
+            "max": 150
+          }
+        ],
+        "medio": [
+          {
+            "min": -450,
+            "max": -151
+          },
+          {
+            "min": 151,
+            "max": 450
+          }
+        ],
+        "alto": [
+          {
+            "min": -1200,
+            "max": -451
+          },
+          {
+            "min": 451,
+            "max": 1200
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 4,
+      "texto": "¿Cuántos metros sobre el nivel del mar mide el Teide según el atlas didáctico del Instituto Geográfico Nacional de España?",
+      "respuesta_correcta": 3715,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://educativo.ign.es/atlas-didactico/relieve-eso/formas_del_relieve.html",
+      "explicacion_respuesta": "El IGN citado usa 3715 metros. La cifra tradicional de 3718 metros aparece en numerosas publicaciones; Gloria conserva esa estimación, muy cercana.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -250,
+            "max": -75
+          },
+          {
+            "min": 75,
+            "max": 250
+          }
+        ],
+        "medio": [
+          {
+            "min": -700,
+            "max": -251
+          },
+          {
+            "min": 251,
+            "max": 700
+          }
+        ],
+        "alto": [
+          {
+            "min": -1800,
+            "max": -701
+          },
+          {
+            "min": 701,
+            "max": 1800
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 4,
+      "texto": "¿Cuántos metros sobre el nivel del mar mide el monte Ararat, la cumbre más alta de Turquía?",
+      "respuesta_correcta": 5137,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.ktb.gov.tr/EN-99409/types-of-mountains-and-important-mountains-in-turkiye.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 25,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "bajo",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -300,
+            "max": -100
+          },
+          {
+            "min": 100,
+            "max": 300
+          }
+        ],
+        "medio": [
+          {
+            "min": -900,
+            "max": -301
+          },
+          {
+            "min": 301,
+            "max": 900
+          }
+        ],
+        "alto": [
+          {
+            "min": -2300,
+            "max": -901
+          },
+          {
+            "min": 901,
+            "max": 2300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 4,
+      "texto": "¿A cuántos metros sobre el nivel del mar se encuentra aproximadamente la superficie del lago Titicaca?",
+      "respuesta_correcta": 3812,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://proyectos.inei.gob.pe/web/BiblioINEIPub/BancoPub/Est/Lib0349/ANEXOS/C431408.htm",
+      "explicacion_respuesta": "Se usa la cota de referencia de 3812 metros. El nivel del agua fluctúa.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -250,
+            "max": -75
+          },
+          {
+            "min": 75,
+            "max": 250
+          }
+        ],
+        "medio": [
+          {
+            "min": -700,
+            "max": -251
+          },
+          {
+            "min": 251,
+            "max": 700
+          }
+        ],
+        "alto": [
+          {
+            "min": -1800,
+            "max": -701
+          },
+          {
+            "min": 701,
+            "max": 1800
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 4,
+      "texto": "¿Cuántos kilómetros de longitud total tenía el Canal de Suez en la tabla oficial de 2015? Indicá un decimal.",
+      "respuesta_correcta": 193.3,
+      "unidad": "kilometros",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/CanalCharacteristics.aspx",
+      "explicacion_respuesta": "Se pregunta por la longitud total de la vía, no por la suma de sus canales paralelos o desvíos.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -60,
+            "max": -20.1
+          },
+          {
+            "min": 20.1,
+            "max": 60
+          }
+        ],
+        "alto": [
+          {
+            "min": -140,
+            "max": -60.1
+          },
+          {
+            "min": 60.1,
+            "max": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 4,
+      "texto": "¿Cuántos kilómetros de longitud tiene aproximadamente el Canal de Panamá entre el Atlántico y el Pacífico?",
+      "respuesta_correcta": 80,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://pancanal.com/conoce-la-historia-del-canal-de-panama/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilómetros cuadrados de superficie tiene Australia según el cálculo publicado por Geoscience Australia?",
+      "respuesta_correcta": 7688287,
+      "unidad": "kilometros_cuadrados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/australias-size-compared",
+      "explicacion_respuesta": "Se usa el cálculo de 7688287 kilómetros cuadrados de esta fuente. Las superficies publicadas por otras instituciones pueden usar otros criterios o datos costeros.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -600000,
+            "max": -200000
+          },
+          {
+            "min": 200000,
+            "max": 600000
+          }
+        ],
+        "medio": [
+          {
+            "min": -1500000,
+            "max": -600001
+          },
+          {
+            "min": 600001,
+            "max": 1500000
+          }
+        ],
+        "alto": [
+          {
+            "min": -4000000,
+            "max": -1500001
+          },
+          {
+            "min": 1500001,
+            "max": 4000000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilómetros cuadrados de superficie tiene Groenlandia según la cifra publicada por Statistics Canada?",
+      "respuesta_correcta": 2166086,
+      "unidad": "kilometros_cuadrados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www150.statcan.gc.ca/n1/pub/11-402-x/2012000/chap/geo/geo01-eng.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -200000,
+            "max": -75000
+          },
+          {
+            "min": 75000,
+            "max": 200000
+          }
+        ],
+        "medio": [
+          {
+            "min": -600000,
+            "max": -200001
+          },
+          {
+            "min": 200001,
+            "max": 600000
+          }
+        ],
+        "alto": [
+          {
+            "min": -1500000,
+            "max": -600001
+          },
+          {
+            "min": 600001,
+            "max": 1500000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilómetros cuadrados de superficie de agua tiene aproximadamente el lago Superior, según la NOAA?",
+      "respuesta_correcta": 82100,
+      "unidad": "kilometros_cuadrados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://apps.glerl.noaa.gov/coastwatch/webdata/statistic/physical.html",
+      "explicacion_respuesta": "Es la superficie del agua del lago; no incluye la superficie terrestre de su cuenca.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8000,
+            "max": -3000
+          },
+          {
+            "min": 3000,
+            "max": 8000
+          }
+        ],
+        "medio": [
+          {
+            "min": -22000,
+            "max": -8001
+          },
+          {
+            "min": 8001,
+            "max": 22000
+          }
+        ],
+        "alto": [
+          {
+            "min": -60000,
+            "max": -22001
+          },
+          {
+            "min": 22001,
+            "max": 60000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 5,
+      "texto": "¿Cuántos metros de profundidad máxima tiene el lago Ontario según la tabla de la NOAA?",
+      "respuesta_correcta": 244,
+      "unidad": "metros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://apps.glerl.noaa.gov/coastwatch/webdata/statistic/physical.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -30,
+            "max": -10
+          },
+          {
+            "min": 10,
+            "max": 30
+          }
+        ],
+        "medio": [
+          {
+            "min": -80,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 80
+          }
+        ],
+        "alto": [
+          {
+            "min": -180,
+            "max": -81
+          },
+          {
+            "min": 81,
+            "max": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilómetros cuadrados abarca el Parque Marino de la Gran Barrera de Coral, en Australia?",
+      "respuesta_correcta": 344400,
+      "unidad": "kilometros_cuadrados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.gbrmpa.gov.au/learn/fascinating-facts-about-great-barrier-reef",
+      "explicacion_respuesta": "Se pregunta por el Parque Marino, no por la superficie ocupada solo por los arrecifes ni por otras delimitaciones de la región.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -35000,
+            "max": -10000
+          },
+          {
+            "min": 10000,
+            "max": 35000
+          }
+        ],
+        "medio": [
+          {
+            "min": -100000,
+            "max": -35001
+          },
+          {
+            "min": 35001,
+            "max": 100000
+          }
+        ],
+        "alto": [
+          {
+            "min": -250000,
+            "max": -100001
+          },
+          {
+            "min": 100001,
+            "max": 250000
+          }
+        ]
+      }
+    }
+  ],
+  "modelo_simulacion": {
+    "tipo": "acierto_probabilistico_y_error_condicional",
+    "probabilidades_acierto_permitidas": [
+      10,
+      25,
+      50
+    ],
+    "niveles_error": [
+      "bajo",
+      "medio",
+      "alto"
+    ],
+    "desvio_si_acierta": 0,
+    "paso_desvio": 1,
+    "unidad_desvio": "unidad_indicada_en_cada_pregunta",
+    "sorteo_acierto": "independiente_por_participante_y_pregunta",
+    "sorteo_si_falla": "uniforme_entre_todos_los_desvios_permitidos_del_nivel_asignado_segun_el_paso",
+    "limites_intervalos": "inclusivos",
+    "persistir_respuestas_sorteadas_por_partida": true,
+    "regla": "Sortear primero el acierto con el porcentaje asignado. Si acierta, usar desvío 0. Si falla, sortear uniformemente entre todos los desvíos no nulos permitidos de su nivel y sumar a la respuesta correcta. Usar paso_desvio_si_falla de la pregunta, o paso_desvio si no existe. Los valores válidos son múltiplos enteros de ese paso dentro de los intervalos inclusivos. Operar en unidades enteras del paso y redondear la respuesta final a decimales_permitidos para evitar errores de coma flotante. Persistir el sorteo por partida; no volver a sortear al recargar o revisar resultados."
+  }
+}

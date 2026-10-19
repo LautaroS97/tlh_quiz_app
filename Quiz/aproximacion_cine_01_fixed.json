@@ -1,0 +1,2944 @@
+{
+  "version_estructura": 2,
+  "id": "aproximacion_cine_01",
+  "tipo": "aproximacion_numerica",
+  "nombre": "Cine en cifras",
+  "descripcion_tematica": "Películas, sagas, personajes, años de estreno, premios Oscar y Razzie, duraciones, costos de producción y curiosidades de la historia del cine.",
+  "instrucciones_respuesta": "Respondé en la unidad indicada. Para las fechas, ingresá el año completo. Usá punto como separador decimal. Se distinguen los años de estreno de los años de las ceremonias; las duraciones corresponden a la versión indicada. Los importes se expresan en dólares de su época, sin ajuste por inflación.",
+  "fecha_verificacion": "2026-10-19",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "salvacion",
+      "nombre": "Salvación",
+      "descripcion": "Permite salvar a otro participante de la placa de nominados, siempre que haya más de dos nominados. No permite salvarse a sí mismo.",
+      "minimo_nominados_para_usar": 3,
+      "permite_salvarse_a_si_mismo": false
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué número forma el código de agente de James Bond? Ingresalo sin los ceros iniciales.",
+      "respuesta_correcta": 7,
+      "unidad": "codigo_de_agente",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.007.com/",
+      "explicacion_respuesta": "El código es 007. La respuesta numérica es 7.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 50,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Cuántas películas forman la adaptación de la saga principal de Harry Potter?",
+      "respuesta_correcta": 8,
+      "unidad": "peliculas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.harrypotter.com/discover/films",
+      "explicacion_respuesta": "Desde La piedra filosofal hasta Las reliquias de la muerte: parte 2. No se cuenta Animales fantásticos.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Cuántas películas dirigió Peter Jackson para adaptar El señor de los anillos, sin contar El hobbit?",
+      "respuesta_correcta": 3,
+      "unidad": "peliculas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://nzhistory.govt.nz/page/lord-rings-wins-11-oscars",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Cuántas películas integran la saga original de Volver al futuro protagonizada por Michael J. Fox?",
+      "respuesta_correcta": 3,
+      "unidad": "peliculas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.universalpicturesathome.com/movies/back-to-the-future-trilogy",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿En qué año se estrenó la primera Toy Story?",
+      "respuesta_correcta": 1995,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://movies.disney.com/toy-story",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 1,
+      "texto": "¿En qué año se estrenó Titanic, dirigida por James Cameron?",
+      "respuesta_correcta": 1997,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/collection-highlights/titanic?fid=62961",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 1,
+      "texto": "¿En qué año se estrenó la primera Avatar de James Cameron?",
+      "respuesta_correcta": 2009,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.20thcenturystudios.com/movies/avatar",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 1,
+      "texto": "¿En qué año llegó a los cines la primera Star Wars, hoy conocida como Una nueva esperanza?",
+      "respuesta_correcta": 1977,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -35,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 1,
+      "texto": "¿En qué año se estrenó Jurassic Park, dirigida por Steven Spielberg?",
+      "respuesta_correcta": 1993,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.universalpicturesathome.com/movies/jurassic-park",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 1,
+      "texto": "¿En qué año se estrenó la primera película de Shrek?",
+      "respuesta_correcta": 2001,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.dreamworks.com/movies/shrek",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -24,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 1,
+      "texto": "¿Cuántas películas componen la saga original de El padrino dirigida por Francis Ford Coppola?",
+      "respuesta_correcta": 3,
+      "unidad": "peliculas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.paramountpictures.com/movies/the-godfather-50th-trilogy",
+      "explicacion_respuesta": "El nuevo montaje de la tercera película no se cuenta como una cuarta entrega.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 1,
+      "texto": "¿Qué cantidad de dálmatas da título al clásico animado de Disney estrenado en 1961?",
+      "respuesta_correcta": 101,
+      "unidad": "dalmatas_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://movies.disney.com/101-dalmatians-1961",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 1,
+      "texto": "¿Qué número da título a la película de Zack Snyder sobre los guerreros espartanos de Leónidas?",
+      "respuesta_correcta": 300,
+      "unidad": "numero_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.warnerbros.com/movies/300",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -70,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 70
+          }
+        ],
+        "alto": [
+          {
+            "min": -200,
+            "max": -71
+          },
+          {
+            "min": 71,
+            "max": 200
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 1,
+      "texto": "¿Cuántas emociones principales viven en el cuartel general de Riley en la primera Intensamente, estrenada en 2015?",
+      "respuesta_correcta": 5,
+      "unidad": "emociones",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://video.disney.com/watch/the-emotions-of-disney-pixar-films-oh-my-disney-518e8f588768316dfcf26035",
+      "explicacion_respuesta": "Alegría, Tristeza, Furia, Temor y Desagrado. No se cuentan las nuevas emociones de la segunda película.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 1,
+      "texto": "¿En qué año se estrenó el largometraje animado de Disney Blancanieves y los siete enanitos?",
+      "respuesta_correcta": 1937,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://movies.disney.com/snow-white-and-the-seven-dwarfs",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -65,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 2,
+      "texto": "¿Cuántos premios Oscar ganó Titanic en la ceremonia de 1998?",
+      "respuesta_correcta": 11,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/1998",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -3,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": -7,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 2,
+      "texto": "¿Cuántos premios Oscar ganó Parásitos en la ceremonia de 2020?",
+      "respuesta_correcta": 4,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/2020",
+      "explicacion_respuesta": "Mejor película, dirección, guion original y película internacional.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 25,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "bajo",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 2,
+      "texto": "¿En qué año se celebró la primera entrega de los premios Oscar?",
+      "respuesta_correcta": 1929,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/1929",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -70,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 2,
+      "texto": "¿En qué año se estrenó la versión animada original de El rey león?",
+      "respuesta_correcta": 1994,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://movies.disney.com/the-lion-king",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 2,
+      "texto": "¿En qué año se estrenó Psicosis, dirigida por Alfred Hitchcock y protagonizada por Anthony Perkins?",
+      "respuesta_correcta": 1960,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.universalpicturesathome.com/movies/psycho-1960",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 2,
+      "texto": "¿En qué año se estrenó Tiburón, dirigida por Steven Spielberg?",
+      "respuesta_correcta": 1975,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.universalpicturesathome.com/movies/jaws",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 2,
+      "texto": "¿En qué año se estrenó la primera Matrix?",
+      "respuesta_correcta": 1999,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.warnerbros.co.jp/home_entertainment/ecjq-5h552pk/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 2,
+      "texto": "¿En qué año ganó La historia oficial el Oscar a mejor película de habla no inglesa?",
+      "respuesta_correcta": 1986,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/1986",
+      "explicacion_respuesta": "La película se estrenó en 1985 y recibió el Oscar en 1986.",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -35,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 2,
+      "texto": "¿En qué año ganó Todo sobre mi madre, de Pedro Almodóvar, el Oscar a mejor película de habla no inglesa?",
+      "respuesta_correcta": 2000,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/videos-photos/72nd-oscars-highlights",
+      "explicacion_respuesta": "La película es de 1999; se pregunta por la ceremonia de 2000.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 50,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 2,
+      "texto": "¿Cuántos premios Oscar ganó El retorno del rey en la ceremonia de 2004?",
+      "respuesta_correcta": 11,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/2004/memorable-moments",
+      "explicacion_respuesta": "Ganó las once categorías en las que estaba nominada.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -3,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": -7,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 3,
+      "texto": "¿Cuántos premios Oscar ganó La lista de Schindler en la ceremonia de 1994?",
+      "respuesta_correcta": 7,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/embed/1994",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 3,
+      "texto": "¿Cuántos premios Oscar a mejor actriz ganó Katharine Hepburn durante su carrera?",
+      "respuesta_correcta": 4,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://npg.si.edu/blog/now-on-view-katharine-hepburn%E2%80%99s-oscars",
+      "explicacion_respuesta": "Sus premios fueron por Gloria de un día, Adivina quién viene a cenar, El león en invierno y En el estanque dorado.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 3,
+      "texto": "¿Cuántos premios Oscar recibió Walt Disney en la ceremonia de 1954?",
+      "respuesta_correcta": 4,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/1954/O",
+      "explicacion_respuesta": "Se pregunta por esa ceremonia, no por todos los premios de su carrera.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 3,
+      "texto": "¿Cuántos minutos dura aproximadamente la versión de estreno en cines de Avatar de 2009, según la ficha oficial de 20th Century Studios?",
+      "respuesta_correcta": 162,
+      "unidad": "minutos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.20thcenturystudios.jp/movies/avatar/products",
+      "explicacion_respuesta": "La ficha distingue aproximadamente 162 minutos para cine, 171 para la edición especial y 178 para la extendida.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -70,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 3,
+      "texto": "¿En qué año se estrenó la primera Mad Max, dirigida por George Miller?",
+      "respuesta_correcta": 1979,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nfsa.gov.au/collection/curated/mad-max-original-movie",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 4,
+      "texto": "¿Cuántas nominaciones al Oscar obtuvo Titanic para la ceremonia de 1998?",
+      "respuesta_correcta": 14,
+      "unidad": "nominaciones_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/1998",
+      "explicacion_respuesta": "Se cuentan nominaciones, no premios ganados.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -9,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 4,
+      "texto": "¿En qué año ganó la película polaca Ida el Oscar a mejor película de habla no inglesa?",
+      "respuesta_correcta": 2015,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/2015",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 4,
+      "texto": "¿Cuántos premios Oscar ganó Roma, de Alfonso Cuarón, en la ceremonia de 2019?",
+      "respuesta_correcta": 3,
+      "unidad": "premios_oscar",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/oscars/ceremonies/2019",
+      "explicacion_respuesta": "Dirección, fotografía y película de habla no inglesa. Bruno tiene ventaja por su familiaridad con el cine mexicano.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 25,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "bajo",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 4,
+      "texto": "¿En qué año se estrenó Metrópolis, la película de Fritz Lang?",
+      "respuesta_correcta": 1927,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.deutsche-kinemathek.de/de/kinemathek/publikationen/fritz-langs-metropolis",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -65,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 4,
+      "texto": "¿Cuántos premios Razzie ganó Jack y Jill, protagonizada por Adam Sandler, en la ceremonia de 2012?",
+      "respuesta_correcta": 10,
+      "unidad": "premios_razzie",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.itv.com/news/update/2012-04-02/adam-sandlers-jack-and-jill-wins-record-10-razzies/",
+      "explicacion_respuesta": "La película se estrenó en 2011 y los premios se entregaron en 2012. Ganó las diez categorías de esa edición.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -8,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 5,
+      "texto": "¿Cuántos dólares costó finalmente producir El ciudadano, de Orson Welles, según la hoja de costos de RKO citada por el American Film Institute?",
+      "respuesta_correcta": 839727,
+      "unidad": "dolares_estadounidenses",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://catalog.afi.com/Catalog/moviedetails/27624",
+      "explicacion_respuesta": "El ciudadano también se conoce como Ciudadano Kane. Se usa el costo final de 839727 dólares de la hoja fechada el 28 de marzo de 1942, no el presupuesto previo ni dólares ajustados por inflación.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -75000,
+            "max": -25000
+          },
+          {
+            "min": 25000,
+            "max": 75000
+          }
+        ],
+        "medio": [
+          {
+            "min": -200000,
+            "max": -75001
+          },
+          {
+            "min": 75001,
+            "max": 200000
+          }
+        ],
+        "alto": [
+          {
+            "min": -650000,
+            "max": -200001
+          },
+          {
+            "min": 200001,
+            "max": 650000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 5,
+      "texto": "¿Cuántos centímetros mide de alto una estatuilla estándar del Oscar? Indicá un decimal.",
+      "respuesta_correcta": 34.3,
+      "unidad": "centimetros",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.oscars.org/oscars/statuette",
+      "explicacion_respuesta": "La altura oficial es de 13.5 pulgadas: 34.29 centímetros, redondeados a 34.3.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -0.5
+          },
+          {
+            "min": 0.5,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -6,
+            "max": -2.1
+          },
+          {
+            "min": 2.1,
+            "max": 6
+          }
+        ],
+        "alto": [
+          {
+            "min": -15,
+            "max": -6.1
+          },
+          {
+            "min": 6.1,
+            "max": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilogramos pesa aproximadamente una estatuilla estándar del Oscar? Indicá dos decimales.",
+      "respuesta_correcta": 3.86,
+      "unidad": "kilogramos",
+      "decimales_permitidos": 2,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.oscars.org/oscars/statuette",
+      "explicacion_respuesta": "La Academia indica 8.5 libras. Su conversión, redondeada a dos decimales, es de 3.86 kilogramos.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 0.01,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.2,
+            "max": -0.05
+          },
+          {
+            "min": 0.05,
+            "max": 0.2
+          }
+        ],
+        "medio": [
+          {
+            "min": -0.65,
+            "max": -0.21
+          },
+          {
+            "min": 0.21,
+            "max": 0.65
+          }
+        ],
+        "alto": [
+          {
+            "min": -2.5,
+            "max": -0.66
+          },
+          {
+            "min": 0.66,
+            "max": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 5,
+      "texto": "¿Cuántos invitados asistieron a la primera ceremonia de los Oscar, en 1929, según la historia oficial de la Academia?",
+      "respuesta_correcta": 270,
+      "unidad": "invitados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.oscars.org/sites/oscars/files/88aa_presentation_history_spa.pdf",
+      "explicacion_respuesta": "Se usa el recuento histórico de 270 asistentes publicado por la Academia.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -30,
+            "max": -10
+          },
+          {
+            "min": 10,
+            "max": 30
+          }
+        ],
+        "medio": [
+          {
+            "min": -90,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 90
+          }
+        ],
+        "alto": [
+          {
+            "min": -200,
+            "max": -91
+          },
+          {
+            "min": 91,
+            "max": 200
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 5,
+      "texto": "¿Cuántos dólares costaba la entrada a la primera ceremonia de los Oscar, celebrada en 1929?",
+      "respuesta_correcta": 5,
+      "unidad": "dolares_estadounidenses",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.oscars.org/sites/oscars/files/88aa_presentation_history_spa.pdf",
+      "explicacion_respuesta": "Son dólares de 1929, sin ajuste por inflación.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    }
+  ],
+  "modelo_simulacion": {
+    "tipo": "acierto_probabilistico_y_error_condicional",
+    "probabilidades_acierto_permitidas": [
+      10,
+      25,
+      50
+    ],
+    "niveles_error": [
+      "bajo",
+      "medio",
+      "alto"
+    ],
+    "desvio_si_acierta": 0,
+    "paso_desvio": 1,
+    "unidad_desvio": "unidad_indicada_en_cada_pregunta",
+    "sorteo_acierto": "independiente_por_participante_y_pregunta",
+    "sorteo_si_falla": "uniforme_entre_todos_los_desvios_permitidos_del_nivel_asignado_segun_el_paso",
+    "limites_intervalos": "inclusivos",
+    "persistir_respuestas_sorteadas_por_partida": true,
+    "regla": "Sortear primero el acierto con el porcentaje asignado. Si acierta, usar desvío 0. Si falla, sortear uniformemente entre todos los desvíos no nulos permitidos de su nivel y sumar a la respuesta correcta. Usar paso_desvio_si_falla de la pregunta, o paso_desvio si no existe. Los valores válidos son múltiplos enteros de ese paso dentro de los intervalos inclusivos. Operar en unidades enteras del paso y redondear la respuesta final a decimales_permitidos para evitar errores de coma flotante. Persistir el sorteo por partida; no volver a sortear al recargar o revisar resultados."
+  }
+}

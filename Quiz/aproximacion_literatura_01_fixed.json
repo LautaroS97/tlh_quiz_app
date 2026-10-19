@@ -1,0 +1,2933 @@
+{
+  "version_estructura": 2,
+  "id": "aproximacion_literatura_01",
+  "tipo": "aproximacion_numerica",
+  "nombre": "Entre libros y números",
+  "descripcion_tematica": "Literatura clásica y contemporánea: números en títulos y mundos de ficción, sagas, fechas de publicación, premios, formas poéticas, capítulos, versos y primeras ediciones.",
+  "instrucciones_respuesta": "Respondé con un número en la unidad indicada. Para las fechas, ingresá el año completo. Usá punto como separador decimal. Los recuentos corresponden a la obra o edición indicada y no incluyen prólogos, apéndices ni materiales añadidos salvo que el enunciado lo especifique.",
+  "fecha_verificacion": "2026-10-19",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "salvacion",
+      "nombre": "Salvación",
+      "descripcion": "Permite salvar a otro participante de la placa de nominados, siempre que haya más de dos nominados. No permite salvarse a sí mismo.",
+      "minimo_nominados_para_usar": 3,
+      "permite_salvarse_a_si_mismo": false
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué número completa el título Los ... mosqueteros, de Alexandre Dumas?",
+      "respuesta_correcta": 3,
+      "unidad": "numero_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/218581/the-three-musketeers-by-alexandre-dumas/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Cuántas leguas aparecen en el título de la novela submarina de Julio Verne protagonizada por el capitán Nemo?",
+      "respuesta_correcta": 20000,
+      "unidad": "leguas_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/579480/veinte-mil-leguas-de-viaje-submarino--twenty-thousand-leagues-under-the-sea-by-jules-verne/",
+      "explicacion_respuesta": "Se pregunta por el número del título, no por una profundidad real ni por la longitud medida de una ruta.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2000,
+            "max": -500
+          },
+          {
+            "min": 500,
+            "max": 2000
+          }
+        ],
+        "medio": [
+          {
+            "min": -6000,
+            "max": -2001
+          },
+          {
+            "min": 2001,
+            "max": 6000
+          }
+        ],
+        "alto": [
+          {
+            "min": -15000,
+            "max": -6001
+          },
+          {
+            "min": 6001,
+            "max": 15000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿En cuántos días apuesta Phileas Fogg a dar la vuelta al mundo en la novela de Julio Verne?",
+      "respuesta_correcta": 80,
+      "unidad": "dias",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/220285/journey-to-the-center-of-the-earth-twenty-thousand-leagues-under-the-sea-round-the-world-in-eighty-days-by-jules-verne-introduction-by-tim-farrant/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -55,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Qué número completa el título ... años de soledad, de Gabriel García Márquez?",
+      "respuesta_correcta": 100,
+      "unidad": "anios_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/775732/cien-anos-de-soledad-edicion-de-regalo--one-hundred-years-of-solitude-gift-edition-by-gabriel-garcia-marquez-ilustrado-por-luisa-rivera/",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "medio": [
+          {
+            "min": -40,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 40
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -41
+          },
+          {
+            "min": 41,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Qué año da título a la novela de George Orwell protagonizada por Winston Smith y vigilada por el Gran Hermano?",
+      "respuesta_correcta": 1984,
+      "unidad": "anio_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/326569/1984-by-george-orwell-with-a-foreword-by-thomas-pynchon/9780452284234/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 1,
+      "texto": "¿Qué número completa el título Fahrenheit ..., de Ray Bradbury?",
+      "respuesta_correcta": 451,
+      "unidad": "numero_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/851599/fahrenheit-451-edicion-iconica--fahrenheit-451-by-ray-bradbury/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -80,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 80
+          }
+        ],
+        "alto": [
+          {
+            "min": -250,
+            "max": -81
+          },
+          {
+            "min": 81,
+            "max": 250
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 1,
+      "texto": "¿Cuántas novelas forman la saga principal de Harry Potter escrita por J. K. Rowling?",
+      "respuesta_correcta": 7,
+      "unidad": "novelas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.jkrowling.com/faqs/",
+      "explicacion_respuesta": "No se cuentan obras de teatro, guiones ni libros complementarios.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 50,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 1,
+      "texto": "¿En cuántos volúmenes se publicó originalmente El señor de los anillos?",
+      "respuesta_correcta": 3,
+      "unidad": "volumenes",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.tolkienestate.com/es/escribir/el-senor-de-los-anillos/",
+      "explicacion_respuesta": "Son tres volúmenes editoriales. La obra está dividida internamente en seis libros, más sus apéndices.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 1,
+      "texto": "¿Cuántos libros forman Las crónicas de Narnia, de C. S. Lewis?",
+      "respuesta_correcta": 7,
+      "unidad": "libros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cslewis.com/the-narnian-order-of-things/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 1,
+      "texto": "¿Con cuántos enanitos se encuentra Blancanieves en el cuento de los hermanos Grimm?",
+      "respuesta_correcta": 7,
+      "unidad": "enanitos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.grimmstories.com/es/grimm_cuentos/blancanieves",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 1,
+      "texto": "¿Cuántos versos tiene un soneto clásico?",
+      "respuesta_correcta": 14,
+      "unidad": "versos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://dle.rae.es/soneto",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -8,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 1,
+      "texto": "¿Cuántas noches anuncia el título de la colección de relatos protagonizada por la narradora Sherezade?",
+      "respuesta_correcta": 1001,
+      "unidad": "noches_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/308669/tales-from-the-thousand-and-one-nights-by-anonymous-translated-with-an-introduction-by-n-j-dawood-illustrated-by-william-harvey/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -100,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 100
+          }
+        ],
+        "alto": [
+          {
+            "min": -700,
+            "max": -101
+          },
+          {
+            "min": 101,
+            "max": 700
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 1,
+      "texto": "¿Cuántas casas tiene Hogwarts en los libros de Harry Potter?",
+      "respuesta_correcta": 4,
+      "unidad": "casas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.harrypotter.com/writing-by-jk-rowling/colours",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 1,
+      "texto": "En la primera novela de Los juegos del hambre, ¿cuántos tributos participan en la edición en la que compiten Katniss y Peeta?",
+      "respuesta_correcta": 24,
+      "unidad": "tributos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.scholastic.com/teachers/teaching-tools/book-lists/interests/dystopian-ya-book-list.html",
+      "explicacion_respuesta": "Es la edición 74. Las reglas de otras ediciones de los Juegos pueden ser distintas.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -7,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 7
+          }
+        ],
+        "alto": [
+          {
+            "min": -15,
+            "max": -8
+          },
+          {
+            "min": 8,
+            "max": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 1,
+      "texto": "¿Qué número completa el título Historia de ... ciudades, de Charles Dickens?",
+      "respuesta_correcta": 2,
+      "unidad": "ciudades_del_titulo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.penguinrandomhouse.com/books/592085/historia-de-dos-ciudades--a-tale-of-two-cities-by-charles-dickens/9788491058557/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 2,
+      "texto": "¿En qué año se publicó por primera vez la primera parte de Don Quijote de la Mancha?",
+      "respuesta_correcta": 1605,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://cvc.cervantes.es/literatura/clasicos/quijote/indice.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 2,
+      "texto": "¿En qué año se publicó por primera vez El Principito, en Nueva York?",
+      "respuesta_correcta": 1943,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.antoinedesaintexupery.org/ouvrage/le-petit-prince-1943/",
+      "explicacion_respuesta": "La primera publicación fue en 1943, en francés e inglés. La edición francesa publicada en Francia apareció en 1946.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 2,
+      "texto": "¿En qué año se publicó por primera vez Harry Potter y la piedra filosofal en el Reino Unido?",
+      "respuesta_correcta": 1997,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.jkrowling.com/about/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 2,
+      "texto": "¿Qué número acompaña a la letra B en el nombre del asteroide del que proviene el Principito?",
+      "respuesta_correcta": 612,
+      "unidad": "numero_del_asteroide",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.antoinedesaintexupery.org/ouvrage/le-petit-prince-1943/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -80,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 80
+          }
+        ],
+        "alto": [
+          {
+            "min": -300,
+            "max": -81
+          },
+          {
+            "min": 81,
+            "max": 300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 2,
+      "texto": "¿Qué número de Baker Street forma parte de la dirección de Sherlock Holmes? Ingresá solo el número, sin la letra.",
+      "respuesta_correcta": 221,
+      "unidad": "numero_de_direccion",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.sherlock-holmes.co.uk/about-the-museum/",
+      "explicacion_respuesta": "La dirección literaria es 221B Baker Street.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 2,
+      "texto": "¿Qué número tiene el andén desde el que parte el Expreso de Hogwarts? Expresalo como un número decimal.",
+      "respuesta_correcta": 9.75,
+      "unidad": "numero_de_anden",
+      "decimales_permitidos": 2,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.harrypotter.com/writing-by-jk-rowling/platform-nine-and-three-quarters",
+      "explicacion_respuesta": "Nueve y tres cuartos se representa numéricamente como 9.75.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 0.25,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.5,
+            "max": -0.25
+          },
+          {
+            "min": 0.25,
+            "max": 0.5
+          }
+        ],
+        "medio": [
+          {
+            "min": -1.5,
+            "max": -0.75
+          },
+          {
+            "min": 0.75,
+            "max": 1.5
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -1.75
+          },
+          {
+            "min": 1.75,
+            "max": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 2,
+      "texto": "¿En cuántas grandes partes se divide la Divina comedia de Dante?",
+      "respuesta_correcta": 3,
+      "unidad": "partes",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nd.edu/stories/sommo-poeta/",
+      "explicacion_respuesta": "Infierno, Purgatorio y Paraíso.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 2,
+      "texto": "¿En qué año recibió el escritor mexicano Octavio Paz el Premio Nobel de Literatura?",
+      "respuesta_correcta": 1990,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nobelprize.org/prizes/literature/1990/summary/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 25,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "bajo",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -12,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 12
+          }
+        ],
+        "alto": [
+          {
+            "min": -35,
+            "max": -13
+          },
+          {
+            "min": 13,
+            "max": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 2,
+      "texto": "En la primera novela de Los juegos del hambre, ¿cuántos distritos deben enviar tributos al Capitolio?",
+      "respuesta_correcta": 12,
+      "unidad": "distritos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.scholastic.com/teachers/teaching-tools/book-lists/interests/dystopian-ya-book-list.html",
+      "explicacion_respuesta": "Se pregunta por los distritos obligados a enviar tributos en esa edición. El Distrito 13 no participa.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -9,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 2,
+      "texto": "¿Cuántas sílabas métricas tiene cada verso de un soneto clásico español?",
+      "respuesta_correcta": 11,
+      "unidad": "silabas_metricas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://dle.rae.es/soneto",
+      "explicacion_respuesta": "La forma clásica usa versos endecasílabos. Se trata de sílabas métricas, contando las reglas de la versificación, no de un simple conteo de sílabas gramaticales.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 3,
+      "texto": "¿En qué año recibió Han Kang el Premio Nobel de Literatura?",
+      "respuesta_correcta": 2024,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nobelprize.org/prizes/literature/2024/summary/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 25,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "bajo",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -6,
+            "max": -3
+          }
+        ],
+        "alto": [
+          {
+            "min": -24,
+            "max": -7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 3,
+      "texto": "¿En qué año recibió el escritor turco Orhan Pamuk el Premio Nobel de Literatura?",
+      "respuesta_correcta": 2006,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nobelprize.org/prizes/literature/2006/press-release/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 25,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "bajo",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 19
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 3,
+      "texto": "¿En qué año recibió el escritor sudafricano J. M. Coetzee el Premio Nobel de Literatura?",
+      "respuesta_correcta": 2003,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nobelprize.org/prizes/literature/2003/summary/",
+      "explicacion_respuesta": "Se identifica su origen sudafricano. Coetzee también tiene ciudadanía australiana, lo que favorece la familiaridad de Brody con el autor.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 25,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "bajo",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 22
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 3,
+      "texto": "¿En qué año recibió el escritor polaco Henryk Sienkiewicz el Premio Nobel de Literatura?",
+      "respuesta_correcta": 1905,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nobelprize.org/prizes/literature/1905/summary/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -70,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 3,
+      "texto": "¿En qué año recibió el escritor australiano Patrick White el Premio Nobel de Literatura?",
+      "respuesta_correcta": 1973,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nobelprize.org/prizes/literature/1973/summary/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 4,
+      "texto": "¿Cuántos sonetos reúne la colección de Shakespeare publicada en 1609?",
+      "respuesta_correcta": 154,
+      "unidad": "sonetos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.folger.edu/blogs/folger-spotlight/shakespeares-sonnets-in-the-folgers-collection/",
+      "explicacion_respuesta": "Se pregunta por la colección de 1609, no por los sonetos que aparecen dentro de sus obras teatrales.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "medio": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ],
+        "alto": [
+          {
+            "min": -110,
+            "max": -46
+          },
+          {
+            "min": 46,
+            "max": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 4,
+      "texto": "¿Cuántos cantos tiene en total la Divina comedia, incluyendo el canto introductorio del Infierno?",
+      "respuesta_correcta": 100,
+      "unidad": "cantos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nd.edu/stories/sommo-poeta/",
+      "explicacion_respuesta": "El Infierno tiene 34 cantos; Purgatorio y Paraíso tienen 33 cada uno.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 4,
+      "texto": "¿Cuántos capítulos tiene la primera parte de Don Quijote de la Mancha, publicada en 1605?",
+      "respuesta_correcta": 52,
+      "unidad": "capitulos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte1/tabla/default.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -16,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 16
+          }
+        ],
+        "alto": [
+          {
+            "min": -38,
+            "max": -17
+          },
+          {
+            "min": 17,
+            "max": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 4,
+      "texto": "¿Cuántas obras teatrales contiene el First Folio de Shakespeare, publicado en 1623?",
+      "respuesta_correcta": 36,
+      "unidad": "obras_teatrales",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.loc.gov/item/2021666879/",
+      "explicacion_respuesta": "Se pregunta por las obras incluidas en ese volumen histórico, no por todas las atribuidas a Shakespeare.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -12,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 12
+          }
+        ],
+        "alto": [
+          {
+            "min": -25,
+            "max": -13
+          },
+          {
+            "min": 13,
+            "max": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 4,
+      "texto": "¿Cuántos capítulos tiene El Principito en su texto completo?",
+      "respuesta_correcta": 27,
+      "unidad": "capitulos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.antoinedesaintexupery.org/ouvrage/le-petit-prince-1943/",
+      "explicacion_respuesta": "No se cuentan dedicatorias, prólogos editoriales ni apéndices.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -8,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 8
+          }
+        ],
+        "alto": [
+          {
+            "min": -20,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 5,
+      "texto": "¿Cuántos capítulos numerados tiene Rayuela, de Julio Cortázar, incluyendo los llamados prescindibles?",
+      "respuesta_correcta": 155,
+      "unidad": "capitulos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.romaniques.urv.cat/es/noticias/139/julio-cortazar-rayuela-buenos-aires-1963-performance",
+      "explicacion_respuesta": "Se cuenta la totalidad de los capítulos, no solo los 56 del primer recorrido de lectura.",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "medio": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ],
+        "alto": [
+          {
+            "min": -110,
+            "max": -46
+          },
+          {
+            "min": 46,
+            "max": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 5,
+      "texto": "¿Cuántos versos tiene El gaucho Martín Fierro, la primera parte del poema de José Hernández?",
+      "respuesta_correcta": 2316,
+      "unidad": "versos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cervantesvirtual.com/obra-visor/como-se-escribio-el-martin-fierro/html/5f4b7de6-a0f9-11e1-b1fb-00163ebf5e63_5.html",
+      "explicacion_respuesta": "Se pregunta por la Ida, publicada en 1872. No se suman los versos de La vuelta de Martín Fierro.",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -300,
+            "max": -100
+          },
+          {
+            "min": 100,
+            "max": 300
+          }
+        ],
+        "medio": [
+          {
+            "min": -800,
+            "max": -301
+          },
+          {
+            "min": 301,
+            "max": 800
+          }
+        ],
+        "alto": [
+          {
+            "min": -1800,
+            "max": -801
+          },
+          {
+            "min": 801,
+            "max": 1800
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 5,
+      "texto": "¿Cuántos versos tiene en total la Divina comedia en el original italiano?",
+      "respuesta_correcta": 14233,
+      "unidad": "versos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://rmc.library.cornell.edu/visionsofdante/introduction.php",
+      "explicacion_respuesta": "El recuento corresponde al poema italiano; las traducciones pueden distribuir el texto de otras maneras.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1500,
+            "max": -500
+          },
+          {
+            "min": 500,
+            "max": 1500
+          }
+        ],
+        "medio": [
+          {
+            "min": -4500,
+            "max": -1501
+          },
+          {
+            "min": 1501,
+            "max": 4500
+          }
+        ],
+        "alto": [
+          {
+            "min": -11000,
+            "max": -4501
+          },
+          {
+            "min": 4501,
+            "max": 11000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 5,
+      "texto": "¿Cuántos ejemplares integraron la primera tirada de Frankenstein, publicada anónimamente en 1818?",
+      "respuesta_correcta": 500,
+      "unidad": "ejemplares",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.library.sydney.edu.au/about/news/frankenstein",
+      "explicacion_respuesta": "Se cuentan ejemplares completos de la edición, que se publicó en tres volúmenes, no volúmenes sueltos.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -75,
+            "max": -25
+          },
+          {
+            "min": 25,
+            "max": 75
+          }
+        ],
+        "medio": [
+          {
+            "min": -200,
+            "max": -76
+          },
+          {
+            "min": 76,
+            "max": 200
+          }
+        ],
+        "alto": [
+          {
+            "min": -400,
+            "max": -201
+          },
+          {
+            "min": 201,
+            "max": 400
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 5,
+      "texto": "¿A cuántos ejemplares se limitó la primera edición de Ulises, de James Joyce, publicada por Shakespeare and Company en París en 1922?",
+      "respuesta_correcta": 1000,
+      "unidad": "ejemplares",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.themorgan.org/printed-books/84981",
+      "explicacion_respuesta": "Es la edición original de 1922, no las tiradas posteriores de ese mismo año.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -150,
+            "max": -50
+          },
+          {
+            "min": 50,
+            "max": 150
+          }
+        ],
+        "medio": [
+          {
+            "min": -400,
+            "max": -151
+          },
+          {
+            "min": 151,
+            "max": 400
+          }
+        ],
+        "alto": [
+          {
+            "min": -800,
+            "max": -401
+          },
+          {
+            "min": 401,
+            "max": 800
+          }
+        ]
+      }
+    }
+  ],
+  "modelo_simulacion": {
+    "tipo": "acierto_probabilistico_y_error_condicional",
+    "probabilidades_acierto_permitidas": [
+      10,
+      25,
+      50
+    ],
+    "niveles_error": [
+      "bajo",
+      "medio",
+      "alto"
+    ],
+    "desvio_si_acierta": 0,
+    "paso_desvio": 1,
+    "unidad_desvio": "unidad_indicada_en_cada_pregunta",
+    "sorteo_acierto": "independiente_por_participante_y_pregunta",
+    "sorteo_si_falla": "uniforme_entre_todos_los_desvios_permitidos_del_nivel_asignado_segun_el_paso",
+    "limites_intervalos": "inclusivos",
+    "persistir_respuestas_sorteadas_por_partida": true,
+    "regla": "Sortear primero el acierto con el porcentaje asignado. Si acierta, usar desvío 0. Si falla, sortear uniformemente entre todos los desvíos no nulos permitidos de su nivel y sumar a la respuesta correcta. Usar paso_desvio_si_falla de la pregunta, o paso_desvio si no existe. Los valores válidos son múltiplos enteros de ese paso dentro de los intervalos inclusivos. Operar en unidades enteras del paso y redondear la respuesta final a decimales_permitidos para evitar errores de coma flotante. Persistir el sorteo por partida; no volver a sortear al recargar o revisar resultados."
+  }
+}

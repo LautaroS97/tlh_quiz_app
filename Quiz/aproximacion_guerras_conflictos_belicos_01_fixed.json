@@ -1,0 +1,2874 @@
+{
+  "version_estructura": 2,
+  "id": "aproximacion_guerras_conflictos_belicos_01",
+  "tipo": "aproximacion_numerica",
+  "nombre": "Guerras en cifras",
+  "descripcion_tematica": "Fechas y cifras de guerras y conflictos bélicos: batallas, bajas militares, países, tropas, operaciones y armamento histórico.",
+  "instrucciones_respuesta": "Respondé con un número entero en la unidad indicada. Para las fechas, ingresá el año completo. Cuando el enunciado pida redondear, aplicá ese criterio.",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "salvacion",
+      "nombre": "Salvación",
+      "descripcion": "Permite salvar a otro participante de la placa de nominados, siempre que haya más de dos nominados. No permite salvarse a sí mismo.",
+      "minimo_nominados_para_usar": 3,
+      "permite_salvarse_a_si_mismo": false
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿En qué año terminó la Segunda Guerra Mundial?",
+      "respuesta_correcta": 1945,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://wmr.iwm.org.uk/war/second-world-war-1939-1945",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿En qué año comenzó la Segunda Guerra Mundial con la invasión alemana de Polonia?",
+      "respuesta_correcta": 1939,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://wmr.iwm.org.uk/war/second-world-war-1939-1945",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 50,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿En qué año comenzó la Primera Guerra Mundial?",
+      "respuesta_correcta": 1914,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/first-world-war",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿En qué año se firmó el armisticio que puso fin a los combates de la Primera Guerra Mundial entre Alemania y los Aliados?",
+      "respuesta_correcta": 1918,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/1918-victory",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿En qué año ocurrió el desembarco de Normandía, conocido como el Día D?",
+      "respuesta_correcta": 1944,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nationalarchives.gov.uk/education/resources/archives-live-d-day/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 1,
+      "texto": "¿En qué año se enfrentaron Argentina y el Reino Unido en la guerra de Malvinas?",
+      "respuesta_correcta": 1982,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/british-army-and-falklands-war",
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -12,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 12
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -13
+          },
+          {
+            "min": 13,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 1,
+      "texto": "¿En qué año comenzó la guerra de Corea?",
+      "respuesta_correcta": 1950,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.army.mil/koreanwar/?level=1",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 50,
+        "hyun": 25,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "bajo",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -65,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 1,
+      "texto": "¿En qué año declararon su independencia las trece colonias que luchaban contra Gran Bretaña y formarían Estados Unidos?",
+      "respuesta_correcta": 1776,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.archives.gov/milestone-documents/declaration-of-independence",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -150,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 1,
+      "texto": "¿En qué año comenzó la guerra civil española?",
+      "respuesta_correcta": 1936,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://encyclopedia.ushmm.org/content/en/article/spanish-civil-war",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 50,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -85,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 85
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 1,
+      "texto": "¿En qué año terminó la guerra de Vietnam con la caída de Saigón?",
+      "respuesta_correcta": 1975,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://diplomacy.state.gov/stories/fall-of-saigon-1975-american-diplomats-refugees/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 1,
+      "texto": "¿Cuántos países se aliaron para combatir contra Paraguay en la guerra del Paraguay del siglo XIX?",
+      "respuesta_correcta": 3,
+      "unidad": "paises",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.argentina.gob.ar/normativa/nacional/ley-127-281101/texto",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 1,
+      "texto": "¿Qué número completa el nombre del tanque medio soviético T-..., que entró en servicio en 1940?",
+      "respuesta_correcta": 34,
+      "unidad": "numero_modelo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -14,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 14
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -15
+          },
+          {
+            "min": 15,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 1,
+      "texto": "¿Qué dos cifras completan la denominación más conocida del fusil Kaláshnikov original: AK-...?",
+      "respuesta_correcta": 47,
+      "unidad": "numero_modelo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://americanhistory.si.edu/collections/object/nmah_439260",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -19,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 19
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -20
+          },
+          {
+            "min": 20,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 1,
+      "texto": "¿Cuántas bombas atómicas lanzó Estados Unidos sobre ciudades japonesas durante la Segunda Guerra Mundial?",
+      "respuesta_correcta": 2,
+      "unidad": "bombas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.energy.gov/ehss/radiation-effects-research-foundation-japan-program",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 1,
+      "texto": "¿En qué año ocurrió el ataque japonés a Pearl Harbor?",
+      "respuesta_correcta": 1941,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nps.gov/wwii/learn/historyculture/pearl-harbor.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 2,
+      "texto": "¿En qué año comenzó la segunda guerra bóer, en el actual territorio de Sudáfrica?",
+      "respuesta_correcta": 1899,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/boer-war",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 25,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "bajo",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 2,
+      "texto": "¿En qué año comenzaron los desembarcos aliados de la campaña de Galípoli, en la actual Turquía?",
+      "respuesta_correcta": 1915,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/gallipoli",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 25,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "bajo",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 2,
+      "texto": "¿En qué año sufrió Darwin, en Australia, su primer gran bombardeo japonés?",
+      "respuesta_correcta": 1942,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.awm.gov.au/visit/exhibitions/underattack/bombed/darwin",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 2,
+      "texto": "¿En qué año comenzó el levantamiento de la resistencia polaca en Varsovia, distinto del levantamiento del gueto?",
+      "respuesta_correcta": 1944,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 2,
+      "texto": "¿En qué año comenzó la guerra de Secesión de Estados Unidos?",
+      "respuesta_correcta": 1861,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nps.gov/articles/abraham-lincoln-the-war-years-1861-1865.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -120,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 2,
+      "texto": "¿En qué año terminó la batalla de Stalingrado con la rendición de las últimas fuerzas alemanas cercadas?",
+      "respuesta_correcta": 1943,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/german-defeat-at-stalingrad",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 2,
+      "texto": "¿En qué año fue derrotado Napoleón en la batalla de Waterloo?",
+      "respuesta_correcta": 1815,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -150,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 2,
+      "texto": "¿En qué año se firmó el armisticio de la guerra de Corea?",
+      "respuesta_correcta": 1953,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.army.mil/8tharmy",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 25,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "bajo",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -65,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 2,
+      "texto": "¿Cuántos estados se separaron de Estados Unidos para formar la Confederación durante la guerra de Secesión?",
+      "respuesta_correcta": 11,
+      "unidad": "estados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://history.state.gov/milestones/1861-1865/foreword",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -9,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 2,
+      "texto": "¿En qué año venció el ejército mexicano a las tropas francesas en la batalla de Puebla, recordada cada 5 de mayo?",
+      "respuesta_correcta": 1862,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.gob.mx/sep/articulos/batalla-de-puebla-episodio-glorioso-de-nuestra-historia",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 25,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "bajo",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -120,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 3,
+      "texto": "¿Cuántos militares aliados llegaron aproximadamente a Normandía por mar y aire durante el Día D? Redondeá al millar más cercano.",
+      "respuesta_correcta": 156000,
+      "unidad": "militares",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.nationalarchives.gov.uk/education/resources/archives-live-d-day/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15000,
+            "max": -3000
+          },
+          {
+            "min": 3000,
+            "max": 15000
+          }
+        ],
+        "medio": [
+          {
+            "min": -50000,
+            "max": -16000
+          },
+          {
+            "min": 16000,
+            "max": 50000
+          }
+        ],
+        "alto": [
+          {
+            "min": -120000,
+            "max": -51000
+          },
+          {
+            "min": 51000,
+            "max": 120000
+          }
+        ]
+      },
+      "paso_desvio_si_falla": 1000
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 3,
+      "texto": "¿Cuántos tripulantes llevaba normalmente un tanque M4 Sherman durante la Segunda Guerra Mundial?",
+      "respuesta_correcta": 5,
+      "unidad": "tripulantes",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman-fury/?country=&era=ww2&tname=&tpage=3",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -3,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 3,
+      "texto": "¿Cuántos días duró el sitio de Leningrado durante la Segunda Guerra Mundial?",
+      "respuesta_correcta": 872,
+      "unidad": "dias",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nationalww2museum.org/war/articles/history-through-viewfinder-36",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -80,
+            "max": -20
+          },
+          {
+            "min": 20,
+            "max": 80
+          }
+        ],
+        "medio": [
+          {
+            "min": -250,
+            "max": -81
+          },
+          {
+            "min": 81,
+            "max": 250
+          }
+        ],
+        "alto": [
+          {
+            "min": -650,
+            "max": -251
+          },
+          {
+            "min": 251,
+            "max": 650
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 3,
+      "texto": "¿Cuántos países fundaron la OTAN al firmar el Tratado del Atlántico Norte en 1949?",
+      "respuesta_correcta": 12,
+      "unidad": "paises",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nato.int/en/about-us/organization/founding-treaty",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -10,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 3,
+      "texto": "¿Cuántos cañones formaban la batería principal del acorazado alemán Bismarck?",
+      "respuesta_correcta": 8,
+      "unidad": "caniones",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.history.navy.mil/content/history/nhhc/research/library/online-reading-room/title-list-alphabetically/s/sinking-of-the-bismarck/the-cruise-of-the-bismarck.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -7,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 4,
+      "texto": "¿Cuántos militares argentinos murieron en la guerra de Malvinas?",
+      "respuesta_correcta": 649,
+      "unidad": "militares_fallecidos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nam.ac.uk/explore/british-army-and-falklands-war",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -40,
+            "max": -10
+          },
+          {
+            "min": 10,
+            "max": 40
+          }
+        ],
+        "medio": [
+          {
+            "min": -130,
+            "max": -41
+          },
+          {
+            "min": 41,
+            "max": 130
+          }
+        ],
+        "alto": [
+          {
+            "min": -400,
+            "max": -131
+          },
+          {
+            "min": 131,
+            "max": 400
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 4,
+      "texto": "¿De cuántos milímetros era el calibre del cañón principal del tanque alemán Tiger I?",
+      "respuesta_correcta": 88,
+      "unidad": "milimetros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://tankmuseum.org/article/same-size-different-round/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 4,
+      "texto": "¿En qué año derrotaron las fuerzas polacas y lituanas a la Orden Teutónica en la batalla de Grunwald?",
+      "respuesta_correcta": 1410,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://zpe.gov.pl/a/the-great-war-with-the-teutonic-knights/DdvwgoZZJ",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -70,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 70
+          }
+        ],
+        "alto": [
+          {
+            "min": -200,
+            "max": -71
+          },
+          {
+            "min": 71,
+            "max": 200
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 4,
+      "texto": "¿Con cuántos soldados contaba aproximadamente Napoleón para su campaña de invasión de Rusia de 1812?",
+      "respuesta_correcta": 600000,
+      "unidad": "soldados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.napoleon.org/en/magazine/publications/napoleons-invasion-of-russia/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -60000,
+            "max": -20000
+          },
+          {
+            "min": 20000,
+            "max": 60000
+          }
+        ],
+        "medio": [
+          {
+            "min": -180000,
+            "max": -61000
+          },
+          {
+            "min": 61000,
+            "max": 180000
+          }
+        ],
+        "alto": [
+          {
+            "min": -400000,
+            "max": -181000
+          },
+          {
+            "min": 181000,
+            "max": 400000
+          }
+        ]
+      },
+      "paso_desvio_si_falla": 1000
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 4,
+      "texto": "¿Cuántas ametralladoras llevaba el caza británico Spitfire Mk IA en su armamento estándar?",
+      "respuesta_correcta": 8,
+      "unidad": "ametralladoras",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.sciencemuseum.org.uk/sites/default/files/2025-11/Flight-Large%20Print%20Book%202%20of%203-DIGITAL.pdf",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -7,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 5,
+      "texto": "¿Cuántos militares del ejército británico murieron el primer día de la batalla del Somme, el 1 de julio de 1916?",
+      "respuesta_correcta": 19240,
+      "unidad": "militares_fallecidos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://lermuseum.org/first-world-war/battlefront-1915-16/the-somme-1",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2500,
+            "max": -500
+          },
+          {
+            "min": 500,
+            "max": 2500
+          }
+        ],
+        "medio": [
+          {
+            "min": -7000,
+            "max": -2501
+          },
+          {
+            "min": 2501,
+            "max": 7000
+          }
+        ],
+        "alto": [
+          {
+            "min": -15000,
+            "max": -7001
+          },
+          {
+            "min": 7001,
+            "max": 15000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 5,
+      "texto": "¿Cuántos militares aliados fueron evacuados de Dunkerque durante la Operación Dinamo de 1940?",
+      "respuesta_correcta": 338226,
+      "unidad": "militares",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/operation-dynamo-things-you-need-to-know/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -30000,
+            "max": -10000
+          },
+          {
+            "min": 10000,
+            "max": 30000
+          }
+        ],
+        "medio": [
+          {
+            "min": -90000,
+            "max": -30001
+          },
+          {
+            "min": 30001,
+            "max": 90000
+          }
+        ],
+        "alto": [
+          {
+            "min": -220000,
+            "max": -90001
+          },
+          {
+            "min": 90001,
+            "max": 220000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 5,
+      "texto": "¿Cuántos días resistió el levantamiento de Varsovia de 1944 antes de su rendición?",
+      "respuesta_correcta": 63,
+      "unidad": "dias",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -50,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 5,
+      "texto": "¿Cuántos barcos integraban aproximadamente la Armada española que intentó invadir Inglaterra en 1588, conocida como la Armada Invencible?",
+      "respuesta_correcta": 130,
+      "unidad": "barcos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.rmg.co.uk/collections/library/rmgl-26408",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "medio": [
+          {
+            "min": -40,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 40
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -41
+          },
+          {
+            "min": 41,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 5,
+      "texto": "¿Cuántas condecoraciones Cruz Victoria se concedieron por la defensa británica de Rorke's Drift, en Sudáfrica, en 1879?",
+      "respuesta_correcta": 11,
+      "unidad": "condecoraciones",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.talana.co.za/battles-of-the-area/rorkes-drift/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 25,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "bajo",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ],
+        "alto": [
+          {
+            "min": -9,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      }
+    }
+  ],
+  "modelo_simulacion": {
+    "tipo": "acierto_probabilistico_y_error_condicional",
+    "probabilidades_acierto_permitidas": [
+      10,
+      25,
+      50
+    ],
+    "niveles_error": [
+      "bajo",
+      "medio",
+      "alto"
+    ],
+    "desvio_si_acierta": 0,
+    "paso_desvio": 1,
+    "unidad_desvio": "unidad_indicada_en_cada_pregunta",
+    "sorteo_acierto": "independiente_por_participante_y_pregunta",
+    "sorteo_si_falla": "uniforme_entre_todos_los_desvios_enteros_permitidos_del_nivel_asignado",
+    "limites_intervalos": "inclusivos",
+    "persistir_respuestas_sorteadas_por_partida": true,
+    "regla": "Sortear primero el acierto con el porcentaje asignado. Si acierta, usar desvío 0. Si falla, sortear un desvío no nulo de su nivel de error y sumar ese desvío a la respuesta correcta. No volver a sortear al recargar o revisar resultados. El paso es paso_desvio, salvo que la pregunta indique paso_desvio_si_falla. Sortear uniformemente entre todos los valores permitidos, no entre intervalos; con paso mayor que 1, usar solamente múltiplos enteros de ese paso."
+  }
+}

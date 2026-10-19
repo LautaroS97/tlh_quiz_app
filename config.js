@@ -8,12 +8,12 @@ export const QUIZZES = [
 ['trivia_cine_01.json','Cine','trivia_clapperboard.png'],
 ['trivia_literatura_01.json','Literatura','trivia_little_prince_no_title.png'],
 ['trivia_quimica_01.json','Química','trivia_periodic_table.png'],
-['aproximacion_alturas_edificios_monumentos_01.json','Edificios y monumentos','aprox_pisa.png'],
-['aproximacion_astronomia_01.json','Astronomía','aprox_saturn.png'],
-['aproximacion_cine_01.json','Cine','aprox_clapperboard.png'],
-['aproximacion_epidemias_pestes_01.json','Epidemias y pestes','aprox_virus.png'],
-['aproximacion_geografia_01.json','Geografía','aprox_earth.png'],
-['aproximacion_guerras_conflictos_belicos_01.json','Guerras y conflictos bélicos','aprox_t34.png'],
-['aproximacion_juegos_olimpicos_01.json','Juegos Olímpicos','aprox_olympics.png'],
-['aproximacion_literatura_01.json','Literatura','aprox_books.png']
+['aproximacion_alturas_edificios_monumentos_01_fixed.json','Edificios y monumentos','aprox_pisa.png'],
+['aproximacion_astronomia_01_fixed.json','Astronomía','aprox_saturn.png'],
+['aproximacion_cine_01_fixed.json','Cine','aprox_clapperboard.png'],
+['aproximacion_epidemias_pestes_01_fixed.json','Epidemias y pestes','aprox_virus.png'],
+['aproximacion_geografia_01_fixed.json','Geografía','aprox_earth.png'],
+['aproximacion_guerras_conflictos_belicos_01_fixed.json','Guerras y conflictos bélicos','aprox_t34.png'],
+['aproximacion_juegos_olimpicos_01_fixed.json','Juegos Olímpicos','aprox_olympics.png'],
+['aproximacion_literatura_01_fixed.json','Literatura','aprox_books.png']
 ].map(([file,title,icon])=>({file,title,icon,mode:file.startsWith('aproximacion_')?'aproximacion':'trivia'}));

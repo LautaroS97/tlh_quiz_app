@@ -1,0 +1,2915 @@
+{
+  "version_estructura": 2,
+  "id": "aproximacion_epidemias_pestes_01",
+  "tipo": "aproximacion_numerica",
+  "nombre": "Epidemias a través del tiempo",
+  "descripcion_tematica": "Epidemias y pandemias históricas y modernas: peste, gripe, viruela, cólera, COVID-19, sida y otros brotes, sus cifras y los hitos de las vacunas y la investigación.",
+  "instrucciones_respuesta": "Respondé con un número en la unidad indicada. Ingresá años completos y siglos con números comunes. Si se pide una cifra en millones, ingresá la cantidad de millones. Las estimaciones usan el valor de referencia señalado; los recuentos oficiales corresponden al lugar y período indicados.",
+  "fecha_verificacion": "2026-10-19",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "salvacion",
+      "nombre": "Salvación",
+      "descripcion": "Permite salvar a otro participante de la placa de nominados, siempre que haya más de dos nominados. No permite salvarse a sí mismo.",
+      "minimo_nominados_para_usar": 3,
+      "permite_salvarse_a_si_mismo": false
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Qué número completa el nombre de la enfermedad COVID-...?",
+      "respuesta_correcta": 19,
+      "unidad": "numero",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-%28covid-2019%29-and-the-virus-that-causes-it)",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -10,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Qué número aparece al final del nombre SARS-CoV-..., el virus que causa la COVID-19?",
+      "respuesta_correcta": 2,
+      "unidad": "numero",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-%28covid-2019%29-and-the-virus-that-causes-it)",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿En qué año la OMS caracterizó el brote de COVID-19 como una pandemia?",
+      "respuesta_correcta": 2020,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/europe/emergencies/situations/covid-19",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -12,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿En qué año se notificó en Wuhan el brote de neumonía que dio origen a la pandemia de COVID-19?",
+      "respuesta_correcta": 2019,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/europe/emergencies/situations/covid-19",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -12,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿En qué año comenzó la pandemia de gripe A conocida popularmente como gripe porcina?",
+      "respuesta_correcta": 2009,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/pandemic-timeline-1930-and-beyond.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -6,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 6
+          }
+        ],
+        "alto": [
+          {
+            "min": -20,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 1,
+      "texto": "¿En qué año comenzó la pandemia conocida como gripe española?",
+      "respuesta_correcta": 1918,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 1,
+      "texto": "¿En qué siglo llegó a Europa la Peste Negra medieval? Respondé con el número del siglo.",
+      "respuesta_correcta": 14,
+      "unidad": "siglo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/early-modern/plague/",
+      "respuesta_maxima": 21,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -6,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 1,
+      "texto": "¿Cuántos días de aislamiento dieron origen al nombre cuarentena?",
+      "respuesta_correcta": 40,
+      "unidad": "dias",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cdc.gov/port-health/about/history-port-health.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -30,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 1,
+      "texto": "¿Contra cuántas enfermedades protege la vacuna triple viral?",
+      "respuesta_correcta": 3,
+      "unidad": "enfermedades",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.argentina.gob.ar/noticias/salud-lanza-la-campana-nacional-de-vacunacion-contra-el-sarampion-y-la-rubeola",
+      "explicacion_respuesta": "Protege contra sarampión, rubéola y paperas. No se pregunta la cantidad de dosis.",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 1,
+      "texto": "¿En qué siglo desarrolló Edward Jenner la primera vacuna exitosa, contra la viruela? Respondé con el número del siglo.",
+      "respuesta_correcta": 18,
+      "unidad": "siglo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/emergencies/situations/smallpox",
+      "respuesta_maxima": 21,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -6,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 1,
+      "texto": "¿En qué siglo comenzó a utilizarse la vacuna de Jonas Salk contra la polio? Respondé con el número del siglo.",
+      "respuesta_correcta": 20,
+      "unidad": "siglo",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-18-poliomyelitis.html",
+      "respuesta_maxima": 21,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          }
+        ],
+        "alto": [
+          {
+            "min": -6,
+            "max": -3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 1,
+      "texto": "¿En qué año la Asamblea Mundial de la Salud declaró erradicada la viruela?",
+      "respuesta_correcta": 1980,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/emergencies/situations/smallpox",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 1,
+      "texto": "¿En qué mes del año la OMS caracterizó la COVID-19 como pandemia? Respondé con un número del 1 al 12.",
+      "respuesta_correcta": 3,
+      "unidad": "mes",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/europe/emergencies/situations/covid-19",
+      "respuesta_maxima": 12,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 1,
+      "texto": "¿En qué mes se confirmó el primer caso de COVID-19 en Argentina? Respondé con un número del 1 al 12.",
+      "respuesta_correcta": 3,
+      "unidad": "mes",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.argentina.gob.ar/node/191163",
+      "respuesta_maxima": 12,
+      "probabilidad_acierto": {
+        "alan": 50,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 1,
+      "texto": "¿En qué año la OMS validó por primera vez una vacuna contra la COVID-19 para uso de emergencia?",
+      "respuesta_correcta": 2020,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/news/item/31-12-2020-who-issues-its-first-emergency-use-validation-for-a-covid-19-vaccine-and-emphasizes-need-for-equitable-global-access",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -12,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 2,
+      "texto": "¿En qué año realizó Edward Jenner su célebre vacunación contra la viruela?",
+      "respuesta_correcta": 1796,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/emergencies/situations/smallpox",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 2,
+      "texto": "¿En qué año recibió Joseph Meister la vacuna contra la rabia desarrollada por Louis Pasteur?",
+      "respuesta_correcta": 1885,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.pasteur.fr/en/about-us/our-dna/history",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 2,
+      "texto": "¿En qué año se autorizó en Estados Unidos la vacuna inyectable de Jonas Salk contra la polio?",
+      "respuesta_correcta": 1955,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-18-poliomyelitis.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 2,
+      "texto": "¿En qué año ocurrió la gran epidemia de fiebre amarilla que devastó Buenos Aires durante la presidencia de Sarmiento?",
+      "respuesta_correcta": 1871,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.argentina.gob.ar/secretariageneral/museo-casa-rosada/linea-del-tiempo",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 2,
+      "texto": "¿En qué año comenzó la Gran Peste de Londres del siglo XVII?",
+      "respuesta_correcta": 1665,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://cdn.nationalarchives.gov.uk/documents/education/plague.pdf",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -40,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 40
+          }
+        ],
+        "alto": [
+          {
+            "min": -130,
+            "max": -41
+          },
+          {
+            "min": 41,
+            "max": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 2,
+      "texto": "¿Cuántos serotipos principales tiene el virus del dengue?",
+      "respuesta_correcta": 4,
+      "unidad": "serotipos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/health-topics/dengue-and-severe-dengue",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 2,
+      "texto": "¿Cuántas formas clínicas principales de peste distingue la OMS?",
+      "respuesta_correcta": 3,
+      "unidad": "formas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/news-room/fact-sheets/detail/plague",
+      "explicacion_respuesta": "Las tres formas principales son bubónica, neumónica y septicémica.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 2,
+      "texto": "¿En qué año se detectó por primera vez el ébola, con brotes en los actuales Sudán del Sur y República Democrática del Congo?",
+      "respuesta_correcta": 1976,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/es/news-room/fact-sheets/detail/ebola-disease",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 2,
+      "texto": "¿En qué año se publicaron en Estados Unidos los primeros casos que luego se reconocerían como sida?",
+      "respuesta_correcta": 1981,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5521a1.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 25,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 2,
+      "texto": "¿En qué año la OMS dio por terminada la emergencia de salud pública de importancia internacional por COVID-19?",
+      "respuesta_correcta": 2023,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/europe/emergencies/situations/covid-19",
+      "explicacion_respuesta": "Fue el fin de la emergencia internacional, no una declaración de desaparición de la enfermedad ni del fin de la pandemia.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -12,
+            "max": -5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 3,
+      "texto": "¿En qué año investigó John Snow el brote de cólera relacionado con la bomba de agua de Broad Street, en Londres?",
+      "respuesta_correcta": 1854,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5334a1.htm",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 3,
+      "texto": "¿En qué año anunció Robert Koch el descubrimiento del bacilo que causa la tuberculosis?",
+      "respuesta_correcta": 1882,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.cdc.gov/world-tb-day/about/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 3,
+      "texto": "¿En qué año comenzó a administrarse a seres humanos la vacuna BCG contra la tuberculosis?",
+      "respuesta_correcta": 1921,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.pasteur.fr/en/about-us/our-dna/discoveries",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -80,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 3,
+      "texto": "¿En qué año se registró en Somalia el último caso de viruela adquirido de forma natural?",
+      "respuesta_correcta": 1977,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/emergencies/situations/smallpox",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 3,
+      "texto": "¿En qué año se identificó por primera vez el coronavirus causante del MERS?",
+      "respuesta_correcta": 2012,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/es/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-%28mers-cov%29)",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -6,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 6
+          }
+        ],
+        "alto": [
+          {
+            "min": -20,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 4,
+      "texto": "¿En qué año comenzó la primera pandemia de cólera reconocida históricamente?",
+      "respuesta_correcta": 1817,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://wwwnc.cdc.gov/eid/article/1/4/95-0408_article",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -12,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 12
+          }
+        ],
+        "medio": [
+          {
+            "min": -45,
+            "max": -13
+          },
+          {
+            "min": 13,
+            "max": 45
+          }
+        ],
+        "alto": [
+          {
+            "min": -140,
+            "max": -46
+          },
+          {
+            "min": 46,
+            "max": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 4,
+      "texto": "¿En qué año comenzó la séptima pandemia de cólera, originada en Indonesia?",
+      "respuesta_correcta": 1961,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://wwwnc.cdc.gov/eid/article/1/4/95-0408_article",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 4,
+      "texto": "¿En qué año un equipo del Instituto Pasteur aisló el VIH, el virus que causa el sida?",
+      "respuesta_correcta": 1983,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.pasteur.fr/fr/en-ce-moment/nos-actualites/actualites/40-ans-de-decouverte-du-vih-le-virus-responsable-du-sida-est-identifie-le-20-mai-1983?language=fr",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 4,
+      "texto": "Según la estimación histórica de los CDC, ¿cuántos millones de personas se infectaron aproximadamente durante la pandemia de gripe de 1918?",
+      "respuesta_correcta": 500,
+      "unidad": "millones_de_personas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+      "explicacion_respuesta": "Valor de referencia estimado: unos 500 millones. No es un recuento exacto de infecciones.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -60,
+            "max": -20
+          },
+          {
+            "min": 20,
+            "max": 60
+          }
+        ],
+        "medio": [
+          {
+            "min": -180,
+            "max": -61
+          },
+          {
+            "min": 61,
+            "max": 180
+          }
+        ],
+        "alto": [
+          {
+            "min": -400,
+            "max": -181
+          },
+          {
+            "min": 181,
+            "max": 400
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 4,
+      "texto": "¿En cuántos millones de muertes sitúan los CDC su estimación mínima mundial para la pandemia de gripe de 1918?",
+      "respuesta_correcta": 50,
+      "unidad": "millones_de_muertes",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+      "explicacion_respuesta": "La fuente dice al menos 50 millones. Se pregunta ese umbral, no una cifra exacta y definitiva de muertes.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -40,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 5,
+      "texto": "¿Cuántas muertes por peste se registraron oficialmente en Londres en 1665, según los Archivos Nacionales británicos?",
+      "respuesta_correcta": 68596,
+      "unidad": "muertes_registradas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://cdn.nationalarchives.gov.uk/documents/education/plague.pdf",
+      "explicacion_respuesta": "Es el recuento registrado. Los Archivos Nacionales advierten que el total real probablemente superó las 100000 muertes.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8000,
+            "max": -3000
+          },
+          {
+            "min": 3000,
+            "max": 8000
+          }
+        ],
+        "medio": [
+          {
+            "min": -22000,
+            "max": -8001
+          },
+          {
+            "min": 8001,
+            "max": 22000
+          }
+        ],
+        "alto": [
+          {
+            "min": -50000,
+            "max": -22001
+          },
+          {
+            "min": 22001,
+            "max": 50000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 5,
+      "texto": "¿Cuántas muertes registró el brote mundial de SARS de 2003 en el balance histórico de los CDC?",
+      "respuesta_correcta": 774,
+      "unidad": "muertes_registradas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://archive.cdc.gov/www_cdc_gov/sars/about/faq.html",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -90,
+            "max": -30
+          },
+          {
+            "min": 30,
+            "max": 90
+          }
+        ],
+        "medio": [
+          {
+            "min": -250,
+            "max": -91
+          },
+          {
+            "min": 91,
+            "max": 250
+          }
+        ],
+        "alto": [
+          {
+            "min": -600,
+            "max": -251
+          },
+          {
+            "min": 251,
+            "max": 600
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 5,
+      "texto": "¿Cuántos casos probables de SARS contabiliza el balance histórico de los CDC para el brote mundial de noviembre de 2002 a julio de 2003?",
+      "respuesta_correcta": 8098,
+      "unidad": "casos_probables",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://archive.cdc.gov/www_cdc_gov/sars/about/faq.html",
+      "explicacion_respuesta": "Se usa la cifra de 8098 publicada en esta página histórica de los CDC. Otros balances revisados de la OMS indican 8096; por eso se especifican la fuente y el período.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -800,
+            "max": -300
+          },
+          {
+            "min": 300,
+            "max": 800
+          }
+        ],
+        "medio": [
+          {
+            "min": -2500,
+            "max": -801
+          },
+          {
+            "min": 801,
+            "max": 2500
+          }
+        ],
+        "alto": [
+          {
+            "min": -6000,
+            "max": -2501
+          },
+          {
+            "min": 2501,
+            "max": 6000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 5,
+      "texto": "¿Cuántos casos confirmados sumó el brote de MERS de 2015 asociado a Corea del Sur, incluido el caso exportado a China?",
+      "respuesta_correcta": 186,
+      "unidad": "casos_confirmados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.who.int/westernpacific/emergencies/2015-mers-outbreak",
+      "explicacion_respuesta": "La OMS contabiliza 185 casos en Corea del Sur y 1 en China: 186 en total. Hyun tiene una ventaja de familiaridad nacional, aunque su estimación queda a un caso del total.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 25,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "bajo",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -25,
+            "max": -10
+          },
+          {
+            "min": 10,
+            "max": 25
+          }
+        ],
+        "medio": [
+          {
+            "min": -60,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 60
+          }
+        ],
+        "alto": [
+          {
+            "min": -140,
+            "max": -61
+          },
+          {
+            "min": 61,
+            "max": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 5,
+      "texto": "¿Cuántas muertes por ébola sumaban Guinea, Liberia y Sierra Leona en el informe de la OMS del 5 de mayo de 2016?",
+      "respuesta_correcta": 11310,
+      "unidad": "muertes_registradas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://iris.who.int/bitstream/handle/10665/205945/ebolasitrep_5may2016_eng.pdf?sequence=1",
+      "explicacion_respuesta": "Recuento notificado en esos tres países y en esa fecha. No representa las muertes de todos los brotes de ébola ni de todos los países.",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1500,
+            "max": -500
+          },
+          {
+            "min": 500,
+            "max": 1500
+          }
+        ],
+        "medio": [
+          {
+            "min": -4000,
+            "max": -1501
+          },
+          {
+            "min": 1501,
+            "max": 4000
+          }
+        ],
+        "alto": [
+          {
+            "min": -9000,
+            "max": -4001
+          },
+          {
+            "min": 4001,
+            "max": 9000
+          }
+        ]
+      }
+    }
+  ],
+  "modelo_simulacion": {
+    "tipo": "acierto_probabilistico_y_error_condicional",
+    "probabilidades_acierto_permitidas": [
+      10,
+      25,
+      50
+    ],
+    "niveles_error": [
+      "bajo",
+      "medio",
+      "alto"
+    ],
+    "desvio_si_acierta": 0,
+    "paso_desvio": 1,
+    "unidad_desvio": "unidad_indicada_en_cada_pregunta",
+    "sorteo_acierto": "independiente_por_participante_y_pregunta",
+    "sorteo_si_falla": "uniforme_entre_todos_los_desvios_permitidos_del_nivel_asignado_segun_el_paso",
+    "limites_intervalos": "inclusivos",
+    "persistir_respuestas_sorteadas_por_partida": true,
+    "regla": "Sortear primero el acierto con el porcentaje asignado. Si acierta, usar desvío 0. Si falla, sortear uniformemente entre todos los desvíos no nulos permitidos de su nivel y sumar a la respuesta correcta. Usar paso_desvio_si_falla de la pregunta, o paso_desvio si no existe. Los valores válidos son múltiplos enteros de ese paso dentro de los intervalos inclusivos. Operar en unidades enteras del paso y redondear la respuesta final a decimales_permitidos para evitar errores de coma flotante. Persistir el sorteo por partida; no volver a sortear al recargar o revisar resultados."
+  }
+}

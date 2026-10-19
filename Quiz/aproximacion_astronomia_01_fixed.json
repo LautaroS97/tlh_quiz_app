@@ -1,0 +1,2891 @@
+{
+  "version_estructura": 2,
+  "id": "aproximacion_astronomia_01",
+  "tipo": "aproximacion_numerica",
+  "nombre": "El universo en cifras",
+  "descripcion_tematica": "Planetas, lunas, estrellas, galaxias y cometas: tamaños, distancias, órbitas, descubrimientos, exploración espacial e instrumentos de observación astronómica.",
+  "instrucciones_respuesta": "Respondé en la unidad indicada en cada pregunta. Para las fechas, ingresá el año completo. Usá punto como separador decimal y respetá la precisión solicitada. Las distancias medias y las cifras marcadas como aproximadas usan un valor de referencia para la comparación.",
+  "fecha_verificacion": "2026-10-19",
+  "premios": {
+    "primer_lugar": {
+      "tipo": "inmunidad",
+      "descripcion": "Obtiene inmunidad."
+    },
+    "segundo_lugar": {
+      "tipo": "salvacion",
+      "nombre": "Salvación",
+      "descripcion": "Permite salvar a otro participante de la placa de nominados, siempre que haya más de dos nominados. No permite salvarse a sí mismo.",
+      "minimo_nominados_para_usar": 3,
+      "permite_salvarse_a_si_mismo": false
+    }
+  },
+  "preguntas": [
+    {
+      "id": "pregunta_001",
+      "dificultad": 1,
+      "texto": "¿Cuántos planetas reconocidos hay en el sistema solar, sin contar los planetas enanos?",
+      "respuesta_correcta": 8,
+      "unidad": "planetas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/solar-system/planets/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_002",
+      "dificultad": 1,
+      "texto": "¿Cuántas lunas naturales permanentes tiene la Tierra?",
+      "respuesta_correcta": 1,
+      "unidad": "lunas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/earth/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_003",
+      "dificultad": 1,
+      "texto": "¿Cuántas lunas naturales tiene Marte?",
+      "respuesta_correcta": 2,
+      "unidad": "lunas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/mars/facts/?print=quickfacts_infographic",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_004",
+      "dificultad": 1,
+      "texto": "¿Cuántas lunas naturales tiene Venus?",
+      "respuesta_correcta": 0,
+      "unidad": "lunas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/venus/venus-facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_005",
+      "dificultad": 1,
+      "texto": "¿Cuántos días tarda aproximadamente la Tierra en completar una vuelta alrededor del Sol? Redondeá al día entero más cercano.",
+      "respuesta_correcta": 365,
+      "unidad": "dias_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/earth/facts/",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -5,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -6
+          },
+          {
+            "min": 6,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -90,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_006",
+      "dificultad": 1,
+      "texto": "¿Cuántas horas tarda aproximadamente la Tierra en girar sobre sí misma? Redondeá al entero más cercano.",
+      "respuesta_correcta": 24,
+      "unidad": "horas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/earth/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -10,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_007",
+      "dificultad": 1,
+      "texto": "¿Cuántas estrellas forman parte de nuestro sistema solar?",
+      "respuesta_correcta": 1,
+      "unidad": "estrellas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_008",
+      "dificultad": 1,
+      "texto": "¿En qué año llegaron por primera vez seres humanos a la Luna, con la misión Apolo 11?",
+      "respuesta_correcta": 1969,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 50,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "bajo",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_009",
+      "dificultad": 1,
+      "texto": "¿En qué año fue lanzado el Sputnik 1, el primer satélite artificial de la Tierra?",
+      "respuesta_correcta": 1957,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nasa.gov/missions/explorer/explorer-1-fast-facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -4,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 4
+          }
+        ],
+        "medio": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_010",
+      "dificultad": 1,
+      "texto": "¿En qué año fue reclasificado Plutón como planeta enano por la Unión Astronómica Internacional?",
+      "respuesta_correcta": 2006,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://astroedu.iau.org/activities/1615/know-your-planets/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -3,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "medio": [
+          {
+            "min": -10,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 10
+          }
+        ],
+        "alto": [
+          {
+            "min": -35,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 19
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_011",
+      "dificultad": 1,
+      "texto": "Contando desde el Sol hacia afuera, ¿qué puesto ocupa la Tierra entre los planetas?",
+      "respuesta_correcta": 3,
+      "unidad": "puesto",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/solar-system/planets/planet-sizes-and-locations-in-our-solar-system/",
+      "respuesta_maxima": 8,
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "medio",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "medio",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_012",
+      "dificultad": 1,
+      "texto": "¿Cuántos minutos tarda aproximadamente la luz del Sol en llegar a la Tierra? Redondeá al minuto entero más cercano.",
+      "respuesta_correcta": 8,
+      "unidad": "minutos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -3,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 3
+          }
+        ],
+        "alto": [
+          {
+            "min": -6,
+            "max": -4
+          },
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_013",
+      "dificultad": 1,
+      "texto": "¿Cuántos kilómetros separan en promedio a la Tierra de la Luna, aproximadamente?",
+      "respuesta_correcta": 384400,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/moon/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -30000,
+            "max": -10000
+          },
+          {
+            "min": 10000,
+            "max": 30000
+          }
+        ],
+        "medio": [
+          {
+            "min": -90000,
+            "max": -30001
+          },
+          {
+            "min": 30001,
+            "max": 90000
+          }
+        ],
+        "alto": [
+          {
+            "min": -250000,
+            "max": -90001
+          },
+          {
+            "min": 90001,
+            "max": 250000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_014",
+      "dificultad": 1,
+      "texto": "¿A cuántos millones de kilómetros está la Tierra del Sol, en promedio? Redondeá al entero más cercano.",
+      "respuesta_correcta": 150,
+      "unidad": "millones_de_kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/solar-system/planets/planet-sizes-and-locations-in-our-solar-system/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 15
+          }
+        ],
+        "medio": [
+          {
+            "min": -45,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 45
+          }
+        ],
+        "alto": [
+          {
+            "min": -100,
+            "max": -46
+          },
+          {
+            "min": 46,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_015",
+      "dificultad": 1,
+      "texto": "¿Cuántos kilómetros mide aproximadamente el diámetro de la Tierra a la altura del ecuador?",
+      "respuesta_correcta": 12756,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/earth/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -700,
+            "max": -200
+          },
+          {
+            "min": 200,
+            "max": 700
+          }
+        ],
+        "medio": [
+          {
+            "min": -2500,
+            "max": -701
+          },
+          {
+            "min": 701,
+            "max": 2500
+          }
+        ],
+        "alto": [
+          {
+            "min": -7000,
+            "max": -2501
+          },
+          {
+            "min": 2501,
+            "max": 7000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_016",
+      "dificultad": 2,
+      "texto": "¿Cuántos días terrestres tarda aproximadamente Mercurio en dar una vuelta alrededor del Sol? Redondeá al día entero más cercano.",
+      "respuesta_correcta": 88,
+      "unidad": "dias_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/mercury/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -65,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_017",
+      "dificultad": 2,
+      "texto": "¿Cuántos días terrestres dura aproximadamente un año en Marte? Redondeá al día entero más cercano.",
+      "respuesta_correcta": 687,
+      "unidad": "dias_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/resource/mars-in-a-minute-how-long-is-a-year-on-mars/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -60,
+            "max": -20
+          },
+          {
+            "min": 20,
+            "max": 60
+          }
+        ],
+        "medio": [
+          {
+            "min": -180,
+            "max": -61
+          },
+          {
+            "min": 61,
+            "max": 180
+          }
+        ],
+        "alto": [
+          {
+            "min": -450,
+            "max": -181
+          },
+          {
+            "min": 181,
+            "max": 450
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_018",
+      "dificultad": 2,
+      "texto": "¿Cuántos años terrestres tarda aproximadamente Júpiter en dar una vuelta alrededor del Sol? Redondeá al año entero más cercano.",
+      "respuesta_correcta": 12,
+      "unidad": "anios_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 25,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "bajo",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -4,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "alto": [
+          {
+            "min": -9,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_019",
+      "dificultad": 2,
+      "texto": "¿Cuántos años terrestres tarda aproximadamente Neptuno en dar una vuelta alrededor del Sol? Redondeá al año entero más cercano.",
+      "respuesta_correcta": 165,
+      "unidad": "anios_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/neptune/neptune-facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -60,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 60
+          }
+        ],
+        "alto": [
+          {
+            "min": -120,
+            "max": -61
+          },
+          {
+            "min": 61,
+            "max": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_020",
+      "dificultad": 2,
+      "texto": "¿Cuántos días pasan aproximadamente entre una luna nueva y la siguiente? Indicá un decimal.",
+      "respuesta_correcta": 29.5,
+      "unidad": "dias_terrestres",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/moon/moon-phases/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 25,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.5,
+            "max": -0.1
+          },
+          {
+            "min": 0.1,
+            "max": 0.5
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -0.6
+          },
+          {
+            "min": 0.6,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -7,
+            "max": -2.1
+          },
+          {
+            "min": 2.1,
+            "max": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_021",
+      "dificultad": 2,
+      "texto": "¿Cuántas constelaciones reconoce oficialmente la Unión Astronómica Internacional en todo el cielo?",
+      "respuesta_correcta": 88,
+      "unidad": "constelaciones",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://astroedu.iau.org/activities/what-is-a-constellation/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -60,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_022",
+      "dificultad": 2,
+      "texto": "¿Cuántas lunas de Júpiter componen el grupo de los satélites galileanos, descubiertos por Galileo en 1610?",
+      "respuesta_correcta": 4,
+      "unidad": "lunas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/moon/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -4,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_023",
+      "dificultad": 2,
+      "texto": "¿A cuántos años luz está aproximadamente Próxima Centauri, la estrella más cercana al Sol? Redondeá a un decimal.",
+      "respuesta_correcta": 4.2,
+      "unidad": "anios_luz",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/sun/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.3,
+            "max": -0.1
+          },
+          {
+            "min": 0.1,
+            "max": 0.3
+          }
+        ],
+        "medio": [
+          {
+            "min": -1,
+            "max": -0.4
+          },
+          {
+            "min": 0.4,
+            "max": 1
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -1.1
+          },
+          {
+            "min": 1.1,
+            "max": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_024",
+      "dificultad": 2,
+      "texto": "¿Cuántos años luz mide aproximadamente de diámetro el disco luminoso principal de la Vía Láctea?",
+      "respuesta_correcta": 100000,
+      "unidad": "anios_luz",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/missions/hubble/hubble-identifies-huge-clouds-of-intergalactic-gas/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15000,
+            "max": -5000
+          },
+          {
+            "min": 5000,
+            "max": 15000
+          }
+        ],
+        "medio": [
+          {
+            "min": -40000,
+            "max": -15001
+          },
+          {
+            "min": 15001,
+            "max": 40000
+          }
+        ],
+        "alto": [
+          {
+            "min": -85000,
+            "max": -40001
+          },
+          {
+            "min": 40001,
+            "max": 85000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_025",
+      "dificultad": 2,
+      "texto": "¿Cuántos miles de millones de años tiene aproximadamente el Sol? Indicá un decimal.",
+      "respuesta_correcta": 4.6,
+      "unidad": "miles_de_millones_de_anios",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/sun/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 25,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.3,
+            "max": -0.1
+          },
+          {
+            "min": 0.1,
+            "max": 0.3
+          }
+        ],
+        "medio": [
+          {
+            "min": -1,
+            "max": -0.4
+          },
+          {
+            "min": 0.4,
+            "max": 1
+          }
+        ],
+        "alto": [
+          {
+            "min": -3,
+            "max": -1.1
+          },
+          {
+            "min": 1.1,
+            "max": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_026",
+      "dificultad": 3,
+      "texto": "¿Cuántas Tierras, colocadas una al lado de otra, harían falta aproximadamente para abarcar el diámetro del Sol?",
+      "respuesta_correcta": 109,
+      "unidad": "diametros_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.jpl.nasa.gov/edu/resources/lesson-plan/jewel-of-the-solar-system-part-2-where-are-we-in-the-solar-system/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -30,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 30
+          }
+        ],
+        "alto": [
+          {
+            "min": -75,
+            "max": -31
+          },
+          {
+            "min": 31,
+            "max": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_027",
+      "dificultad": 3,
+      "texto": "¿Cuántos años tarda aproximadamente el cometa Halley en completar una órbita alrededor del Sol?",
+      "respuesta_correcta": 76,
+      "unidad": "anios_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/solar-system/meteors-meteorites/orionids/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 25,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -20,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 20
+          }
+        ],
+        "alto": [
+          {
+            "min": -50,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_028",
+      "dificultad": 3,
+      "texto": "¿Cuántos días terrestres tarda aproximadamente Venus en dar una vuelta sobre sí mismo? Redondeá al día entero más cercano.",
+      "respuesta_correcta": 243,
+      "unidad": "dias_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/venus/venus-facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -20,
+            "max": -5
+          },
+          {
+            "min": 5,
+            "max": 20
+          }
+        ],
+        "medio": [
+          {
+            "min": -70,
+            "max": -21
+          },
+          {
+            "min": 21,
+            "max": 70
+          }
+        ],
+        "alto": [
+          {
+            "min": -180,
+            "max": -71
+          },
+          {
+            "min": 71,
+            "max": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_029",
+      "dificultad": 3,
+      "texto": "¿Cuántos grados está inclinado el eje de rotación de Urano respecto de la perpendicular a su órbita? Redondeá al grado entero más cercano.",
+      "respuesta_correcta": 98,
+      "unidad": "grados",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/uranus/facts/",
+      "respuesta_maxima": 180,
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -8,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 8
+          }
+        ],
+        "medio": [
+          {
+            "min": -25,
+            "max": -9
+          },
+          {
+            "min": 9,
+            "max": 25
+          }
+        ],
+        "alto": [
+          {
+            "min": -65,
+            "max": -26
+          },
+          {
+            "min": 26,
+            "max": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_030",
+      "dificultad": 3,
+      "texto": "¿Cuántos días terrestres tarda aproximadamente Mercurio en girar una vez sobre sí mismo? Redondeá al día entero más cercano.",
+      "respuesta_correcta": 59,
+      "unidad": "dias_terrestres",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/mercury/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -18,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 18
+          }
+        ],
+        "alto": [
+          {
+            "min": -45,
+            "max": -19
+          },
+          {
+            "min": 19,
+            "max": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_031",
+      "dificultad": 4,
+      "texto": "¿A cuántos millones de años luz está aproximadamente la galaxia de Andrómeda? Indicá un decimal.",
+      "respuesta_correcta": 2.5,
+      "unidad": "millones_de_anios_luz",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/photojournal/andromeda/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.2,
+            "max": -0.1
+          },
+          {
+            "min": 0.1,
+            "max": 0.2
+          }
+        ],
+        "medio": [
+          {
+            "min": -0.7,
+            "max": -0.3
+          },
+          {
+            "min": 0.3,
+            "max": 0.7
+          }
+        ],
+        "alto": [
+          {
+            "min": -2,
+            "max": -0.8
+          },
+          {
+            "min": 0.8,
+            "max": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_032",
+      "dificultad": 4,
+      "texto": "¿En cuántos grupos principales se dividen los anillos de Saturno?",
+      "respuesta_correcta": 7,
+      "unidad": "grupos_de_anillos",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/resource/saturns-rings-2/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -1,
+            "max": -1
+          },
+          {
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "medio": [
+          {
+            "min": -2,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "alto": [
+          {
+            "min": -5,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_033",
+      "dificultad": 4,
+      "texto": "¿En qué año descubrió Giuseppe Piazzi el cuerpo celeste Ceres, hoy clasificado como planeta enano?",
+      "respuesta_correcta": 1801,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "bajo",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -40,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 40
+          }
+        ],
+        "alto": [
+          {
+            "min": -130,
+            "max": -41
+          },
+          {
+            "min": 41,
+            "max": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_034",
+      "dificultad": 4,
+      "texto": "¿En qué año se confirmó por observación el descubrimiento del planeta Neptuno?",
+      "respuesta_correcta": 1846,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://science.nasa.gov/neptune/exploration/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 25
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "bajo"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -10,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 10
+          }
+        ],
+        "medio": [
+          {
+            "min": -40,
+            "max": -11
+          },
+          {
+            "min": 11,
+            "max": 40
+          }
+        ],
+        "alto": [
+          {
+            "min": -130,
+            "max": -41
+          },
+          {
+            "min": 41,
+            "max": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_035",
+      "dificultad": 4,
+      "texto": "¿En qué año publicó Nicolás Copérnico su obra Sobre las revoluciones de las esferas celestes, que presentaba su modelo heliocéntrico?",
+      "respuesta_correcta": 1543,
+      "unidad": "anio",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 1,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.nasa.gov/history/spots-waves-and-wind-a-solar-science-timeline-full-text/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 25,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -15,
+            "max": -3
+          },
+          {
+            "min": 3,
+            "max": 15
+          }
+        ],
+        "medio": [
+          {
+            "min": -60,
+            "max": -16
+          },
+          {
+            "min": 16,
+            "max": 60
+          }
+        ],
+        "alto": [
+          {
+            "min": -180,
+            "max": -61
+          },
+          {
+            "min": 61,
+            "max": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_036",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilómetros mide aproximadamente el diámetro de Ganímedes, la mayor luna de Júpiter? Redondeá al kilómetro entero más cercano.",
+      "respuesta_correcta": 5268,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://science.nasa.gov/resource/ganymede-new-horizons/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "bajo",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -350,
+            "max": -100
+          },
+          {
+            "min": 100,
+            "max": 350
+          }
+        ],
+        "medio": [
+          {
+            "min": -1200,
+            "max": -351
+          },
+          {
+            "min": 351,
+            "max": 1200
+          }
+        ],
+        "alto": [
+          {
+            "min": -3500,
+            "max": -1201
+          },
+          {
+            "min": 1201,
+            "max": 3500
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_037",
+      "dificultad": 5,
+      "texto": "¿Cuántos kilómetros mide aproximadamente el diámetro medio de Encélado, la luna helada de Saturno? Redondeá al kilómetro entero más cercano.",
+      "respuesta_correcta": 504,
+      "unidad": "kilometros",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.nasa.gov/image-article/saturns-brightly-reflective-moon-enceladus/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "bajo",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -50,
+            "max": -15
+          },
+          {
+            "min": 15,
+            "max": 50
+          }
+        ],
+        "medio": [
+          {
+            "min": -150,
+            "max": -51
+          },
+          {
+            "min": 51,
+            "max": 150
+          }
+        ],
+        "alto": [
+          {
+            "min": -350,
+            "max": -151
+          },
+          {
+            "min": 151,
+            "max": 350
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_038",
+      "dificultad": 5,
+      "texto": "¿Cuántas horas tarda aproximadamente la luna volcánica Ío en completar una órbita alrededor de Júpiter? Indicá un decimal.",
+      "respuesta_correcta": 42.5,
+      "unidad": "horas",
+      "decimales_permitidos": 1,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": true,
+      "fuente_verificacion": "https://www.jpl.nasa.gov/news/nasa-juno-mission-spots-most-powerful-volcanic-activity-on-io-to-date/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "bajo",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 0.1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -2,
+            "max": -0.5
+          },
+          {
+            "min": 0.5,
+            "max": 2
+          }
+        ],
+        "medio": [
+          {
+            "min": -7,
+            "max": -2.1
+          },
+          {
+            "min": 2.1,
+            "max": 7
+          }
+        ],
+        "alto": [
+          {
+            "min": -25,
+            "max": -7.1
+          },
+          {
+            "min": 7.1,
+            "max": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_039",
+      "dificultad": 5,
+      "texto": "¿Cuántos metros de diámetro tiene el espejo principal del telescopio Jorge Sahade, en El Leoncito, Argentina? Indicá dos decimales.",
+      "respuesta_correcta": 2.15,
+      "unidad": "metros",
+      "decimales_permitidos": 2,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.conicet.gov.ar/detras-de-las-estrellas/",
+      "probabilidad_acierto": {
+        "alan": 25,
+        "ashley": 10,
+        "pretty": 10,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "bajo",
+        "ashley": "alto",
+        "pretty": "alto",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "medio",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "alto"
+      },
+      "paso_desvio_si_falla": 0.01,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -0.2,
+            "max": -0.05
+          },
+          {
+            "min": 0.05,
+            "max": 0.2
+          }
+        ],
+        "medio": [
+          {
+            "min": -0.6,
+            "max": -0.21
+          },
+          {
+            "min": 0.21,
+            "max": 0.6
+          }
+        ],
+        "alto": [
+          {
+            "min": -1.5,
+            "max": -0.61
+          },
+          {
+            "min": 0.61,
+            "max": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pregunta_040",
+      "dificultad": 5,
+      "texto": "¿Cuántas antenas integraban el conjunto original del radiotelescopio MeerKAT, inaugurado en Sudáfrica en 2018?",
+      "respuesta_correcta": 64,
+      "unidad": "antenas",
+      "decimales_permitidos": 0,
+      "respuesta_minima": 0,
+      "respuesta_es_aproximada": false,
+      "fuente_verificacion": "https://www.sarao.ac.za/media-releases/breakthrough-listen-the-worlds-largest-seti-program-to-incorporate-the-southern-hemispheres-biggest-radio-telescope-the-meerkat-array/",
+      "probabilidad_acierto": {
+        "alan": 10,
+        "ashley": 10,
+        "pretty": 25,
+        "gloria": 10,
+        "wiktor": 10,
+        "megan": 10,
+        "kerem": 10,
+        "bruno": 10,
+        "brody": 10,
+        "kim": 10,
+        "hyun": 10,
+        "jana": 10
+      },
+      "nivel_error_si_falla": {
+        "alan": "medio",
+        "ashley": "alto",
+        "pretty": "bajo",
+        "gloria": "medio",
+        "wiktor": "medio",
+        "megan": "medio",
+        "kerem": "alto",
+        "bruno": "alto",
+        "brody": "medio",
+        "kim": "medio",
+        "hyun": "alto",
+        "jana": "medio"
+      },
+      "paso_desvio_si_falla": 1,
+      "intervalos_desvio_si_falla": {
+        "bajo": [
+          {
+            "min": -6,
+            "max": -2
+          },
+          {
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "medio": [
+          {
+            "min": -24,
+            "max": -7
+          },
+          {
+            "min": 7,
+            "max": 24
+          }
+        ],
+        "alto": [
+          {
+            "min": -50,
+            "max": -25
+          },
+          {
+            "min": 25,
+            "max": 50
+          }
+        ]
+      }
+    }
+  ],
+  "modelo_simulacion": {
+    "tipo": "acierto_probabilistico_y_error_condicional",
+    "probabilidades_acierto_permitidas": [
+      10,
+      25,
+      50
+    ],
+    "niveles_error": [
+      "bajo",
+      "medio",
+      "alto"
+    ],
+    "desvio_si_acierta": 0,
+    "paso_desvio": 1,
+    "unidad_desvio": "unidad_indicada_en_cada_pregunta",
+    "sorteo_acierto": "independiente_por_participante_y_pregunta",
+    "sorteo_si_falla": "uniforme_entre_todos_los_desvios_permitidos_del_nivel_asignado_segun_el_paso",
+    "limites_intervalos": "inclusivos",
+    "persistir_respuestas_sorteadas_por_partida": true,
+    "regla": "Sortear primero el acierto con el porcentaje asignado. Si acierta, usar desvío 0. Si falla, sortear uniformemente entre todos los desvíos no nulos permitidos de su nivel y sumar a la respuesta correcta. Usar paso_desvio_si_falla de la pregunta, o paso_desvio si no existe. Los valores válidos son múltiplos enteros de ese paso dentro de los intervalos inclusivos. Operar en unidades enteras del paso y redondear la respuesta final a decimales_permitidos para evitar errores de coma flotante. Persistir el sorteo por partida; no volver a sortear al recargar o revisar resultados."
+  }
+}

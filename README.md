@@ -1,60 +1,63 @@
-# TLH Quiz Room · actualización a 40 preguntas
+# TLH Quiz Room · aproximación probabilística
 
-Descomprimí este ZIP dentro de `F:\Descargas\Quiz Trivia`, aceptando reemplazar los archivos de la app. Luego subí los cambios al mismo repositorio de GitHub Pages.
+Descomprimí este ZIP dentro de `F:\Descargas\Quiz Trivia`, aceptando reemplazar los archivos de la app. Después subí los cambios al mismo repositorio de GitHub Pages.
 
-El ZIP contiene los cinco archivos actualizados (`index.html`, `styles.css`, `config.js`, `core.js`, `app.js`) y estas instrucciones. Conservá las carpetas `Quiz` e `Images` que ya tenés: no se incluyen ni se reemplazan sus archivos.
+El paquete contiene la app, estas instrucciones y los ocho JSON de aproximación con sufijo `_fixed`, dentro de `Quiz/`. Conservá los JSON de trivia y los iconos que ya tenés en `Quiz/` e `Images/`: no se incluyen ni se borran. Los JSON anteriores de aproximación pueden permanecer en la carpeta, pero esta configuración utiliza únicamente los `_fixed`.
 
-## Partidas
+## Qué cambió
 
-- Cada desafío contiene 40 preguntas: 15 fáciles, 10 regulares, 5 difíciles, 5 muy difíciles y 5 imposibles.
-- Cada intento presenta 8 preguntas: 3 fáciles, 2 regulares, 1 difícil, 1 muy difícil y 1 imposible, en ese orden.
-- Hay cinco intentos por desafío. Las preguntas se mezclan una vez por nivel, se guardan en el navegador y no se repiten entre intentos.
-- Una partida en curso se puede retomar después de cerrar o recargar la página. Las preguntas asignadas quedan reservadas desde que comienza la partida.
-- «Limpiar historial» reinicia las dos modalidades. No modifica datos de otros sitios o aplicaciones.
-- El historial antiguo de partidas de 5 preguntas no se reutiliza: esta actualización comienza en cero.
+- `core.js`: interpreta el nuevo modelo, valida los intervalos y sortea las respuestas rivales.
+- `app.js`: guarda los sorteos y utiliza las mismas respuestas para comparar, puntuar y mostrar la clasificación.
+- `config.js`: carga los ocho JSON `_fixed`.
+- `index.html`: actualiza la versión de los recursos para renovar la carga en el navegador.
+- `styles.css`: se incluye el diseño existente, con adaptación a móviles.
 
-## Aproximación
+## Cómo responden los rivales
 
-Se ingresa una respuesta numérica y se confirma. Se admite coma o punto decimal, sin separadores de miles. La app respeta el número de decimales y los límites declarados en cada pregunta.
+Al comenzar una partida se sortean y guardan las respuestas de los 12 personajes para sus ocho preguntas:
 
-La respuesta de cada personaje es `respuesta_correcta + desvio_respuesta[personaje]`. Se compara el error absoluto respecto de la respuesta correcta. Una victoria corresponde a quedar en primer lugar, solo o empatado, frente a los 12 personajes.
+1. Se sortea el acierto exacto con `probabilidad_acierto[personaje]`, expresada como porcentaje numérico.
+2. Si acierta, responde `respuesta_correcta`.
+3. Si falla, se consulta `nivel_error_si_falla[personaje]` y se elige un desvío no nulo de `intervalos_desvio_si_falla[nivel]`.
+4. La respuesta es la suma de la respuesta correcta y ese desvío.
 
-El resultado final muestra victorias sobre 8 y, por separado, respuestas exactas. Se puede desplegar la comparación de las 13 respuestas, incluida la del jugador, durante la partida y en la revisión final.
+Se elige uniformemente entre todos los valores permitidos. Si un intervalo contiene más valores que otro, recibe una proporción mayor del sorteo; no se sortean los intervalos con igual peso. Los límites son inclusivos. Se respeta el paso indicado en cada pregunta o, en su ausencia, el paso del modelo: por ejemplo, centésimas, cuartos o millares. El cálculo usa unidades enteras del paso para evitar residuos de coma flotante.
 
-## Archivos e iconos
+Los sorteos no dependen de lo que responda el jugador. Solo se realizan al crear la partida y se guardan como números en `rivalAnswers` dentro del historial de esa partida. Recargar, volver al menú, continuar o revisar resultados no cambia las respuestas rivales. Una nueva partida realiza nuevos sorteos.
 
-Se esperan estos JSON dentro de `Quiz/` y estos PNG dentro de `Images/`. Los nombres y mayúsculas deben coincidir exactamente.
+La app también admite el formato anterior de desvíos fijos, si se vuelve a configurar un JSON de ese tipo.
 
-| JSON | Icono PNG |
+## Partidas y clasificación
+
+Cada desafío conserva sus 40 preguntas y cinco partidas sin repetir. Cada partida presenta 3 fáciles, 2 regulares, 1 difícil, 1 muy difícil y 1 imposible, en ese orden.
+
+En aproximación, una victoria corresponde a tener el menor error absoluto en una pregunta; los primeros puestos compartidos también cuentan. La clasificación final ordena por victorias sobre ocho. A igualdad de victorias, gana el menor error relativo medio: el error absoluto dividido por el valor absoluto de la respuesta correcta, con divisor 1 si esta es cero. Se promedian las ocho preguntas. Los empates de ambas métricas comparten puesto.
+
+La clasificación, la comparación por pregunta y la puntuación del menú usan las mismas respuestas guardadas. La clasificación de trivias mantiene su funcionamiento anterior.
+
+## Historial
+
+Se conserva el historial de las trivias de ocho preguntas. Las aproximaciones comienzan con historial nuevo porque ahora usan archivos con otros nombres y un modelo distinto. El historial anterior no se mezcla con los nuevos sorteos.
+
+El botón «Limpiar historial» reinicia todos los desafíos, incluidas las partidas y los sorteos. No borra datos de otras aplicaciones.
+
+## Archivos e iconos de aproximación
+
+| JSON dentro de Quiz/ | PNG existente dentro de Images/ |
 | --- | --- |
-| trivia_mamiferos_01.json | trivia_zebra.png |
-| trivia_monstruos_marinos_reales_01.json | trivia_jellyfish.png |
-| trivia_insectos_01.json | trivia_butterfly.png |
-| trivia_bebidas_alcoholicas_01.json | trivia_alcohol.png |
-| trivia_geografia_01.json | trivia_earth.png |
-| trivia_cine_01.json | trivia_clapperboard.png |
-| trivia_literatura_01.json | trivia_little_prince_no_title.png |
-| trivia_quimica_01.json | trivia_periodic_table.png |
-| aproximacion_alturas_edificios_monumentos_01.json | aprox_pisa.png |
-| aproximacion_astronomia_01.json | aprox_saturn.png |
-| aproximacion_cine_01.json | aprox_clapperboard.png |
-| aproximacion_epidemias_pestes_01.json | aprox_virus.png |
-| aproximacion_geografia_01.json | aprox_earth.png |
-| aproximacion_guerras_conflictos_belicos_01.json | aprox_t34.png |
-| aproximacion_juegos_olimpicos_01.json | aprox_olympics.png |
-| aproximacion_literatura_01.json | aprox_books.png |
+| aproximacion_alturas_edificios_monumentos_01_fixed.json | aprox_pisa.png |
+| aproximacion_astronomia_01_fixed.json | aprox_saturn.png |
+| aproximacion_cine_01_fixed.json | aprox_clapperboard.png |
+| aproximacion_epidemias_pestes_01_fixed.json | aprox_virus.png |
+| aproximacion_geografia_01_fixed.json | aprox_earth.png |
+| aproximacion_guerras_conflictos_belicos_01_fixed.json | aprox_t34.png |
+| aproximacion_juegos_olimpicos_01_fixed.json | aprox_olympics.png |
+| aproximacion_literatura_01_fixed.json | aprox_books.png |
 
-Las rutas son relativas y funcionan en GitHub Pages dentro de la carpeta del repositorio. No abras `index.html` mediante doble clic para probar la carga de JSON: usá GitHub Pages o un servidor local.
+Las ocho rutas de trivia y todos los nombres de iconos se mantienen. GitHub Pages distingue mayúsculas y minúsculas. Las rutas son relativas, de modo que funcionan dentro del subdirectorio del repositorio.
 
-Se mantiene el diseño blanco, gris y negro, con adaptación a pantallas pequeñas. Si un icono falta, se muestra una inicial; si un JSON falta o tiene una estructura incorrecta, la tarjeta informa el problema sin bloquear los demás desafíos.
+Publicá la carpeta en GitHub Pages o usá un servidor local; abrir index.html por doble clic no permite cargar los JSON correctamente. No se necesitan instalación de dependencias ni compilación. Si el navegador conserva la versión anterior, recargá con Ctrl + F5.
 
+## Verificación realizada
 
-## Clasificación final de los 13 jugadores
-
-Después de responder las ocho preguntas aparece tu puesto y la tabla de los doce personajes más vos.
-
-En trivias, se ordena por respuestas correctas. Los aciertos de cada personaje se simulan a partir de `probabilidad_acierto` y quedan determinados por la partida: recargar o revisar no vuelve a sortearlos. Los empates comparten puesto (por ejemplo, 1.º, 1.º, 3.º). Se trata de una simulación, no de respuestas de otros usuarios reales.
-
-En aproximación, primero se cuentan las victorias por cercanía, incluidos los empates en primer lugar. Si hay igual cantidad de victorias, se desempata por menor error relativo medio: para cada pregunta, error absoluto dividido por el valor absoluto de la respuesta correcta. Si esa respuesta es 0, se divide por 1. Se promedian los ocho valores. La tabla muestra ese promedio como porcentaje, redondeado solo para visualizar; los cálculos usan mayor precisión.
-
-Esta actualización conserva el historial de la versión de ocho preguntas y calcula también las clasificaciones de sus partidas anteriores. No es necesario limpiar el historial. Conservá tus carpetas Quiz e Images y reemplazá los archivos de la app del ZIP.
+Se probaron cinco partidas por cada una de las 16 categorías, las cuotas por dificultad, la ausencia de repeticiones, el ranking, la conservación del historial de trivia y la persistencia de sorteos tras recargar. También se verificaron los casos de respuesta cero, límites, decimales, pasos de 0,25 y 1000, intervalos asimétricos y una prueba estadística de 20.000 sorteos. Las pruebas de interfaz automatizada cubrieron entradas inválidas, coma decimal, las tablas de 13 jugadores, revisión de resultados y limpieza del historial.
